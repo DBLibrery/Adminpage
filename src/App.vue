@@ -1,14 +1,52 @@
+<!-- src/App.vue -->
 <template>
-  <!-- <RouterView /> 가 현재 URL에 맞는 View 컴포넌트를 화면에 보여줄 거야. -->
-  <RouterView/>
+  <AdminLayout :current-panel="currentPanel" @switch-panel="switchPanel">
+    <template #sidebar>
+      <SidebarMenu :current-panel="currentPanel" @switch-panel="switchPanel" />
+    </template>
+
+    <component :is="activePanelComponent"></component>
+  </AdminLayout>
 </template>
 
 <script setup>
-// 필요한 경우, 나중에 전역적인 로직이나 컴포넌트 등록 등을 여기에 넣을 거야.
-// 지금은 비워둬도 돼!
+import { ref, computed } from 'vue';
+
+import AdminLayout from './components/AdminLayout.vue';
+import SidebarMenu from './components/SidebarMenu.vue';
+
+// 각 패널 컴포넌트 임포트
+import ArtworkListPanel from './components/ArtworkList/ArtworkListPanel.vue'; 
+import ExhibitionListPanel from './components/ExhibitionList/ExhibitionListPanel.vue';
+import LectureListPanel from './components/LectureList/LectureListPanel.vue';
+// <<<<<<< 여기가 삭제됩니다! >>>>>>>
+// import ManagedHomepages from './components/ManagedHomepages.vue';
+// <<<<<<< 여기까지 삭제됩니다! >>>>>>>
+
+const currentPanel = ref('ArtworkListPanel'); 
+
+const activePanelComponent = computed(() => {
+  switch (currentPanel.value) {
+    case 'ArtworkListPanel':
+      return ArtworkListPanel;
+    case 'ExhibitionListPanel':
+      return ExhibitionListPanel;
+    case 'LectureListPanel':
+      return LectureListPanel;
+    // <<<<<<< 여기가 삭제됩니다! >>>>>>>
+    // case 'ManagedHomepages':
+    //   return ManagedHomepages;
+    // <<<<<<< 여기까지 삭제됩니다! >>>>>>>
+    default:
+      return ArtworkListPanel; // 기본값
+  }
+});
+
+const switchPanel = (panelName) => {
+  currentPanel.value = panelName;
+};
 </script>
 
-<style scoped>
-/* 앱 전반에 걸쳐 적용될 전역 스타일이 필요하면 여기에 넣어.
-   지금은 깔끔하게 비워둬도 좋아! */
+<style>
+/* App.vue에는 전역 스타일을 두지 않습니다. */
 </style>

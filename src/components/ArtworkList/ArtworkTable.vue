@@ -1,12 +1,11 @@
-<!-- src/components/ArtworkTable.vue -->
+<!-- src/components/ArtworkList/ArtworkTable.vue -->
 <template>
-  <!-- `artwork-table-container` 클래스는 _style.scss에 정의된 공용 스타일을 사용합니다. -->
   <div class="artwork-table-container">
     <table>
       <thead>
         <tr>
           <th>코드</th>
-          <th>작품</th>
+          <th>작품</th> 
           <th>제목</th>
           <th>작가</th>
           <th>기법</th>
@@ -20,74 +19,106 @@
         </tr>
       </thead>
       <tbody>
-        <!-- 'artworks' props로 받은 작품 목록을 순회하며 테이블 행을 생성합니다. -->
-        <tr v-for="artwork in artworks" :key="artwork.code">
-          <td>{{ artwork.code }}</td>
-          <td class="poster-col">
-            <img 
-              v-if="generateArtworkImageUrl(artwork.code)"
-              :src="generateArtworkImageUrl(artwork.code)" 
-              :alt="artwork.title" 
-              class="artwork-poster-thumb" 
-            />
-            <span v-else class="no-image-text">이미지 없음</span>
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.title }}</span>
-            <input v-else v-model="artwork.editedData.title" type="text" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.artist }}</span>
-            <input v-else v-model="artwork.editedData.artist" type="text" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.technique }}</span>
-            <input v-else v-model="artwork.editedData.technique" type="text" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.size }}</span>
-            <input v-else v-model="artwork.editedData.size" type="text" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.year }}</span>
-            <input v-else v-model="artwork.editedData.year" type="number" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.buyPrice }}</span>
-            <input v-else v-model="artwork.editedData.buyPrice" type="number" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.sellPrice }}</span>
-            <input v-else v-model="artwork.editedData.sellPrice" type="number" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.stockDate }}</span>
-            <input v-else v-model="artwork.editedData.stockDate" type="text" class="edit-input" />
-          </td>
-          <td>
-            <span v-if="!artwork.isEditing">{{ artwork.setName }}</span>
-            <input v-else v-model="artwork.editedData.setName" type="text" class="edit-input" />
-          </td>
-          <td class="actions-col">
-            <template v-if="!artwork.isEditing">
-              <button class="edit-button" @click="emitStartEditing(artwork)">수정</button>
-              <button class="delete-button" @click="emitDeleteArtwork(artwork)">삭제</button>
-            </template>
-            <template v-else>
-              <button class="save-button" @click="emitSaveArtwork(artwork)">저장</button>
-              <button class="cancel-button" @click="emitCancelEditing(artwork)">취소</button>
-            </template>
-          </td>
-        </tr>
+        <!-- PC 버전 레이아웃 (테이블 구조 유지) -->
+        <template v-if="!isMobile">
+          <tr v-for="artwork in artworks" :key="artwork.code">
+            <td>{{ artwork.code }}</td>
+            <td class="poster-col">
+              <img 
+                v-if="generateArtworkImageUrl(artwork.code)"
+                :src="generateArtworkImageUrl(artwork.code)" 
+                :alt="artwork.title" 
+                class="artwork-poster-thumb" 
+              />
+              <span v-else class="no-image-text">이미지 없음</span>
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.title }}</span>
+              <input v-else v-model="artwork.editedData.title" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.artist }}</span>
+              <input v-else v-model="artwork.editedData.artist" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.technique }}</span>
+              <input v-else v-model="artwork.editedData.technique" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.size }}</span>
+              <input v-else v-model="artwork.editedData.size" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.year }}</span>
+              <input v-else v-model="artwork.editedData.year" type="number" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.buyPrice }}</span>
+              <input v-else v-model="artwork.editedData.buyPrice" type="number" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.sellPrice }}</span>
+              <input v-else v-model="artwork.editedData.sellPrice" type="number" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.stockDate }}</span>
+              <input v-else v-model="artwork.editedData.stockDate" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing">{{ artwork.setName }}</span>
+              <input v-else v-model="artwork.editedData.setName" type="text" class="edit-input" />
+            </td>
+            <td class="actions-col">
+              <template v-if="!artwork.isEditing">
+                <button class="edit-button" @click="emitStartEditing(artwork)">수정</button>
+                <button class="delete-button" @click="emitDeleteArtwork(artwork)">삭제</button>
+              </template>
+              <template v-else>
+                <button class="save-button" @click="emitSaveArtwork(artwork)">저장</button>
+                <button class="cancel-button" @click="emitCancelEditing(artwork)">취소</button>
+              </template>
+            </td>
+          </tr>
+        </template>
+        <!-- 모바일 버전 레이아웃 (카드형 구조) -->
+        <template v-else>
+          <tr v-for="artwork in artworks" :key="artwork.code">
+            <!-- 이미지 왼쪽, 내용 오른쪽 배치 -->
+            <td class="mobile-card-row">
+              <div class="poster-col">
+                <img 
+                  v-if="generateArtworkImageUrl(artwork.code)"
+                  :src="generateArtworkImageUrl(artwork.code)" 
+                  :alt="artwork.title" 
+                  class="artwork-poster-thumb" 
+                />
+                <span v-else class="no-image-text">이미지 없음</span>
+              </div>
+              <div class="card-content-wrapper">
+                <div class="card-item card-item--code">{{ artwork.code }}</div>
+                <div class="card-item card-item--title">{{ artwork.title }}</div>
+                <div class="card-item card-item--artist">{{ artwork.artist }}</div>
+                <div class="card-item" v-if="artwork.technique">{{ artwork.technique }}</div>
+                <div class="card-item" v-if="artwork.size">{{ artwork.size }}</div>
+                <div class="card-item" v-if="artwork.year">{{ artwork.year }}</div>
+                <!-- 공백 내용은 v-if로 렌더링 자체를 방지 -->
+                <!-- 구입가, 판매가, 입고일은 이미 Hidden -->
+                <div class="card-item" v-if="artwork.setName">{{ artwork.setName }}</div>
+
+                <!-- 모바일에서 관리 버튼이 필요하다면 여기에 추가 (현재는 숨김) -->
+              </div>
+            </td>
+          </tr>
+        </template>
       </tbody>
     </table>
   </div>
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue'; // onMounted, onUnmounted 추가
 import { defineProps, defineEmits } from 'vue';
 
-// 부모 컴포넌트로부터 필요한 데이터 (작품 목록, 이미지 기본 URL)를 받습니다.
 const props = defineProps({
   artworks: {
     type: Array,
@@ -99,39 +130,39 @@ const props = defineProps({
   }
 });
 
-// 부모 컴포넌트로 이벤트를 보냅니다.
-// 'start-edit', 'save-artwork', 'cancel-edit', 'delete-artwork' 액션에 해당 작품 데이터를 함께 보냅니다.
 const emits = defineEmits(['start-edit', 'save-artwork', 'cancel-edit', 'delete-artwork']);
 
-// 작품 코드를 바탕으로 이미지 URL을 생성하는 헬퍼 함수
 const generateArtworkImageUrl = (code) => {
   if (!code) return null; 
   return `${props.imgBaseUrl}${code}.png?raw=true`; 
 };
 
-// 각 액션 버튼 클릭 시 부모 컴포넌트에 이벤트를 발생시키는 함수들
-const emitStartEditing = (artwork) => {
-  emits('start-edit', artwork);
+const emitStartEditing = (artwork) => { emits('start-edit', artwork); };
+const emitSaveArtwork = (artwork) => { emits('save-artwork', artwork); };
+const emitCancelEditing = (artwork) => { emits('cancel-edit', artwork); };
+const emitDeleteArtwork = (artwork) => { emits('delete-artwork', artwork); };
+
+// 모바일 여부를 판단하는 반응형 상태
+const isMobile = ref(false);
+
+// 화면 너비를 체크하여 isMobile 상태를 업데이트하는 함수
+const checkMobile = () => {
+  isMobile.value = window.innerWidth <= 768; // 768px을 기준으로 모바일 판단
 };
 
-const emitSaveArtwork = (artwork) => {
-  emits('save-artwork', artwork);
-};
+// 컴포넌트 마운트 시, 초기 체크 및 resize 이벤트 리스너 추가
+onMounted(() => {
+  checkMobile();
+  window.addEventListener('resize', checkMobile);
+});
 
-const emitCancelEditing = (artwork) => {
-  emits('cancel-edit', artwork);
-};
-
-const emitDeleteArtwork = (artwork) => {
-  emits('delete-artwork', artwork);
-};
+// 컴포넌트 언마운트 시, resize 이벤트 리스너 제거
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile);
+});
 </script>
 
 <style lang="scss" scoped>
 // _style.scss에서 공용 스타일을 가져와서 사용합니다.
-// scoped 키워드 덕분에 이 컴포넌트 안에서만 스타일이 유효합니다.
-@import '@/assets/styles/_style.scss';
-
-// 만약 ArtworkTable.vue 에만 필요한 특별한 스타일이 있다면 여기에 추가할 수 있습니다.
-// 현재는 대부분 _style.scss의 공용 스타일로 충분합니다.
+@use '@/assets/styles/_style.scss' as var;
 </style>

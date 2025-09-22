@@ -1,16 +1,14 @@
 // src/assets/styles/_style.scss
 
-// 우리가 만든 스타일 변수들을 먼저 불러와서 사용할 수 있게 합니다.
-@import './variables'; 
+@use 'sass:color'; // color 함수 사용을 위해 임포트
 
-/* --- ✨ 모든 패널에 공용으로 적용될 스타일 (Common / Base Styles) ✨ --- */
+/* --- ✨ 모든 패널 및 UI 컴포넌트에 공용으로 적용될 스타일 (Common / Base Component Styles) ✨ --- */
 
-// 전체 패널 컨테이너의 기본 스타일 (공통으로 사용될 상단 마진 등을 여기에 정의)
+// 모든 패널 컨테이너의 기본 스타일 
 .artwork-list-panel,
 .exhibition-list-panel,
 .lecture-list-panel {
-  // 예시: 패널 자체에 필요한 공통 마진, 패딩 등이 있다면 여기에 정의합니다.
-  // 현재는 대부분의 스타일이 내부 요소들에 집중되어 있으므로 비어있어도 무방합니다.
+  // 컴포넌트 자체에 필요한 공통적인 스타일 (지금은 비어있어도 무방)
 }
 
 // 1. 공통 패널 헤더 스타일
@@ -19,86 +17,130 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  border-bottom: 2px solid $accent-color;
+  border-bottom: 2px solid #7a31cd; /* 강조색 #7a31cd */
   padding-bottom: 10px;
 
   h3 {
-    color: $primary-color;
+    color: #42b983; /* 기본 글자색 #42b983 */
     font-size: 1.8rem;
     margin: 0;
   }
-  div { /* 버튼들을 묶는 div 스타일 (add-new-button, download-json-button 포함) */
+  div {
     display: flex;
     gap: 10px;
   }
 }
 
-// 2. 공통 버튼 기본 스타일 (모든 버튼에 공통적인 padding, border-radius 등)
+// 2. 공통 버튼 기본 스타일 (산뜻한 디자인을 위한 재해석)
 button {
-  border: none;
-  padding: 8px 15px; // 기본 버튼 패딩
-  border-radius: 5px;
+  font-family: 'Noto Sans KR', sans-serif; /* 폰트 일관성 유지 */
   cursor: pointer;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease;
-  white-space: nowrap; // 버튼 내용이 줄 바꿈 되지 않도록
+  white-space: nowrap;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  outline: none; /* 클릭 시 아웃라인 제거 */
+}
+
+// 2-1. 영선갤러리 관련 메인 버튼 (PC 버전)
+.add-new-button,
+.download-json-button {
+  border: 1px solid transparent; 
+  background-color: #5cb85c; 
+  color: white; 
+  font-weight: bold; 
+  padding: 12px 25px; 
+  border-radius: 8px; 
+  font-size: 1.05rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
   &:hover {
-      filter: brightness(0.9); // 호버 시 살짝 어둡게
+      background-color: color.adjust(#5cb85c, $lightness: -5%); 
+      border-color: color.adjust(#5cb85c, $lightness: -5%);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
   }
 }
+/* 영선갤러리 버튼의 색상 오버라이드 (PC 버전) */
+.add-new-button { 
+  background-color: #5cb85c; 
+  border-color: #5cb85c; 
+  &:hover { 
+    background-color: color.adjust(#5cb85c, $lightness: -5%); 
+    border-color: color.adjust(#5cb85c, $lightness: -5%);
+  }
+} 
+.download-json-button { 
+  background-color: #5bc0de; 
+  border-color: #5bc0de; 
+  &:hover { 
+    background-color: color.adjust(#5bc0de, $lightness: -5%); 
+    border-color: color.adjust(#5bc0de, $lightness: -5%);
+  }
+} 
 
-// 2-1. 특정 버튼 종류별 색상 스타일
-.add-new-button {
-  background-color: #007bff; // 파란색
-  color: white;
+// 2-2. 테이블 안의 액션 버튼 (작은 산뜻한 디자인)
+.edit-button, .delete-button, .save-button, .cancel-button {
+  border: 1px solid transparent; 
+  background-color: #eeeeee; 
+  color: #555555; 
+  font-weight: normal; 
+  padding: 8px 12px; 
+  border-radius: 5px; 
+  font-size: 0.9rem; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+
+  &:hover {
+    background-color: #e0e0e0; 
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08); 
+  }
 }
-.download-json-button {
-  background-color: #28a745; // 녹색
-  color: white;
+/* 액션 버튼의 색상 오버라이드 */
+.edit-button { 
+  background-color: #007bff; color: white; border-color: #007bff; 
+  &:hover { background-color: color.adjust(#007bff, $lightness: -5%); border-color: color.adjust(#007bff, $lightness: -5%); }
+} 
+.delete-button { 
+  background-color: #dc3545; color: white; border-color: #dc3545; 
+  &:hover { background-color: color.adjust(#dc3545, $lightness: -5%); border-color: color.adjust(#dc3545, $lightness: -5%); }
+} 
+.save-button { 
+  background-color: #7a31cd; color: white; border-color: #7a31cd; 
+  &:hover { background-color: color.adjust(#7a31cd, $lightness: -5%); border-color: color.adjust(#7a31cd, $lightness: -5%); }
+} 
+.cancel-button { 
+  background-color: #6c757d; color: white; border-color: #6c757d; 
+  &:hover { background-color: color.adjust(#6c757d, $lightness: -5%); border-color: color.adjust(#6c757d, $lightness: -5%); }
 }
-.edit-button {
-  background-color: #007bff; // 파란색
-  color: white;
-}
-.delete-button {
-  background-color: #dc3545; // 빨간색
-  color: white;
-}
-.save-button {
-  background-color: $accent-color; // variables에서 정의된 강조색
-  color: white;
-}
-.cancel-button {
-  background-color: #6c757d; // 회색
-  color: white;
-}
+
+// 2-3. 더 보기 버튼 (PC 버전)
 .load-more-button {
   display: block;
   width: 100%;
-  padding: 10px 20px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 20px;
-  font-size: 1rem;
-  &:hover {
-      background-color: #e0e0e0;
+  padding: 15px 20px; 
+  background-color: #e6e6e6; 
+  border: 1px solid #c2c2c2; 
+  border-radius: 8px; 
+  margin-top: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #555555;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+  &:hover { 
+    background-color: #d8d8d8; 
+    box-shadow: 0 3px 7px rgba(0,0,0,0.08);
   }
 }
 
-// 3. 공통 폼 (새 항목 추가 폼) 스타일
+
+// 3. 공통 폼 스타일
 .add-new-form {
-  background-color: #f8f8f8;
+  background-color: #ffffff; 
   border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 20px;
+  border-radius: 10px; 
+  padding: 30px; 
   margin-bottom: 30px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
 
   h4 {
-    margin-top: 0;
-    color: $primary-color;
+    color: #42b983; 
     font-size: 1.4rem;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
@@ -115,24 +157,27 @@ button {
     }
     input[type="text"], input[type="number"], textarea {
       width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
+      padding: 12px; 
+      border: 1px solid #d0d0d0; 
+      border-radius: 6px; 
       font-size: 1rem;
       box-sizing: border-box;
+      &:focus {
+        border-color: #42b983; 
+        box-shadow: 0 0 5px rgba(66, 185, 131, 0.5); 
+        outline: none;
+      }
     }
-    textarea {
-      resize: vertical;
-      min-height: 80px;
-    }
+    textarea { resize: vertical; min-height: 80px; }
   }
   .form-actions {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
-    button { // 폼 내부 버튼은 패딩을 좀 더 크게
-      padding: 10px 20px;
-      font-size: 1rem;
+    gap: 15px; 
+    button { 
+        padding: 12px 25px; 
+        font-size: 1.05rem; 
+        font-weight: bold; 
     }
   }
 }
@@ -142,11 +187,16 @@ button {
   margin-bottom: 20px;
   .search-input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12px; 
+    border: 1px solid #d0d0d0; 
+    border-radius: 6px; 
     font-size: 1rem;
     box-sizing: border-box;
+    &:focus {
+      border-color: #42b983; 
+      box-shadow: 0 0 5px rgba(66, 185, 131, 0.5); 
+      outline: none;
+    }
   }
 }
 
@@ -155,57 +205,63 @@ button {
   text-align: center;
   padding: 30px;
   color: #666;
+  font-size: 1.1rem; 
 }
-.error-message {
-  color: #d32f2f;
+.error-message { 
+    color: #d32f2f; 
+    font-weight: bold; 
 }
 
-// 6. 공통 테이블 컨테이너 스타일 (모든 테이블이 사용할 가능성)
+// 6. 공통 테이블 컨테이너
 .artwork-table-container, .exhibition-table-container, .lecture-table-container {
     overflow-x: auto;
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
+    background-color: white; 
 }
 
-// 7. 공통 테이블 스타일 (테이블 태그 자체와 th, td)
+// 7. 공통 테이블 스타일
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15px;
+    margin-top: 0; 
+    border-radius: 10px; 
+    overflow: hidden; 
 
     th, td {
-        border: 1px solid #e0e0e0;
-        padding: 12px 15px;
+        border: 1px solid #eceff1; 
+        padding: 15px; 
         text-align: left;
         vertical-align: middle;
+        font-size: 0.95rem; 
     }
 
     th {
-        background-color: #f5f7fa;
-        color: $primary-color;
+        background-color: #e0e5ea; 
+        color: #333333; 
         font-weight: bold;
         white-space: nowrap;
     }
 
-    tbody tr:nth-child(even) {
-        background-color: #fcfcfc;
-    }
-    tbody tr:hover {
-        background-color: #f0f8ff;
-    }
-    // 테이블 안의 수정/삭제 입력창
+    tbody tr:nth-child(even) { background-color: #fcfcfc; }
+    tbody tr:hover { background-color: #eef2f5; }
+
     .edit-input, .edit-textarea {
         width: 100%;
         box-sizing: border-box;
         padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
+        border: 1px solid #d0d0d0;
+        border-radius: 5px;
         font-size: 0.9rem;
         resize: vertical;
+        &:focus {
+          border-color: #42b983; 
+          box-shadow: 0 0 5px rgba(66, 185, 131, 0.5); 
+          outline: none;
+        }
     }
-    .edit-textarea {
-        min-height: 60px;
-    }
+    .edit-textarea { min-height: 60px; }
 
-    // 공통 포스터/썸네일 컬럼 스타일
     .poster-col {
         width: 100px;
         text-align: center;
@@ -214,22 +270,207 @@ table {
             height: auto;
             display: block;
             margin: 0 auto;
-            border-radius: 4px;
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
         }
-        .no-image-text {
-            color: #888;
-            font-size: 0.85rem;
-        }
+        .no-image-text { color: #888; font-size: 0.85rem; }
     }
-    // 공통 Actions 컬럼
     .actions-col {
         width: 150px;
         text-align: center;
         white-space: nowrap;
+        button { /* 테이블 안의 버튼들은 이미 위에서 작은 스타일을 정의함 */ }
     }
-    .actions-col button { // 테이블 안 버튼은 좀 작게
+    .desc-col { /* ExhibitionTable의 설명 컬럼 */
+        max-width: 250px;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+}
+
+
+/* --- 반응형 웹 디자인을 위한 미디어 쿼리 (768px 이하) --- */
+@media (max-width: 768px) {
+    // 공통 버튼 기본 스타일 (모바일에서는 패딩만 조절)
+    button {
+        padding: 10px 15px; 
+        font-size: 0.95rem; 
+    }
+
+    // 영선갤러리 관련 메인 버튼
+    .add-new-button,
+    .download-json-button {
+        display: none; /* 모바일에서는 숨김 처리 */
+    }
+
+    // 테이블 안의 액션 버튼 (이미 작으므로 패딩, 폰트만 조절)
+    .edit-button, .delete-button, .save-button, .cancel-button {
         padding: 6px 10px;
-        margin: 0 3px;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
+    }
+
+    // 더 보기 버튼 (이미 block 100%이므로 패딩만 조절)
+    .load-more-button {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+
+
+    // 패널 헤더 (모바일)
+    .panel-header {
+        flex-direction: column; 
+        align-items: flex-start; 
+        div { /* 버튼 컨테이너 */
+            flex-direction: column; 
+            gap: 5px; 
+            width: 100%; 
+        }
+    }
+
+    // 폼 (모바일)
+    .add-new-form {
+        padding: 15px; 
+        h4 { font-size: 1.3rem; }
+        .form-row { margin-bottom: 10px; }
+        input[type="text"], input[type="number"], textarea {
+            padding: 10px; font-size: 0.95rem;
+        }
+        .form-actions {
+            gap: 10px; 
+            button { padding: 10px 15px; font-size: 0.95rem; }
+        }
+    }
+
+    // 검색창 (모바일)
+    .search-bar {
+        .search-input { padding: 10px; font-size: 0.95rem; }
+    }
+
+    // 메시지 (모바일)
+    .loading-message, .error-message, .no-data-message {
+        padding: 20px; font-size: 1rem;
+    }
+
+
+    // 테이블 (모바일 카드형)
+    table {
+        thead { display: none; } /* 헤더 숨김 */
+
+        tbody {
+            display: block;
+            tr {
+                /* PC 테이블의 TR이 아니며, 모바일 전용 .mobile-card-row와 묶여 사용됨 */
+                display: block; /* tr이 여전히 블록으로 쌓임 (artwork table의 mobile-card-row가 다시 flex) */
+                width: 100%; 
+                margin-bottom: 15px; 
+                border: 1px solid #e0e0e0; 
+                border-radius: 8px; 
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+                background-color: white; 
+                padding: 0; /* tr 자체 패딩 제거 */
+            }
+        }
+        
+        td { /* 모바일 td 기본 스타일 (일반적인 테이블들용) */
+            display: block; /* 블록으로 쌓이게 함 */
+            width: 100% !important; /* 너비 100% */
+            border: none; 
+            padding: 10px 15px; 
+            text-align: left; 
+            font-size: 0.9rem; 
+            &::before { /* 라벨 붙임 */
+                font-weight: bold; margin-right: 5px; color: #777;
+            }
+        }
+       
+        // ArtworkTable.vue의 mobile-card-row에 적용될 스타일 (재정렬)
+        .mobile-card-row { /* ArtworkTable.vue에서 추가된 모바일 전용 행 */
+            display: flex; /* flex 컨테이너로 */
+            flex-direction: row; /* 이미지 왼쪽, 내용 오른쪽 */
+            align-items: center; /* 세로 중앙 정렬 */
+            width: 100%;
+            border: none;
+            padding: 10px; /* 이 flex 컨테이너의 내부 패딩 */
+
+            .poster-col {
+                flex-shrink: 0; width: 100px; text-align: center; padding: 5px;
+                img { max-width: 90px; }
+            }
+
+            .card-content-wrapper {
+                flex-grow: 1; padding: 0 10px; display: flex;
+                flex-direction: column; gap: 5px;
+                .card-item {
+                    display: block; font-size: 0.9rem; color: #444;
+                    &:empty { display: none; } /* 내용이 없는 card-item 숨김 */
+                    
+                    /* 라벨 정의 (card-item 클래스 내에) */
+                    &.card-item--code::before { content: none; } 
+                    &.card-item--title::before { content: none; }
+                    &.card-item--artist::before { content: none; }
+                    &.card-item:nth-of-type(4)::before { content: none; } /* 기법 */
+                    &.card-item:nth-of-type(5)::before { content: none; } /* 규격 */
+                    &.card-item:nth-of-type(6)::before { content: none; } /* 연도 */
+                    &.card-item:nth-of-type(7)::before { content: "세트명: "; font-weight: bold; margin-right: 5px; color: #777; } 
+
+                    /* 제목 폰트 키우고 코드 맨 아래 배치 + 폰트 작게 */
+                    &.card-item--title { font-size: 1.2rem; color: #24292e; order: -1; }
+                    &.card-item--code { font-size: 0.75rem; color: #999; order: 99; margin-top: auto; }
+                }
+            }
+        }
+
+        /* ExhibitionTable, LectureTable 전용 모바일 td 라벨링 및 배치 (시작) */
+        &.exhibition-table-container,
+        &.lecture-table-container {
+            /* 이들은 card-content-wrapper 구조를 가지지 않음. 기존 모바일 td 스타일 활용 */
+            tbody tr {
+                display: block; /* tr이 여전히 블록으로 쌓임 */
+            }
+            td {
+                display: block; /* td가 여전히 블록으로 쌓임 */
+                width: 100% !important; /* 너비 100% */
+                border: none; 
+                padding: 10px 15px; 
+                text-align: left; 
+                font-size: 0.9rem; 
+                &::before { /* 라벨 붙임 */
+                    font-weight: bold; margin-right: 5px; color: #777;
+                }
+            }
+        }
+        
+        // <<<<<<< 여기가 수정됩니다! 모바일 전시/특강 ID 숨김 및 라벨 숨김 >>>>>>>
+        &.exhibition-table-container td:nth-of-type(1),
+        &.lecture-table-container td:nth-of-type(1) { 
+            display: none !important; /* <<<<<<< !important를 추가하여 강제 숨김 >>>>>>> */
+        }
+        &.exhibition-table-container td:nth-of-type(1)::before,
+        &.lecture-table-container td:nth-of-type(1)::before { 
+            content: none !important; /* <<<<<<< !important를 추가하여 강제 숨김 >>>>>>> */
+        }
+        // <<<<<<< 여기까지 수정됩니다! >>>>>>>
+
+
+        /* 컬럼 라벨 (Exhibition/LectureTable) */
+        &.exhibition-table-container td:nth-of-type(3)::before { content: "제목: "; }
+        &.exhibition-table-container td:nth-of-type(4)::before { content: "기간: "; }
+        &.exhibition-table-container td.desc-col::before { content: "설명: "; } 
+
+        &.lecture-table-container td:nth-of-type(3)::before { content: "제목: "; }
+        &.lecture-table-container td:nth-of-type(4)::before { content: "강사: "; } 
+        &.lecture-table-container td:nth-of-type(5)::before { content: "일시: "; }
+
+        // 관리 컬럼 숨김 (공용)
+        .actions-col { display: none; }
+        th:nth-child(6) { display: none; } /* Exhibition, Lecture 관리 헤더 */
+        td:nth-of-type(6) { display: none; } /* Exhibition, Lecture 관리 셀 */
+    }
+
+
+    /* --- 추가적인 모바일 최적화 (화면 너비 480px 이하) --- */
+    @media (max-width: 480px) {
+        .admin-header h1 { font-size: 1.3rem; }
     }
 }

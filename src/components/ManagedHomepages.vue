@@ -19,27 +19,11 @@ const selectHomepage = (siteName) => {
 </script>
 
 <style lang="scss" scoped>
-// _variables.scss 파일에서 변수를 불러옵니다.
-@import '@/assets/styles/_variables.scss'; 
-
-.managed-homepages {
-  display: flex;
-  gap: 10px; // 버튼 사이 간격
-}
-
-.homepage-button {
-  background-color: $accent-color; // _variables.scss의 $accent-color 사용
-  color: white;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease;
-  white-space: nowrap; // 텍스트 줄바꿈 방지
-
-  &:hover {
-    background-color: darken($accent-color, 10%); // Hover 시 색상 어둡게
-  }
-}
+// 이 컴포넌트만의 스타일, 또는 _style.scss에 정의된 공용 스타일을 사용합니다.
+// 'var' 네임스페이스를 사용합니다.
+// ArtworkListPanel.vue, ExhibitionListPanel.vue, LectureListPanel.vue 등 Panel 파일들은
+// @use '@/assets/styles/_style.scss' as var; 이 라인만 있으면 됩니다.
+// SidebarMenu.vue, ManagedHomepages.vue 도 이 라인만 있으면 됩니다.
+// (여기까지는 스타일을 직접 이 파일에 넣는 것이 아니라, _style.scss에서 가져오는 것임)
+@use '@/assets/styles/_style.scss' as var;
 </style>

@@ -12,6 +12,7 @@ html, body {
   margin: 0; padding: 0; height: 100%;
   font-family: 'Noto Sans KR', sans-serif;
   color: #333; 
+  // <<<<<<< 여기가 수정됩니다! 기본은 hidden으로 유지 >>>>>>>
   overflow: hidden; 
 }
 
@@ -21,7 +22,7 @@ html, body {
   display: flex;
   flex-direction: column; 
   min-height: 100vh;
-  background-color: #f0f2f5; 
+  background-color: #f0f2f5; /* $background-color 값 직접 입력 */
 }
 
 // .admin-header : 상단 고정 헤더
@@ -51,7 +52,7 @@ html, body {
 .admin-content-area {
   display: flex;
   flex-grow: 1; 
-  /* overflow: hidden; 제거됨 */
+  overflow: hidden; /* PC에서는 여전히 숨김 유지 (메인, 사이드바에서 개별 스크롤) */
 }
 
 // .admin-sidebar : 왼쪽 사이드바 (PC)
@@ -61,9 +62,8 @@ html, body {
   color: #333333;          
   padding: 20px 0;
   overflow-y: auto; 
-  border-right: 1px solid #e0e0e0; 
+  border-right: 1px solid color.adjust(#2c3e50, $lightness: 10%); 
 
-  /* 사이드바 안의 메뉴 슬롯에 들어갈 메뉴 스타일링 */
   nav { 
     ul {
       list-style: none; padding: 0; margin: 0;
@@ -75,7 +75,7 @@ html, body {
           text-decoration: none; transition: background-color 0.2s ease;
           border-radius: 5px; 
           &:hover { 
-            background-color: #f0f0f0; 
+            background-color: color.adjust(#2c3e50, $lightness: 5%); 
           } 
           &.active {
             background-color: #7a31cd; 
@@ -98,6 +98,12 @@ html, body {
 
 /* === 모바일용 레이아웃 (반응형: 화면 너비 768px 이하일 때 적용) === */
 @media (max-width: 768px) {
+  // <<<<<<< 여기가 수정됩니다! 모바일에서 html, body 스크롤 허용! >>>>>>>
+  html, body {
+    overflow: auto; /* 모바일에서 전체 페이지 스크롤 가능하도록 */
+  }
+  // <<<<<<< 여기까지 수정됩니다! >>>>>>>
+
   .admin-header {
     flex-direction: column; 
     align-items: flex-start; 
@@ -119,17 +125,15 @@ html, body {
     }
   }
 
-  // .admin-content-area (모바일에서 사이드바와 메인 콘텐츠를 세로로 나열)
   .admin-content-area {
-    flex-direction: column; /* <<<<<<< 여기가 수정됩니다! 자식 요소(사이드바/메인)를 세로로 정렬! >>>>>>> */
-    width: 100%; /* 모바일에서 너비 100% 명확히 */
-    height: auto; /* 내용에 따라 높이 자동 조절 */
-    min-height: 0; /* flex 컨테이너의 최소 높이 충돌 방지 */
-    overflow: visible; /* 내부 요소의 스크롤 허용 */
-    flex-shrink: 0; /* 모바일에서 축소되지 않도록 함 */
+    flex-direction: column; 
+    width: 100%; 
+    height: auto; /* <<<<<<< 수정: 높이 auto로 변경하여 내용에 따라 늘어나게 >>>>>>> */
+    min-height: 0; 
+    overflow: visible; 
+    flex-shrink: 0; 
   }
 
-  // .admin-sidebar (모바일 상단 네비게이션 역할)
   .admin-sidebar {
     width: 100%; 
     flex-basis: 100%; 
@@ -140,22 +144,22 @@ html, body {
     border-bottom: 1px solid color.adjust(#2c3e50, $lightness: 10%); 
     
     nav {
-      width: 100%; 
       ul {
-        display: flex; 
-        justify-content: space-around; 
-        flex-wrap: wrap; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        flex-wrap: nowrap; 
         width: 100%; 
         
         li {
-          flex-grow: 1; 
-          flex-basis: 0; 
+          width: 100%; 
           margin-bottom: 0; 
-          text-align: center; 
+          flex-grow: 0; 
+          flex-basis: auto; 
+          text-align: left; 
 
           a { 
-            padding: 8px 5px; 
-            font-size: 0.85rem; 
+            padding: 12px 15px; 
+            font-size: 1rem; 
             border-radius: 0; 
             &:hover, &.active { 
                 color: #ffffff; 
@@ -169,9 +173,11 @@ html, body {
   // .admin-main (모바일 메인 콘텐츠)
   .admin-main {
     flex-grow: 1;
-    width: 100%; /* <<<<<<< 추가: 모바일에서 메인 콘텐츠도 100% 너비! >>>>>>> */
+    width: 100%; 
+    // <<<<<<< 여기가 수정됩니다! 모바일에서 메인 영역 스크롤 가능하게 >>>>>>>
     padding: 15px; 
-    overflow-y: auto; 
+    overflow-y: auto; /* 내용이 넘치면 스크롤 가능하도록 */
+    height: auto; /* <<<<<<< 추가: 높이를 auto로 설정하여 내용에 따라 늘어나게 >>>>>>> */
   }
 }
 

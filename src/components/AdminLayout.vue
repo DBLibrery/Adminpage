@@ -1,10 +1,12 @@
-<!-- src/components/AdminLayout.vue -->
+<!-- src/components/AdminLayout.vue (최종 확인 및 복구) -->
 <template>
   <div class="admin-wrapper">
+    <!-- 이 header가 상단 헤더입니다. -->
     <header class="admin-header">
       <h1>DBLibrery 관리자 페이지</h1>
       <div class="header-buttons-container">
-        <slot name="homepages-nav"></slot>
+        <!-- 이 부분은 나중에 homepages-nav 슬롯을 구현할 때 사용합니다. -->
+        <slot name="homepages-nav"></slot> 
       </div>
     </header>
 
@@ -22,32 +24,19 @@
 </template>
 
 <script setup>
-// 여기는 나중에 Vue 로직을 추가할 공간이야. 지금은 비워둬도 돼!
+import { defineProps } from 'vue';
+
+// App.vue에서 currentPanel 값을 받아서 사이드바 메뉴 활성화에 사용합니다.
+const props = defineProps({
+  currentPanel: {
+    type: String,
+    required: true
+  }
+});
 </script>
 
-<!-- 여기에서 "scoped" 키워드를 제거했습니다! -->
-<style lang="scss">
-// 스타일 코드가 길어지는 것을 방지하기 위해 별도의 SCSS 파일에서 불러옵니다.
-@import '@/assets/styles/_admin-layout.scss'; 
-
-// 이 스타일은 AdminLayout.vue 내에서 정의되었지만,
-// scoped가 없으므로 전역적으로 적용될 수 있습니다.
-// 특히 .admin-header 내부의 요소 정렬에 사용됩니다.
-.admin-header {
-  display: flex; // flexbox를 사용해서 내부 요소들을 정렬
-  justify-content: space-between; // h1과 버튼들을 양 끝으로 정렬
-  align-items: center; // 세로 중앙 정렬
-
-  h1 {
-    margin: 0; // h1의 기본 마진 제거
-    font-size: 1.5rem;
-    color: white; // 색상 유지
-  }
-}
-
-.header-buttons-container {
-  display: flex; // 버튼 컨테이너도 flex로
-  gap: 10px; // 버튼 사이 간격
-  // 이 컨테이너 안에 ManagedHomepages 컴포넌트가 들어와서 버튼들을 포함하게 됩니다.
-}
+<style lang="scss" scoped>
+// `_admin-layout.scss` 파일을 `@use`로 불러와서 AdminLayout의 스타일로 사용합니다.
+// (이 파일에는 스타일이 직접 정의되지 않으며, 모두 _global-layout.scss에 있음)
+@use '@/assets/styles/_admin-layout.scss'; 
 </style>
