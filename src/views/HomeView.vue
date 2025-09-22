@@ -47,9 +47,9 @@ import { ref } from 'vue';
 import AdminLayout from '@/components/AdminLayout.vue';
 import ManagedHomepages from '@/components/ManagedHomepages.vue';
 import SidebarMenu from '@/components/SidebarMenu.vue';
-import ExhibitionListPanel from '@/components/ExhibitionListPanel.vue';
-import LectureListPanel from '@/components/LectureListPanel.vue'; 
-import ArtworkListPanel from '@/components/ArtworkListPanel.vue'; // ArtworkListPanel 컴포넌트 불러오기
+import ExhibitionListPanel from '@/components/ExhibitionList/ExhibitionListPanel.vue';
+import LectureListPanel from '@/components/LectureList/LectureListPanel.vue'; 
+import ArtworkListPanel from '@/components/ArtworkList/ArtworkListPanel.vue'; // ArtworkListPanel 컴포넌트 불러오기
 
 const selectedPageName = ref('없음');
 const selectedMenuItem = ref('');
