@@ -1,47 +1,14 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <!-- <RouterView /> 가 현재 URL에 맞는 View 컴포넌트를 화면에 보여줄 거야. -->
+  <RouterView/>
 </template>
 
+<script setup>
+// 필요한 경우, 나중에 전역적인 로직이나 컴포넌트 등록 등을 여기에 넣을 거야.
+// 지금은 비워둬도 돼!
+</script>
+
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
+/* 앱 전반에 걸쳐 적용될 전역 스타일이 필요하면 여기에 넣어.
+   지금은 깔끔하게 비워둬도 좋아! */
 </style>
