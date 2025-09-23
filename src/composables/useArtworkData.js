@@ -1,5 +1,4 @@
-// src/composables/useArtworkData.js
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, computed } from 'vue'; // ✨ computed를 임포트 추가!
 
 export function useArtworkData() {
   const artworks = ref([]);
@@ -48,13 +47,14 @@ export function useArtworkData() {
     }
   });
 
-  const generateNewArtworkCode = () => {
+  // ✨ generateNewArtworkCode 함수를 제거하고 nextArtworkCode computed 속성으로 변경 ✨
+  const nextArtworkCode = computed(() => { // ✨ 이름을 nextArtworkCode로 바꾸고 computed로 감싸줘!
     const currentMaxNum = artworks.value.reduce((max, item) => {
       const match = String(item.code).match(/^YS(\d+)$/);
       return match ? Math.max(max, parseInt(match[1])) : max;
     }, 0);
     return `YS${currentMaxNum + 1}`;
-  };
+  });
 
   const addArtwork = (newArtData) => {
     if (artworks.value.some(item => item.code === newArtData.code)) {
@@ -131,7 +131,8 @@ export function useArtworkData() {
     loading,
     error,
     IMG_BASE_URL,
-    generateNewArtworkCode,
+    // generateNewArtworkCode, // ✨ 이건 제거!
+    nextArtworkCode, // ✨ 이 computed 속성을 반환해 줘!
     addArtwork,
     startEditingArtwork,
     saveEditedArtwork,
