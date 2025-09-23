@@ -4,8 +4,8 @@
     <div class="panel-header">
       <h3>영선갤러리 특강 목록</h3>
       <div>
-        <button class="add-new-button" @click="startAddingNew">새 특강 추가</button>
-        <button class="download-json-button" @click="downloadJson">모든 특강 저장 (JSON 다운로드)</button>
+        <button class="add-new-button" @click="startAddingNew">새 특강</button>
+        <button class="download-json-button" @click="downloadJson">특강 저장</button>
       </div>
     </div>
     

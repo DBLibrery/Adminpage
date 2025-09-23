@@ -3,7 +3,6 @@
   <div class="managed-homepages">
     <!-- 버튼 클릭 시 'select-page' 이벤트를 발생시키고, 어떤 페이지인지 알려줍니다. -->
     <button class="homepage-button" @click="selectHomepage('영선갤러리')">영선갤러리</button>
-    <button class="homepage-button" @click="selectHomepage('DTS GRF')">DTS GRF</button>
   </div>
 </template>
 

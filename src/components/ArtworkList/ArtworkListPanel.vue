@@ -1,11 +1,12 @@
-<!-- src/components/ArtworkListPanel.vue -->
 <template>
   <div class="artwork-list-panel">
     <div class="panel-header">
       <h3>영선갤러리 작품 리스트</h3>
       <div>
-        <button class="add-new-button" @click="startAddingNew">새 작품 추가</button>
-        <button class="download-json-button" @click="downloadJson">모든 작품 저장 (JSON 다운로드)</button>
+        <button class="add-new-button" @click="startAddingNew">새 작품</button>
+        <!-- ✨ 내부용과 외부용 다운로드 버튼 두 개 ✨ -->
+        <button class="download-json-button" @click="downloadInternalJson">내부용저장</button>
+        <button class="download-json-button" @click="downloadExternalJson">외부용저장</button>
       </div>
     </div>
     
@@ -16,9 +17,10 @@
     <div v-else-if="filteredItems.length === 0 && !isAddingNew && !loading" class="no-data-message">등록된 작품 정보가 없습니다.</div>
 
     <!-- 새 작품 추가 폼: ArtworkAddForm 컴포넌트 사용 -->
+    <!-- ✨ computed로 계산된 nextArtworkCode를 넘겨줘! ✨ -->
     <ArtworkAddForm 
       v-if="isAddingNew" 
-      :initial-code="generateNewArtworkCode" 
+      :initialCode="nextArtworkCode"  
       @add-artwork="onArtworkAdded" 
       @cancel="cancelAddingNew" 
     ></ArtworkAddForm>
@@ -46,6 +48,7 @@
 </template>
 
 <script setup>
+// 필요한 Vue 핵심 기능들을 임포트합니다.
 import { ref } from 'vue'; 
 
 // 분리된 UI 컴포넌트들 임포트
@@ -63,14 +66,15 @@ const {
   artworks,             // 모든 작품 데이터 (ref)
   loading,              // 로딩 상태 (ref)
   error,                // 에러 상태 (ref)
-  IMG_BASE_URL,         // 이미지 기본 URL
-  generateNewArtworkCode, // 새 작품 코드 생성 함수
+  IMG_BASE_URL,         // 이미지 기본 URL (Blob URL)
+  nextArtworkCode,      // ✨ useArtworkData에서 computed로 변경된 새 작품 코드! ✨
   addArtwork,           // 작품 추가 함수 (Composable 내부 로직)
   startEditingArtwork,  // 수정 시작 함수
   saveEditedArtwork,    // 저장 함수
   cancelEditingArtwork, // 취소 함수
   deleteArtwork,        // 삭제 함수
-  downloadJson          // JSON 다운로드 함수
+  downloadInternalJson, // ✨ 내부용 JSON 다운로드 함수! ✨
+  downloadExternalJson  // ✨ 외부용 JSON 다운로드 함수! ✨
 } = useArtworkData(); // useArtworkData를 호출하여 필요한 모든 반응형 데이터와 함수를 가져옵니다.
 
 // useFilterAndPagination Composable 사용: 검색어, 필터링된/표시될 아이템, 페이지네이션 로직 가져오기
@@ -93,6 +97,8 @@ const isAddingNew = ref(false); // '새 작품 추가' 폼을 표시할지 여�
 // '새 작품 추가' 버튼 클릭 시 폼을 띄우는 함수
 const startAddingNew = () => {
   isAddingNew.value = true;
+  // 새 작품 추가 폼이 열릴 때 currentPage를 리셋하는 로직 (옵션)
+  // currentPage.value = 1; 
 };
 
 // ArtworkAddForm 컴포넌트로부터 'add-artwork' 이벤트 수신 시 호출되는 함수

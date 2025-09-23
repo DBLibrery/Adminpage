@@ -1,7 +1,7 @@
 <!-- src/components/LectureList/LectureAddForm.vue -->
 <template>
   <div class="add-new-form">
-    <h4>새 특강 추가</h4>
+    <h4>새 특강</h4>
     <div class="form-row">
       <label>ID</label>
       <!-- initialId props를 통해 받은 ID를 disabled로 표시 -->
