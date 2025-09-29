@@ -3493,8 +3493,8 @@
     "technique": "화선지에 먹",
     "size": "125 X 25cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -3515,8 +3515,8 @@
     "technique": "화선지에 먹",
     "size": "24 X 26.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 200000,
+    "sellPrice": 500000,
     "setName": null
   },
   {
@@ -3526,8 +3526,8 @@
     "technique": "화선지에 먹",
     "size": "24 X 26.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 200000,
+    "sellPrice": 500000,
     "setName": null
   },
   {
@@ -3570,8 +3570,8 @@
     "technique": "수제장지 위에 금박24K, 석채, 합금박",
     "size": "30 X 75cm",
     "year": 2006,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -3581,8 +3581,8 @@
     "technique": "수제장지 위에 금박24K, 석채, 합금박",
     "size": "30 X 75cm",
     "year": 2006,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -3592,8 +3592,8 @@
     "technique": "수제장지 위에 금박24K, 석채, 합금박",
     "size": "30 X 75cm",
     "year": 2006,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -3603,8 +3603,8 @@
     "technique": "",
     "size": "72.7 X 60.6cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 8000000,
     "setName": null
   },
   {
@@ -3614,8 +3614,8 @@
     "technique": "닥종이, 위에 금박, 금니, 석채, 먹",
     "size": "28 X 33.6cm",
     "year": 2007,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3625,8 +3625,8 @@
     "technique": "도침장지 위에 금박24K, 합금박, 석채, 먹",
     "size": "91 X 112cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -3636,8 +3636,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "60.8 X 72.8cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 8000000,
     "setName": null
   },
   {
@@ -3647,8 +3647,8 @@
     "technique": "금박, 동박, 금니, 석채, 먹, 도침장치",
     "size": "60.8 X 72.8cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 8000000,
     "setName": null
   },
   {
@@ -3669,8 +3669,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3680,8 +3680,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3691,8 +3691,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "41 X 27cm",
     "year": 2009,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -3702,8 +3702,8 @@
     "technique": "도침장치 위에 금박24K, 석채, 합금박",
     "size": "130 X 30cm",
     "year": 2007,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 12800000,
     "setName": null
   },
   {
@@ -3713,8 +3713,8 @@
     "technique": "장지에 분채, 석채",
     "size": "50 X 50cm",
     "year": 2004,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1800000,
+    "sellPrice": 4800000,
     "setName": null
   },
   {
@@ -3724,8 +3724,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3735,8 +3735,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "27.3 X 41cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -3746,8 +3746,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -3757,8 +3757,8 @@
     "technique": "장지에 분채, 석채",
     "size": "51.5 X 44.5cm",
     "year": 1999,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3768,8 +3768,8 @@
     "technique": "장지에 분채, 석채",
     "size": "51.5 X 44.5cm",
     "year": 1999,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3779,8 +3779,8 @@
     "technique": "장지에 분채, 석채",
     "size": "53 X 45.5cm",
     "year": 2002,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3801,8 +3801,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "100 X 162cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 40000000,
     "setName": null
   },
   {
@@ -3812,8 +3812,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "79 X 79cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -3823,8 +3823,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3834,8 +3834,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3845,8 +3845,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3856,8 +3856,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3867,8 +3867,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3878,8 +3878,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3889,8 +3889,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3900,8 +3900,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3911,8 +3911,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -3922,8 +3922,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -3933,8 +3933,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -3944,8 +3944,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -3955,8 +3955,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -3966,8 +3966,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "80 X 79.5cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -3977,8 +3977,8 @@
     "technique": "오일스틱",
     "size": "35.7 X 27cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -3988,8 +3988,8 @@
     "technique": "오일스틱",
     "size": "35.7 X 27cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -3999,8 +3999,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2100000,
+    "sellPrice": 4200000,
     "setName": null
   },
   {
@@ -4010,8 +4010,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "47 X 47cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1800000,
+    "sellPrice": 3600000,
     "setName": null
   },
   {
@@ -4021,8 +4021,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2250000,
+    "sellPrice": 4500000,
     "setName": null
   },
   {
@@ -4032,8 +4032,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 4500000,
     "setName": null
   },
   {
@@ -4054,8 +4054,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -4065,8 +4065,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "21 X 34cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -4076,8 +4076,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "30 X 21cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -4087,8 +4087,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "41 X 41cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 2400000,
     "setName": null
   },
   {
@@ -4098,8 +4098,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "33.5 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2500000,
     "setName": null
   },
   {
@@ -4109,8 +4109,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "33.5 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -4120,8 +4120,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "33.5 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -4131,8 +4131,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "90 X 90cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4500000,
+    "sellPrice": 15000000,
     "setName": null
   },
   {
@@ -4142,8 +4142,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2250000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -4153,8 +4153,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "35 X 24.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -4164,8 +4164,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "60 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -4175,8 +4175,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "70 X 70cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 9000000,
     "setName": null
   },
   {
@@ -4186,8 +4186,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "60.5 X 45.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1800000,
+    "sellPrice": 4800000,
     "setName": null
   },
   {
@@ -4219,8 +4219,8 @@
     "technique": "닥종이 위에 금박, 석채, 먹",
     "size": "60 X 112.5cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -4230,8 +4230,8 @@
     "technique": "100% 코튼지 위에 Pigment Print",
     "size": "100 X 57cm",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -4241,8 +4241,8 @@
     "technique": "도침장지 위에 금박24K, 합금박, 석채, 먹",
     "size": "80 X 100cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 12000000,
     "setName": null
   },
   {
@@ -4252,8 +4252,8 @@
     "technique": "도침장지 위에 금박24K, 합금박, 석채, 먹",
     "size": "72.5 X 60.5cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 8000000,
     "setName": null
   },
   {
@@ -4318,8 +4318,8 @@
     "technique": "견본채색",
     "size": "113 X 60cm",
     "year": 2011,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -4329,8 +4329,8 @@
     "technique": "도침장지 위에 석채, 금박",
     "size": "65 X 47cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -4340,8 +4340,8 @@
     "technique": "도침장지 위에 석채, 금박",
     "size": "65 X 47cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -4351,8 +4351,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "16 X 23cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -4362,8 +4362,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "16 X 23cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -4373,8 +4373,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "22.1 X 16.6cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -4384,8 +4384,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "24 X 19cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -4395,8 +4395,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "20 X 15cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1200000,
     "setName": null
   },
   {
@@ -4406,8 +4406,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "20 X 15cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 1200000,
     "setName": null
   },
   {
@@ -4417,8 +4417,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "20 X 15cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "전혜연 선물",
+    "sellPrice": 1200000,
     "setName": null
   },
   {
@@ -4450,8 +4450,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2800000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -4461,8 +4461,8 @@
     "technique": "Technique Mixte sur Chassis Bois",
     "size": "149 X 93 X 3cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 8000000,
+    "sellPrice": 16000000,
     "setName": null
   },
   {
@@ -4472,8 +4472,8 @@
     "technique": "당지에 수묵담채",
     "size": "29.5 X 21cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -4483,8 +4483,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -4494,8 +4494,8 @@
     "technique": "Oil on Canvas",
     "size": "27.3 X 22cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 450000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -4505,8 +4505,8 @@
     "technique": "Oil on Canvas",
     "size": "24 X 19cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -4516,8 +4516,8 @@
     "technique": "Oil on Canvas",
     "size": "70 X 50cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -4527,8 +4527,8 @@
     "technique": "Oil on Canvas",
     "size": "52.5 X 45cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 8000000,
     "setName": null
   },
   {
@@ -4538,8 +4538,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3200000,
     "setName": null
   },
   {
@@ -4549,8 +4549,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3200000,
     "setName": null
   },
   {
@@ -4560,8 +4560,8 @@
     "technique": "Oil on Canvas",
     "size": "25.8 X 17.9cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -4571,8 +4571,8 @@
     "technique": "Oil on Canvas",
     "size": "72.8 X 60.6cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 16000000,
     "setName": null
   },
   {
@@ -4583,7 +4583,7 @@
     "size": "41 X 37cm",
     "year": 2014,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
