@@ -52,13 +52,15 @@
               <span v-if="!artwork.isEditing">{{ artwork.year }}</span>
               <input v-else v-model="artwork.editedData.year" type="number" class="edit-input" />
             </td>
+            <!-- ✨ 구입가 표시 부분 수정 (PC 버전) ✨ -->
             <td>
-              <span v-if="!artwork.isEditing">{{ artwork.buyPrice }}</span>
-              <input v-else v-model="artwork.editedData.buyPrice" type="number" class="edit-input" />
+              <span v-if="!artwork.isEditing">{{ formatNumber(artwork.buyPrice) }}</span>
+              <input v-else v-model.number="artwork.editedData.buyPrice" type="number" class="edit-input" />
             </td>
+            <!-- ✨ 판매가 표시 부분 수정 (PC 버전) ✨ -->
             <td>
-              <span v-if="!artwork.isEditing">{{ artwork.sellPrice }}</span>
-              <input v-else v-model="artwork.editedData.sellPrice" type="number" class="edit-input" />
+              <span v-if="!artwork.isEditing">{{ formatNumber(artwork.sellPrice) }}</span>
+              <input v-else v-model.number="artwork.editedData.sellPrice" type="number" class="edit-input" />
             </td>
             <td>
               <span v-if="!artwork.isEditing">{{ artwork.stockDate }}</span>
@@ -101,6 +103,7 @@
                 <div class="card-item" v-if="artwork.technique">{{ artwork.technique }}</div>
                 <div class="card-item" v-if="artwork.size">{{ artwork.size }}</div>
                 <div class="card-item" v-if="artwork.year">{{ artwork.year }}</div>
+                <!-- ✨ 모바일 버전에서는 구입가/판매가를 표시하지 않으므로 수정 불필요 ✨ -->
                 <!-- 공백 내용은 v-if로 렌더링 자체를 방지 -->
                 <!-- 구입가, 판매가, 입고일은 이미 Hidden -->
                 <div class="card-item" v-if="artwork.setName">{{ artwork.setName }}</div>
@@ -131,6 +134,23 @@ const props = defineProps({
 });
 
 const emits = defineEmits(['start-edit', 'save-artwork', 'cancel-edit', 'delete-artwork']);
+
+// ✨ 숫자를 세 자리 쉼표로 포맷하는 헬퍼 함수 추가 ✨
+const formatNumber = (value) => {
+  if (value === null || value === undefined || value === '') {
+    return ''; // 값이 없으면 빈 문자열 반환
+  }
+  // 숫자가 아니면 그대로 반환 (예외 처리)
+  if (typeof value !== 'number' && typeof value !== 'string') {
+    return value;
+  }
+  // 문자열일 경우 숫자로 변환 시도
+  const numValue = Number(value);
+  if (isNaN(numValue)) {
+    return value; // 숫자로 변환 실패 시 원본 값 반환
+  }
+  return numValue.toLocaleString('ko-KR'); // 한국식으로 쉼표 추가
+};
 
 const generateArtworkImageUrl = (code) => {
   if (!code) return null; 
