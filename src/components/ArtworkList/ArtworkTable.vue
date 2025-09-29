@@ -55,7 +55,7 @@
             <!-- ✨ 구입가 표시 부분 수정 (PC 버전) ✨ -->
             <td>
               <span v-if="!artwork.isEditing">{{ formatNumber(artwork.buyPrice) }}</span>
-              <input v-else v-model.number="artwork.editedData.buyPrice" type="number" class="edit-input" />
+              <input v-else v-model="artwork.editedData.buyPrice" type="text" class="edit-input" />
             </td>
             <!-- ✨ 판매가 표시 부분 수정 (PC 버전) ✨ -->
             <td>

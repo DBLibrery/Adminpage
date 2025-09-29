@@ -8,6 +8,26 @@ export function useArtworkData() {
   const IMG_BASE_URL = 'https://github.com/youngsungallery/IMG_DB/blob/main/youngsungallery/art/';
   const IMG_DISPLAY_BASE_URL = 'https://raw.githubusercontent.com/youngsungallery/IMG_DB/main/youngsungallery/art/';
 
+  // ✨ Helper 함수: 유연한 가격 파싱 (숫자 또는 문자열) ✨
+  const parseFlexiblePrice = (value) => {
+    if (value === null || value === undefined || value === '') {
+      return null;
+    }
+    // 값이 string 타입인 경우, 숫자로만 구성되어 있는지 확인
+    if (typeof value === 'string') {
+      // 숫자 형태의 문자열인지 정규식으로 검사
+      if (/^\d+(\.\d+)?$/.test(value.trim())) { 
+          return Number(value);
+      }
+      return value; // 숫자 형태가 아니면 문자열 그대로 반환
+    }
+    // 이미 숫자 타입이면 숫자 그대로 반환
+    if (typeof value === 'number') {
+        return value;
+    }
+    return value; // 그 외의 경우 (예: boolean, object)는 그냥 원본 값 반환
+  };
+
 
   onMounted(async () => {
     try {
@@ -25,19 +45,19 @@ export function useArtworkData() {
       artworks.value = data.map(item => ({
         ...item,
         year: item.year ? Number(item.year) : null,
-        buyPrice: item.buyPrice ? Number(item.buyPrice) : null,
+        buyPrice: parseFlexiblePrice(item.buyPrice), // ✨ 유연한 파싱 적용 ✨
         sellPrice: item.sellPrice ? Number(item.sellPrice) : null,
         isEditing: false, 
         editedData: { 
           ...item,
           year: item.year ? Number(item.year) : null,
-          buyPrice: item.buyPrice ? Number(item.buyPrice) : null,
+          buyPrice: parseFlexiblePrice(item.buyPrice), // ✨ 유연한 파싱 적용 ✨
           sellPrice: item.sellPrice ? Number(item.sellPrice) : null,
         },
         originalDataCopy: { 
           ...item,
           year: item.year ? Number(item.year) : null,
-          buyPrice: item.buyPrice ? Number(item.buyPrice) : null,
+          buyPrice: parseFlexiblePrice(item.buyPrice), // ✨ 유연한 파싱 적용 ✨
           sellPrice: item.sellPrice ? Number(item.sellPrice) : null,
         }
       }));
@@ -84,7 +104,7 @@ export function useArtworkData() {
 
   const saveEditedArtwork = (artwork) => {
     artwork.editedData.year = artwork.editedData.year ? Number(artwork.editedData.year) : null;
-    artwork.editedData.buyPrice = artwork.editedData.buyPrice ? Number(artwork.editedData.buyPrice) : null;
+    artwork.editedData.buyPrice = parseFlexiblePrice(artwork.editedData.buyPrice); // ✨ 유연한 파싱 적용 ✨
     artwork.editedData.sellPrice = artwork.editedData.sellPrice ? Number(artwork.editedData.sellPrice) : null;
 
     Object.assign(artwork, artwork.editedData);
@@ -110,8 +130,6 @@ export function useArtworkData() {
   // ✨ 내부용 JSON 다운로드 함수 (지정된 모든 필드 명시적으로 포함) ✨
   const downloadInternalJson = () => {
     const dataToDownload = artworks.value.map(item => {
-      // 내부용으로 필요한 모든 필드들을 명시적으로 추출합니다.
-      // isEditing, editedData, originalDataCopy는 제외됩니다.
       const {
         code,
         title,
@@ -131,11 +149,11 @@ export function useArtworkData() {
         artist,
         technique,
         size,
-        year: year ? Number(year) : null, // Number 변환이 필요할 수 있으므로 다시 처리
-        buyPrice: buyPrice ? Number(buyPrice) : null,
+        year: year ? Number(year) : null, 
+        buyPrice: item.buyPrice, // ✨ parseFlexiblePrice를 거치지 않고 item.buyPrice 원본값 그대로 사용 ✨
         sellPrice: sellPrice ? Number(sellPrice) : null,
         stockDate,
-        setName: setName || null, // 없을 수도 있으므로 null 처리
+        setName: setName || null,
       };
     });
 
@@ -156,8 +174,6 @@ export function useArtworkData() {
   // ✨ 외부용 JSON 다운로드 함수 (buyPrice, sellPrice, stockDate, imageUrl 제외하고 지정된 필드만 포함) ✨
   const downloadExternalJson = () => {
     const dataToDownload = artworks.value.map(item => {
-      // 외부용으로 필요한 필드들을 명시적으로 추출합니다.
-      // buyPrice, sellPrice, stockDate는 제외됩니다. imageUrl도 제외합니다.
       const { 
         code, 
         title, 
@@ -174,9 +190,8 @@ export function useArtworkData() {
         artist,
         technique,
         size,
-        year: year ? Number(year) : null, // Number 변환이 필요할 수 있으므로 다시 처리
-        setName: setName || null, // setName이 없을 수도 있으므로 null 처리
-        // imageUrl 필드는 여기에서 아예 반환하지 않습니다.
+        year: year ? Number(year) : null,
+        setName: setName || null,
       };
     });
 
