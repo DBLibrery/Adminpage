@@ -37,7 +37,6 @@
             <td class="actions-col">
               <template v-if="!exh.isEditing">
                 <button class="edit-button" @click="emitStartEditing(exh)">수정</button>
-                <button class="delete-button" @click="emitDeleteExhibition(exh)">삭제</button>
               </template>
               <template v-else>
                 <button class="save-button" @click="emitSaveExhibition(exh)">저장</button>
@@ -90,7 +89,6 @@ const emits = defineEmits(['start-edit', 'save-exhibition', 'cancel-edit', 'dele
 const emitStartEditing = (exh) => { emits('start-edit', exh); };
 const emitSaveExhibition = (exh) => { emits('save-exhibition', exh); };
 const emitCancelEditing = (exh) => { emits('cancel-edit', exh); };
-const emitDeleteExhibition = (exh) => { emits('delete-exhibition', exh); };
 
 // 모바일 여부를 판단하는 반응형 상태
 const isMobile = ref(false);

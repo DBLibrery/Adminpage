@@ -73,7 +73,6 @@
             <td class="actions-col">
               <template v-if="!artwork.isEditing">
                 <button class="edit-button" @click="emitStartEditing(artwork)">수정</button>
-                <button class="delete-button" @click="emitDeleteArtwork(artwork)">삭제</button>
               </template>
               <template v-else>
                 <button class="save-button" @click="emitSaveArtwork(artwork)">저장</button>
@@ -120,7 +119,6 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'; // onMounted, onUnmounted 추가
-import { defineProps, defineEmits } from 'vue';
 
 const props = defineProps({
   artworks: {
@@ -160,7 +158,6 @@ const generateArtworkImageUrl = (code) => {
 const emitStartEditing = (artwork) => { emits('start-edit', artwork); };
 const emitSaveArtwork = (artwork) => { emits('save-artwork', artwork); };
 const emitCancelEditing = (artwork) => { emits('cancel-edit', artwork); };
-const emitDeleteArtwork = (artwork) => { emits('delete-artwork', artwork); };
 
 // 모바일 여부를 판단하는 반응형 상태
 const isMobile = ref(false);
