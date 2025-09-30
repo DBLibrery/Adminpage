@@ -6,7 +6,7 @@
     "technique": "Oil on Canvas",
     "size": "65.1 X 53cm",
     "year": 2022,
-    "buyPrice": null,
+    "buyPrice": 2500000,
     "sellPrice": null,
     "setName": null
   },
@@ -17,7 +17,7 @@
     "technique": "판화",
     "size": "",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 233000,
     "sellPrice": null,
     "setName": null
   },
@@ -28,7 +28,7 @@
     "technique": "Lithography",
     "size": "42.5 X 64.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 256300,
     "sellPrice": null,
     "setName": null
   },
@@ -39,7 +39,7 @@
     "technique": "2000년 판화다력",
     "size": "64 X 44cm",
     "year": 2000,
-    "buyPrice": null,
+    "buyPrice": 466000,
     "sellPrice": null,
     "setName": null
   },
@@ -50,7 +50,7 @@
     "technique": "Acrylic on Canvas",
     "size": "45.5 X 45.5cm",
     "year": 2007,
-    "buyPrice": null,
+    "buyPrice": 7000000,
     "sellPrice": null,
     "setName": null
   },
@@ -61,8 +61,8 @@
     "technique": "Silkscreen",
     "size": "24 X 17cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -72,8 +72,8 @@
     "technique": "도침장지 위에 석채, 금박24K, 금니 24K, 합금박, 먹",
     "size": "24 X 17cm",
     "year": 2008,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 12000000,
     "setName": null
   },
   {
@@ -83,8 +83,8 @@
     "technique": "수제장지에 합금박 (24K), 석채, 먹",
     "size": "24 X 17cm",
     "year": 2023,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -94,8 +94,8 @@
     "technique": "100% 코튼지, 펜, 잉크",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -105,8 +105,8 @@
     "technique": "100% 코튼지, 펜, 잉크",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -116,8 +116,8 @@
     "technique": "Acrylic and silica sand mounted on linen",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -127,8 +127,8 @@
     "technique": "Acrylic and silica sand mounted on linen",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -138,8 +138,8 @@
     "technique": "수제장지에 혼합재료",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -149,8 +149,8 @@
     "technique": "수제장지에 혼합재료",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -160,8 +160,8 @@
     "technique": "수제장지에 혼합재료",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -171,8 +171,8 @@
     "technique": "캔버스에 혼합재료",
     "size": "50cm",
     "year": 2025,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 3500000,
     "setName": null
   },
   {
@@ -182,8 +182,8 @@
     "technique": "캔버스에 혼합재료",
     "size": "50cm",
     "year": 2025,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 3500000,
     "setName": null
   },
   {
@@ -193,7 +193,7 @@
     "technique": "판화",
     "size": "88.5 X 68cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 359400,
     "sellPrice": null,
     "setName": null
   },
@@ -205,7 +205,7 @@
     "size": "72.7 X 60.6cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 3750000,
     "setName": null
   },
   {
@@ -215,8 +215,8 @@
     "technique": "Oil on Canvas",
     "size": "97 X 130.3cm",
     "year": 1982,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6174500,
+    "sellPrice": 6174500,
     "setName": null
   },
   {
@@ -226,8 +226,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 36.7cm",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -237,8 +237,8 @@
     "technique": "Oil on Canvas",
     "size": "90.9 X 65.1cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7500000,
+    "sellPrice": 15000000,
     "setName": null
   },
   {
@@ -248,8 +248,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 100cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -259,8 +259,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -270,8 +270,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -281,8 +281,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -292,8 +292,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -303,8 +303,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -314,8 +314,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -325,8 +325,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -336,8 +336,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -347,8 +347,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -358,8 +358,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -369,8 +369,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -380,8 +380,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -391,8 +391,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -402,8 +402,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -413,8 +413,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -424,8 +424,8 @@
     "technique": "Oil on Linen",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -435,8 +435,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 73cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -446,8 +446,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -457,8 +457,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -468,8 +468,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -479,8 +479,8 @@
     "technique": "Oil on Canvas",
     "size": "162 X 130cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 50000000,
     "setName": null
   },
   {
@@ -490,8 +490,8 @@
     "technique": "Oil on Canvas",
     "size": "162 X 130cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 50000000,
     "setName": null
   },
   {
@@ -501,8 +501,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -512,8 +512,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -523,8 +523,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -534,8 +534,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -545,8 +545,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 73cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -556,8 +556,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -567,8 +567,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -578,8 +578,8 @@
     "technique": "Oil on Canvas",
     "size": "70 X 174cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 30000000,
+    "sellPrice": 50000000,
     "setName": null
   },
   {
@@ -589,8 +589,8 @@
     "technique": "Oil on Canvas",
     "size": "60 X 60cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -600,8 +600,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 4000000,
     "setName": null
   },
   {
@@ -611,8 +611,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -622,8 +622,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -633,8 +633,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -644,8 +644,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -655,8 +655,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -666,8 +666,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -677,8 +677,8 @@
     "technique": "Oil on Canvas",
     "size": "175 X 70cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 25000000,
+    "sellPrice": 50000000,
     "setName": null
   },
   {
@@ -688,8 +688,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 91cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -699,8 +699,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 91cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -710,8 +710,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 73cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -721,8 +721,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 73cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -732,8 +732,8 @@
     "technique": "Oil on Linen",
     "size": "175 X 70cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 25000000,
+    "sellPrice": 50000000,
     "setName": null
   },
   {
@@ -743,8 +743,8 @@
     "technique": "Oil on Linen",
     "size": "116 X 89cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -754,8 +754,8 @@
     "technique": "Oil on Linen",
     "size": "116 X 83cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -765,8 +765,8 @@
     "technique": "Oil on Linen",
     "size": "100 X 100cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -776,8 +776,8 @@
     "technique": "Oil on Canvas",
     "size": "116.8 X 91cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null
   },
   {
@@ -787,8 +787,8 @@
     "technique": "Oil on Canvas",
     "size": "92 X 73cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4500000,
+    "sellPrice": 15000000,
     "setName": null
   },
   {
@@ -798,8 +798,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -809,8 +809,8 @@
     "technique": "Oil on Canvas",
     "size": "54 X 73cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 10000000,
     "setName": null
   },
   {
@@ -820,8 +820,8 @@
     "technique": "Oil on Linen",
     "size": "55 X 46cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -831,8 +831,8 @@
     "technique": "Oil on Linen",
     "size": "55 X 46cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -842,8 +842,8 @@
     "technique": "Oil on Linen",
     "size": "30 X 70cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null
   },
   {
@@ -853,8 +853,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -864,8 +864,8 @@
     "technique": "Oil on Canvas",
     "size": "30 X 60cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 1500000,
     "setName": null
   },
   {
@@ -886,8 +886,8 @@
     "technique": "Oil on Canvas",
     "size": "34 X 24cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -898,7 +898,7 @@
     "size": "55 X 46cm",
     "year": 2021,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 5000000,
     "setName": null
   },
   {
@@ -908,8 +908,8 @@
     "technique": "Oil on Canvas",
     "size": "46 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -919,8 +919,8 @@
     "technique": "Oil on Canvas",
     "size": "46 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -930,8 +930,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -941,8 +941,8 @@
     "technique": "Oil on Canvas",
     "size": "175 X 700cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000000,
+    "sellPrice": 400000000,
     "setName": null
   },
   {
@@ -952,8 +952,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -963,8 +963,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -974,8 +974,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -985,8 +985,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -996,8 +996,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null
   },
   {
@@ -1007,8 +1007,8 @@
     "technique": "장지 위에 석채",
     "size": "22 X 27cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null
   },
   {
@@ -1029,8 +1029,8 @@
     "technique": "한지 위에 목각인",
     "size": "8 X 10.5cm",
     "year": 2002,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 250000,
+    "sellPrice": 500000,
     "setName": null
   },
   {
@@ -1040,7 +1040,7 @@
     "technique": "종이에 수묵담채",
     "size": "119.5 X 119.5cm",
     "year": 1950,
-    "buyPrice": null,
+    "buyPrice": 3495000,
     "sellPrice": null,
     "setName": null
   },
@@ -1084,7 +1084,7 @@
     "technique": "종이에 수묵담채",
     "size": "42 X 48cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 198000,
     "sellPrice": null,
     "setName": null
   },
@@ -1095,8 +1095,8 @@
     "technique": "Conte Paper",
     "size": "42 X 58cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -1106,8 +1106,8 @@
     "technique": "Conte Paper",
     "size": "42 X 58cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -1117,8 +1117,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -1139,8 +1139,8 @@
     "technique": "Oil on Canvas",
     "size": "38 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -1150,8 +1150,8 @@
     "technique": "Conte Paper",
     "size": "30 X 42cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -1161,8 +1161,8 @@
     "technique": "Conte Paper",
     "size": "30 X 42cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -1172,8 +1172,8 @@
     "technique": "Conte Paper",
     "size": "30 X 42cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -1183,8 +1183,8 @@
     "technique": "Print",
     "size": "10 X 7cm",
     "year": 1995,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null
   },
   {
@@ -1216,7 +1216,7 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 53cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 5825000,
     "sellPrice": null,
     "setName": null
   },
@@ -1227,7 +1227,7 @@
     "technique": "Oil on Canvas",
     "size": "80.3 X 100cm",
     "year": 2022,
-    "buyPrice": null,
+    "buyPrice": 2679500,
     "sellPrice": null,
     "setName": null
   },
@@ -1238,8 +1238,8 @@
     "technique": "믹스 미디어",
     "size": "26 X 26cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null
   },
   {
@@ -1249,7 +1249,7 @@
     "technique": "Lithography",
     "size": "39.5 X 26.6cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 326400,
     "sellPrice": null,
     "setName": null
   },
@@ -1260,7 +1260,7 @@
     "technique": "종이에 유채",
     "size": "67 X 49.3cm",
     "year": 1974,
-    "buyPrice": null,
+    "buyPrice": 800000,
     "sellPrice": null,
     "setName": null
   },
@@ -1271,7 +1271,7 @@
     "technique": "종이에 유채",
     "size": "67 X 49.3cm",
     "year": 1974,
-    "buyPrice": null,
+    "buyPrice": 800000,
     "sellPrice": null,
     "setName": null
   },
