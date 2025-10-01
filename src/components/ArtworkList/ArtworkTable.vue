@@ -137,7 +137,7 @@ const props = defineProps({
   }
 });
 
-const emits = defineEmits(['start-edit', 'save-artwork', 'cancel-edit', 'delete-artwork']);
+const emits = defineEmits(['start-edit', 'save-artwork', 'cancel-edit']);
 
 // ✨ 숫자를 세 자리 쉼표로 포맷하는 헬퍼 함수 추가 ✨
 const formatNumber = (value) => {

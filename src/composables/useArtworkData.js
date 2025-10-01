@@ -141,6 +141,7 @@ export function useArtworkData() {
         sellPrice,
         stockDate,
         setName,
+        owner,
       } = item;
 
       return {
@@ -154,6 +155,7 @@ export function useArtworkData() {
         sellPrice: sellPrice ? Number(sellPrice) : null,
         stockDate,
         setName: setName || null,
+        owner: owner || null,
       };
     });
 
