@@ -9,7 +9,8 @@
     "buyPrice": 1165000,
     "sellPrice": null,
     "stockDate": "2025.09.24",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS735",
@@ -21,7 +22,8 @@
     "buyPrice": 1515500,
     "sellPrice": null,
     "stockDate": "2025.09.24",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS734",
@@ -33,7 +35,8 @@
     "buyPrice": 1514500,
     "sellPrice": null,
     "stockDate": "2025.09.24",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS733",
@@ -45,7 +48,8 @@
     "buyPrice": 932000,
     "sellPrice": null,
     "stockDate": "2025.09.24",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS732",
@@ -57,7 +61,8 @@
     "buyPrice": 582500,
     "sellPrice": null,
     "stockDate": "2025.09.24",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS731",
@@ -69,7 +74,8 @@
     "buyPrice": 599000,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS730",
@@ -81,7 +87,8 @@
     "buyPrice": 6524000,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS729",
@@ -93,7 +100,8 @@
     "buyPrice": 1747500,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS728",
@@ -105,7 +113,8 @@
     "buyPrice": 165000,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS727",
@@ -117,7 +126,8 @@
     "buyPrice": 658900,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS726",
@@ -129,7 +139,8 @@
     "buyPrice": 958400,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS725",
@@ -141,7 +152,8 @@
     "buyPrice": 1200000,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS724",
@@ -153,7 +165,8 @@
     "buyPrice": 2500000,
     "sellPrice": null,
     "stockDate": "",
-    "setName": "최종태 판화집"
+    "setName": "최종태 판화집",
+    "owner": null
   },
   {
     "code": "YS723",
@@ -165,7 +178,8 @@
     "buyPrice": 582000,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS722",
@@ -177,7 +191,8 @@
     "buyPrice": 320375,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS721",
@@ -189,7 +204,8 @@
     "buyPrice": 320375,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS720",
@@ -201,7 +217,8 @@
     "buyPrice": 320375,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS719",
@@ -213,7 +230,8 @@
     "buyPrice": 320375,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS718",
@@ -225,7 +243,8 @@
     "buyPrice": 1398000,
     "sellPrice": null,
     "stockDate": "",
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS717",
@@ -236,7 +255,8 @@
     "year": 2022,
     "buyPrice": 2500000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS716",
@@ -247,7 +267,8 @@
     "year": null,
     "buyPrice": 233000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS715",
@@ -258,7 +279,8 @@
     "year": null,
     "buyPrice": 256300,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS714",
@@ -269,7 +291,8 @@
     "year": 2000,
     "buyPrice": 466000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS713",
@@ -280,7 +303,8 @@
     "year": 2007,
     "buyPrice": 7000000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS712",
@@ -291,7 +315,8 @@
     "year": 2022,
     "buyPrice": 2500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS711",
@@ -302,7 +327,8 @@
     "year": 2008,
     "buyPrice": "선물",
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS710",
@@ -313,7 +339,8 @@
     "year": 2023,
     "buyPrice": 7000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS709",
@@ -324,7 +351,8 @@
     "year": 2024,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS708",
@@ -335,7 +363,8 @@
     "year": 2024,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS707",
@@ -346,7 +375,8 @@
     "year": 2024,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS706",
@@ -357,7 +387,8 @@
     "year": 2024,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS705",
@@ -368,7 +399,8 @@
     "year": 2024,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS704",
@@ -379,7 +411,8 @@
     "year": 2024,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS703",
@@ -390,7 +423,8 @@
     "year": 2024,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS702",
@@ -401,7 +435,8 @@
     "year": 2025,
     "buyPrice": 2000000,
     "sellPrice": 3500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS701",
@@ -412,7 +447,8 @@
     "year": 2025,
     "buyPrice": 2000000,
     "sellPrice": 3500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS700",
@@ -423,7 +459,8 @@
     "year": null,
     "buyPrice": 359400,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS699",
@@ -434,7 +471,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 3750000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS698",
@@ -445,7 +483,8 @@
     "year": 1982,
     "buyPrice": 6174500,
     "sellPrice": 6174500,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS697",
@@ -456,7 +495,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS696",
@@ -467,7 +507,8 @@
     "year": 2015,
     "buyPrice": 7500000,
     "sellPrice": 15000000,
-    "setName": null
+    "setName": null,
+    "owner": "김형진"
   },
   {
     "code": "YS695",
@@ -478,7 +519,8 @@
     "year": 2016,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": "김세제"
   },
   {
     "code": "YS694",
@@ -489,7 +531,8 @@
     "year": 2017,
     "buyPrice": 3000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS693",
@@ -500,7 +543,8 @@
     "year": 2017,
     "buyPrice": 3000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS692",
@@ -511,7 +555,8 @@
     "year": 2017,
     "buyPrice": 3000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS691",
@@ -522,7 +567,8 @@
     "year": 2017,
     "buyPrice": 3000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS690",
@@ -533,7 +579,8 @@
     "year": 2017,
     "buyPrice": 10000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": "임종기"
   },
   {
     "code": "YS689",
@@ -544,7 +591,8 @@
     "year": 2017,
     "buyPrice": 10000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS688",
@@ -555,7 +603,8 @@
     "year": 2017,
     "buyPrice": 10000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS687",
@@ -566,7 +615,8 @@
     "year": 2017,
     "buyPrice": 10000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS686",
@@ -577,7 +627,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS685",
@@ -588,7 +639,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS684",
@@ -599,7 +651,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS683",
@@ -610,7 +663,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS682",
@@ -621,7 +675,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS681",
@@ -632,7 +687,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS680",
@@ -643,7 +699,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS679",
@@ -654,7 +711,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS678",
@@ -665,7 +723,8 @@
     "year": 2015,
     "buyPrice": 7500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": "박하은"
   },
   {
     "code": "YS677",
@@ -676,7 +735,8 @@
     "year": 2019,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": "김지아"
   },
   {
     "code": "YS676",
@@ -687,7 +747,8 @@
     "year": 2014,
     "buyPrice": "선물",
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS675",
@@ -698,7 +759,8 @@
     "year": 2014,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS674",
@@ -709,7 +771,8 @@
     "year": 2017,
     "buyPrice": 15000000,
     "sellPrice": 50000000,
-    "setName": null
+    "setName": null,
+    "owner": "백찬윤"
   },
   {
     "code": "YS673",
@@ -720,7 +783,8 @@
     "year": 2015,
     "buyPrice": 15000000,
     "sellPrice": 50000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS672",
@@ -731,7 +795,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS671",
@@ -742,7 +807,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS670",
@@ -753,7 +819,8 @@
     "year": 2013,
     "buyPrice": 10000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS669",
@@ -764,7 +831,8 @@
     "year": 2013,
     "buyPrice": 10000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS668",
@@ -775,7 +843,8 @@
     "year": 2013,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS667",
@@ -786,7 +855,8 @@
     "year": 2017,
     "buyPrice": 5000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": "박경진"
   },
   {
     "code": "YS666",
@@ -797,7 +867,8 @@
     "year": 2017,
     "buyPrice": 5000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS665",
@@ -808,7 +879,8 @@
     "year": 2013,
     "buyPrice": 30000000,
     "sellPrice": 50000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS664",
@@ -819,7 +891,8 @@
     "year": 2015,
     "buyPrice": 3000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": "우효성"
   },
   {
     "code": "YS663",
@@ -830,7 +903,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": "정국현"
   },
   {
     "code": "YS662",
@@ -841,7 +915,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": "임영임"
   },
   {
     "code": "YS661",
@@ -852,7 +927,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": "김은진"
   },
   {
     "code": "YS660",
@@ -863,7 +939,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS659",
@@ -874,7 +951,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS658",
@@ -885,7 +963,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS657",
@@ -896,7 +975,8 @@
     "year": 2017,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS656",
@@ -907,7 +987,8 @@
     "year": 2014,
     "buyPrice": 25000000,
     "sellPrice": 50000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS655",
@@ -918,7 +999,8 @@
     "year": 2013,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS654",
@@ -929,7 +1011,8 @@
     "year": 2013,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS653",
@@ -940,7 +1023,8 @@
     "year": 2013,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": "장영훈"
   },
   {
     "code": "YS652",
@@ -951,7 +1035,8 @@
     "year": 2013,
     "buyPrice": 10000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS651",
@@ -962,7 +1047,8 @@
     "year": 2013,
     "buyPrice": 25000000,
     "sellPrice": 50000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS650",
@@ -973,7 +1059,8 @@
     "year": 2013,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS649",
@@ -984,7 +1071,8 @@
     "year": 2013,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS648",
@@ -995,7 +1083,8 @@
     "year": 2013,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS647",
@@ -1006,7 +1095,8 @@
     "year": 2014,
     "buyPrice": 12500000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS646",
@@ -1017,7 +1107,8 @@
     "year": 2014,
     "buyPrice": 4500000,
     "sellPrice": 15000000,
-    "setName": null
+    "setName": null,
+    "owner": "한중석"
   },
   {
     "code": "YS645",
@@ -1028,7 +1119,8 @@
     "year": 2016,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS644",
@@ -1039,7 +1131,8 @@
     "year": 2016,
     "buyPrice": 5000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS643",
@@ -1050,7 +1143,8 @@
     "year": 2019,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS642",
@@ -1061,7 +1155,8 @@
     "year": 2019,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS641",
@@ -1072,7 +1167,8 @@
     "year": 2018,
     "buyPrice": 2500000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS640",
@@ -1083,7 +1179,8 @@
     "year": 2018,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS639",
@@ -1094,7 +1191,8 @@
     "year": 2021,
     "buyPrice": 600000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": "김지현"
   },
   {
     "code": "YS638",
@@ -1105,7 +1203,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS637",
@@ -1116,7 +1215,8 @@
     "year": 2021,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "김형규"
   },
   {
     "code": "YS636",
@@ -1127,7 +1227,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS635",
@@ -1138,7 +1239,8 @@
     "year": 2020,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS634",
@@ -1149,7 +1251,8 @@
     "year": 2020,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS633",
@@ -1160,7 +1263,8 @@
     "year": 2015,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS632",
@@ -1171,7 +1275,8 @@
     "year": 2015,
     "buyPrice": 100000000,
     "sellPrice": 400000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS631",
@@ -1182,7 +1287,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": "김학천"
   },
   {
     "code": "YS630",
@@ -1193,7 +1299,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS629",
@@ -1204,7 +1311,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS628",
@@ -1215,7 +1323,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS627",
@@ -1226,7 +1335,8 @@
     "year": 2014,
     "buyPrice": 6000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS626",
@@ -1237,7 +1347,8 @@
     "year": 2018,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS625",
@@ -1248,7 +1359,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS624",
@@ -1259,7 +1371,8 @@
     "year": 2002,
     "buyPrice": 250000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS623",
@@ -1270,7 +1383,8 @@
     "year": 1950,
     "buyPrice": 3495000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS622",
@@ -1281,7 +1395,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS621",
@@ -1292,7 +1407,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS620",
@@ -1303,7 +1419,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS619",
@@ -1314,7 +1431,8 @@
     "year": null,
     "buyPrice": 198000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS618",
@@ -1325,7 +1443,8 @@
     "year": 2021,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": "이기은"
   },
   {
     "code": "YS617",
@@ -1336,7 +1455,8 @@
     "year": 2021,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": "김형진"
   },
   {
     "code": "YS616",
@@ -1347,7 +1467,8 @@
     "year": 2016,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "김수안"
   },
   {
     "code": "YS615",
@@ -1358,7 +1479,8 @@
     "year": 2016,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS614",
@@ -1369,7 +1491,8 @@
     "year": 2020,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "박재순"
   },
   {
     "code": "YS613",
@@ -1380,7 +1503,8 @@
     "year": 2021,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS612",
@@ -1391,7 +1515,8 @@
     "year": 2021,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS611",
@@ -1402,7 +1527,8 @@
     "year": 2021,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS610",
@@ -1413,7 +1539,8 @@
     "year": 1995,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS609",
@@ -1424,7 +1551,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS608",
@@ -1435,7 +1563,8 @@
     "year": 2016,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS607",
@@ -1446,7 +1575,8 @@
     "year": null,
     "buyPrice": 5825000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS606",
@@ -1457,7 +1587,8 @@
     "year": 2022,
     "buyPrice": 2679500,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS605",
@@ -1468,7 +1599,8 @@
     "year": 2017,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS604",
@@ -1479,7 +1611,8 @@
     "year": null,
     "buyPrice": 326400,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS603",
@@ -1490,7 +1623,8 @@
     "year": 1974,
     "buyPrice": 800000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS602",
@@ -1501,7 +1635,8 @@
     "year": 1974,
     "buyPrice": 800000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS601",
@@ -1512,7 +1647,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS600",
@@ -1523,7 +1659,8 @@
     "year": 2015,
     "buyPrice": 3000000,
     "sellPrice": 21000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS599",
@@ -1534,7 +1671,8 @@
     "year": 2015,
     "buyPrice": 5000000,
     "sellPrice": 35000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS598",
@@ -1545,7 +1683,8 @@
     "year": 2015,
     "buyPrice": 600000,
     "sellPrice": 21000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS597",
@@ -1556,7 +1695,8 @@
     "year": 2015,
     "buyPrice": 600000,
     "sellPrice": 21000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS596",
@@ -1567,7 +1707,8 @@
     "year": 2015,
     "buyPrice": 3000000,
     "sellPrice": 9000000,
-    "setName": null
+    "setName": null,
+    "owner": "백찬윤"
   },
   {
     "code": "YS595",
@@ -1578,7 +1719,8 @@
     "year": 2015,
     "buyPrice": 600000,
     "sellPrice": 4200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS594",
@@ -1589,7 +1731,8 @@
     "year": 2015,
     "buyPrice": 600000,
     "sellPrice": 4200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS593",
@@ -1600,7 +1743,8 @@
     "year": 2015,
     "buyPrice": 1200000,
     "sellPrice": 84000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS592",
@@ -1611,7 +1755,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 7000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS591",
@@ -1622,7 +1767,8 @@
     "year": 2015,
     "buyPrice": 800000,
     "sellPrice": 5600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS590",
@@ -1633,7 +1779,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 7000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS589",
@@ -1644,7 +1791,8 @@
     "year": 2015,
     "buyPrice": 3000000,
     "sellPrice": 21000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS588",
@@ -1655,7 +1803,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 42000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS587",
@@ -1666,7 +1815,8 @@
     "year": 2015,
     "buyPrice": 2000000,
     "sellPrice": 14000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS586",
@@ -1677,7 +1827,8 @@
     "year": 2015,
     "buyPrice": 2000000,
     "sellPrice": 14000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS585",
@@ -1688,7 +1839,8 @@
     "year": 2015,
     "buyPrice": 2000000,
     "sellPrice": 14000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS584",
@@ -1699,7 +1851,8 @@
     "year": 2015,
     "buyPrice": 3000000,
     "sellPrice": 21000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS583",
@@ -1710,7 +1863,8 @@
     "year": 2015,
     "buyPrice": 800000,
     "sellPrice": 5600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS582",
@@ -1721,7 +1875,8 @@
     "year": 2015,
     "buyPrice": 2000000,
     "sellPrice": 14000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS581",
@@ -1732,7 +1887,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 7000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS580",
@@ -1743,7 +1899,8 @@
     "year": 2015,
     "buyPrice": 1500000,
     "sellPrice": 7500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS579",
@@ -1754,7 +1911,8 @@
     "year": 2015,
     "buyPrice": 800000,
     "sellPrice": 5600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS578",
@@ -1765,7 +1923,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 7000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS577",
@@ -1776,7 +1935,8 @@
     "year": 2015,
     "buyPrice": 2000000,
     "sellPrice": 14000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS576",
@@ -1787,7 +1947,8 @@
     "year": 2015,
     "buyPrice": 800000,
     "sellPrice": 5600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS575",
@@ -1798,7 +1959,8 @@
     "year": 2013,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS574",
@@ -1809,7 +1971,8 @@
     "year": 1989,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS573",
@@ -1820,7 +1983,8 @@
     "year": 1979,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS572",
@@ -1831,7 +1995,8 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS571",
@@ -1842,7 +2007,8 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS570",
@@ -1853,7 +2019,8 @@
     "year": 1982,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS569",
@@ -1864,7 +2031,8 @@
     "year": 1981,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS568",
@@ -1875,7 +2043,8 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS567",
@@ -1886,7 +2055,8 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS566",
@@ -1897,7 +2067,8 @@
     "year": 1982,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS565",
@@ -1908,7 +2079,8 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS564",
@@ -1919,7 +2091,8 @@
     "year": 1986,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS563",
@@ -1930,7 +2103,8 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS562",
@@ -1941,7 +2115,8 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS561",
@@ -1952,7 +2127,8 @@
     "year": 1977,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS560",
@@ -1963,7 +2139,8 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "천경자 판화집"
+    "setName": "천경자 판화집",
+    "owner": null
   },
   {
     "code": "YS559",
@@ -1974,7 +2151,8 @@
     "year": 2017,
     "buyPrice": 600000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS558",
@@ -1985,7 +2163,8 @@
     "year": 2018,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS557",
@@ -1996,7 +2175,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 7000000,
-    "setName": null
+    "setName": null,
+    "owner": "박래현"
   },
   {
     "code": "YS556",
@@ -2007,7 +2187,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS555",
@@ -2018,7 +2199,8 @@
     "year": 1999,
     "buyPrice": 2000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS554",
@@ -2029,7 +2211,8 @@
     "year": 2011,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS553",
@@ -2040,7 +2223,8 @@
     "year": 2016,
     "buyPrice": 900000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS552",
@@ -2051,7 +2235,8 @@
     "year": 2013,
     "buyPrice": 6000000,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS551",
@@ -2062,7 +2247,8 @@
     "year": 2015,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS550",
@@ -2073,7 +2259,8 @@
     "year": 2013,
     "buyPrice": 6000000,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS549",
@@ -2084,7 +2271,8 @@
     "year": 2013,
     "buyPrice": 4500000,
     "sellPrice": 9000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS548",
@@ -2095,7 +2283,8 @@
     "year": 2013,
     "buyPrice": 6000000,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS547",
@@ -2106,7 +2295,8 @@
     "year": 2013,
     "buyPrice": 3000000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS546",
@@ -2117,7 +2307,8 @@
     "year": 2013,
     "buyPrice": 2250000,
     "sellPrice": 4500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS545",
@@ -2128,7 +2319,8 @@
     "year": 2013,
     "buyPrice": 2250000,
     "sellPrice": 4500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS544",
@@ -2139,7 +2331,8 @@
     "year": 2012,
     "buyPrice": 3000000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS543",
@@ -2150,7 +2343,8 @@
     "year": 2012,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS542",
@@ -2161,7 +2355,8 @@
     "year": 2011,
     "buyPrice": 900000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS541",
@@ -2172,7 +2367,8 @@
     "year": 2011,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS540",
@@ -2183,7 +2379,8 @@
     "year": 2007,
     "buyPrice": 6750000,
     "sellPrice": 13500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS539",
@@ -2194,7 +2391,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS538",
@@ -2205,7 +2403,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS537",
@@ -2216,7 +2415,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS536",
@@ -2227,7 +2427,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS535",
@@ -2238,7 +2439,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS534",
@@ -2249,7 +2451,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS533",
@@ -2260,7 +2463,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS532",
@@ -2271,7 +2475,8 @@
     "year": 2017,
     "buyPrice": "김윤섭 선물",
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS531",
@@ -2282,7 +2487,8 @@
     "year": 2019,
     "buyPrice": 15145000,
     "sellPrice": 25000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS530",
@@ -2293,7 +2499,8 @@
     "year": 2022,
     "buyPrice": 35000000,
     "sellPrice": 45000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS529",
@@ -2304,7 +2511,8 @@
     "year": 1997,
     "buyPrice": null,
     "sellPrice": 54000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS528",
@@ -2315,7 +2523,8 @@
     "year": 2007,
     "buyPrice": 5500000,
     "sellPrice": 15000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS527",
@@ -2326,7 +2535,8 @@
     "year": 2003,
     "buyPrice": 50000000,
     "sellPrice": 70000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS526",
@@ -2337,7 +2547,8 @@
     "year": 2002,
     "buyPrice": 50000000,
     "sellPrice": 80000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS525",
@@ -2348,7 +2559,8 @@
     "year": 2015,
     "buyPrice": 2500000,
     "sellPrice": 3500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS524",
@@ -2359,7 +2571,8 @@
     "year": 1986,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS523",
@@ -2370,7 +2583,8 @@
     "year": 1979,
     "buyPrice": 3776600,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS522",
@@ -2381,7 +2595,8 @@
     "year": 1971,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS521",
@@ -2392,7 +2607,8 @@
     "year": 1989,
     "buyPrice": "배기성 선물",
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS520",
@@ -2403,7 +2619,8 @@
     "year": 1976,
     "buyPrice": 350000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS519",
@@ -2414,7 +2631,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS518",
@@ -2425,7 +2643,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS517",
@@ -2436,7 +2655,8 @@
     "year": null,
     "buyPrice": 108000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS516",
@@ -2447,7 +2667,8 @@
     "year": null,
     "buyPrice": 130500,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS515",
@@ -2458,7 +2679,8 @@
     "year": null,
     "buyPrice": 76000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS514",
@@ -2469,7 +2691,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS513",
@@ -2480,7 +2703,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS512",
@@ -2491,7 +2715,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS511",
@@ -2502,7 +2727,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS510",
@@ -2513,7 +2739,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS509",
@@ -2524,7 +2751,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS508",
@@ -2535,7 +2763,8 @@
     "year": null,
     "buyPrice": 130000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS507",
@@ -2546,7 +2775,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS506",
@@ -2557,7 +2787,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS505",
@@ -2568,7 +2799,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS504",
@@ -2579,7 +2811,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS503",
@@ -2590,7 +2823,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS502",
@@ -2601,7 +2835,8 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS501",
@@ -2612,7 +2847,8 @@
     "year": 1994,
     "buyPrice": 256300,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS500",
@@ -2623,7 +2859,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS499",
@@ -2634,7 +2871,8 @@
     "year": 2019,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS498",
@@ -2645,7 +2883,8 @@
     "year": 2019,
     "buyPrice": null,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS497",
@@ -2656,7 +2895,8 @@
     "year": 2017,
     "buyPrice": 20000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS496",
@@ -2667,7 +2907,8 @@
     "year": 2009,
     "buyPrice": null,
     "sellPrice": 40000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS495",
@@ -2678,7 +2919,8 @@
     "year": 1982,
     "buyPrice": 5000000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS494",
@@ -2689,7 +2931,8 @@
     "year": 2019,
     "buyPrice": 10000000,
     "sellPrice": 15000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS493",
@@ -2700,7 +2943,8 @@
     "year": 2008,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS492",
@@ -2711,7 +2955,8 @@
     "year": 2015,
     "buyPrice": 4000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS491",
@@ -2722,7 +2967,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS490",
@@ -2733,7 +2979,8 @@
     "year": 2004,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS489",
@@ -2744,7 +2991,8 @@
     "year": 1988,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS488",
@@ -2755,7 +3003,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS487",
@@ -2766,7 +3015,8 @@
     "year": 2022,
     "buyPrice": null,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS486",
@@ -2777,7 +3027,8 @@
     "year": 2022,
     "buyPrice": null,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS485",
@@ -2788,7 +3039,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": 2500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS484",
@@ -2799,7 +3051,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": 7000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS483",
@@ -2810,7 +3063,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS482",
@@ -2821,7 +3075,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": 2500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS481",
@@ -2832,7 +3087,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS480",
@@ -2843,7 +3099,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": 2500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS479",
@@ -2854,7 +3111,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS478",
@@ -2865,7 +3123,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS477",
@@ -2876,7 +3135,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS476",
@@ -2887,7 +3147,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS475",
@@ -2898,7 +3159,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS474",
@@ -2909,7 +3171,8 @@
     "year": null,
     "buyPrice": 217600,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS473",
@@ -2920,7 +3183,8 @@
     "year": 1989,
     "buyPrice": 407750,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS472",
@@ -2931,7 +3195,8 @@
     "year": 1991,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS471",
@@ -2942,7 +3207,8 @@
     "year": 2018,
     "buyPrice": 900000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS470",
@@ -2953,7 +3219,8 @@
     "year": 2017,
     "buyPrice": 1200000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS469",
@@ -2964,7 +3231,8 @@
     "year": 2017,
     "buyPrice": 1200000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS468",
@@ -2975,7 +3243,8 @@
     "year": 2014,
     "buyPrice": 1000000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": "최준부"
   },
   {
     "code": "YS467",
@@ -2986,7 +3255,8 @@
     "year": 2015,
     "buyPrice": 25000000,
     "sellPrice": 50000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS466",
@@ -2997,7 +3267,8 @@
     "year": 2015,
     "buyPrice": 500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS465",
@@ -3008,7 +3279,8 @@
     "year": 2015,
     "buyPrice": null,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS464",
@@ -3019,7 +3291,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS463",
@@ -3030,7 +3303,8 @@
     "year": 2019,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS462",
@@ -3041,7 +3315,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS461",
@@ -3052,7 +3327,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS460",
@@ -3063,7 +3339,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS459",
@@ -3074,7 +3351,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS458",
@@ -3085,7 +3363,8 @@
     "year": 2022,
     "buyPrice": 3000000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS457",
@@ -3096,7 +3375,8 @@
     "year": 2008,
     "buyPrice": 7000000,
     "sellPrice": 30000000,
-    "setName": null
+    "setName": null,
+    "owner": "백찬윤"
   },
   {
     "code": "YS456",
@@ -3107,7 +3387,8 @@
     "year": 1998,
     "buyPrice": 6000000,
     "sellPrice": 30000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS455",
@@ -3118,7 +3399,8 @@
     "year": 1998,
     "buyPrice": 3000000,
     "sellPrice": 15000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS454",
@@ -3129,7 +3411,8 @@
     "year": 1998,
     "buyPrice": 2000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS453",
@@ -3140,7 +3423,8 @@
     "year": 2000,
     "buyPrice": 4000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS452",
@@ -3151,7 +3435,8 @@
     "year": 2018,
     "buyPrice": 2800000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS451",
@@ -3162,7 +3447,8 @@
     "year": 2018,
     "buyPrice": 2800000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS450",
@@ -3173,7 +3459,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS449",
@@ -3184,7 +3471,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS448",
@@ -3195,7 +3483,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS447",
@@ -3206,7 +3495,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS446",
@@ -3217,7 +3507,8 @@
     "year": null,
     "buyPrice": 400000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS445",
@@ -3228,7 +3519,8 @@
     "year": null,
     "buyPrice": 466000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS444",
@@ -3239,7 +3531,8 @@
     "year": null,
     "buyPrice": 350000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS443",
@@ -3250,7 +3543,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS442",
@@ -3261,7 +3555,8 @@
     "year": 2018,
     "buyPrice": 400000,
     "sellPrice": 800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS441",
@@ -3272,7 +3567,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS440",
@@ -3283,7 +3579,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS439",
@@ -3294,7 +3591,8 @@
     "year": 2009,
     "buyPrice": 2000000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS438",
@@ -3305,7 +3603,8 @@
     "year": 2010,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS437",
@@ -3316,7 +3615,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS436",
@@ -3327,7 +3627,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS435",
@@ -3338,7 +3639,8 @@
     "year": 2024,
     "buyPrice": 150000,
     "sellPrice": 300000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS434",
@@ -3349,7 +3651,8 @@
     "year": 2024,
     "buyPrice": 150000,
     "sellPrice": 300000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS433",
@@ -3360,7 +3663,8 @@
     "year": 2024,
     "buyPrice": 150000,
     "sellPrice": 300000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS432",
@@ -3371,7 +3675,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS431",
@@ -3382,7 +3687,8 @@
     "year": 1985,
     "buyPrice": null,
     "sellPrice": 9000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS430",
@@ -3393,7 +3699,8 @@
     "year": 1984,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS429",
@@ -3404,7 +3711,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS428",
@@ -3415,7 +3723,8 @@
     "year": 2009,
     "buyPrice": null,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS427",
@@ -3426,7 +3735,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS426",
@@ -3437,7 +3747,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS425",
@@ -3448,7 +3759,8 @@
     "year": 2017,
     "buyPrice": 1100000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS424",
@@ -3459,7 +3771,8 @@
     "year": 1992,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS423",
@@ -3470,7 +3783,8 @@
     "year": 2019,
     "buyPrice": 3000000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS422",
@@ -3481,7 +3795,8 @@
     "year": 2019,
     "buyPrice": 5000000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": "박영길"
   },
   {
     "code": "YS421",
@@ -3492,7 +3807,8 @@
     "year": 2009,
     "buyPrice": 3000000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": "백찬윤"
   },
   {
     "code": "YS420",
@@ -3503,7 +3819,8 @@
     "year": 2014,
     "buyPrice": 1650000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS419",
@@ -3514,7 +3831,8 @@
     "year": 2018,
     "buyPrice": 250000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS418",
@@ -3525,7 +3843,8 @@
     "year": 2018,
     "buyPrice": "배기성 선물",
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS417",
@@ -3536,7 +3855,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS416",
@@ -3547,7 +3867,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS415",
@@ -3558,7 +3879,8 @@
     "year": 1975,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS414",
@@ -3569,7 +3891,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS413",
@@ -3580,7 +3903,8 @@
     "year": 1976,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS412",
@@ -3591,7 +3915,8 @@
     "year": null,
     "buyPrice": 139800,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS411",
@@ -3602,7 +3927,8 @@
     "year": 2019,
     "buyPrice": 200000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS410",
@@ -3613,7 +3939,8 @@
     "year": 2019,
     "buyPrice": 200000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS409",
@@ -3624,7 +3951,8 @@
     "year": 2018,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS408",
@@ -3635,7 +3963,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS407",
@@ -3646,7 +3975,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS406",
@@ -3657,7 +3987,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS405",
@@ -3668,7 +3999,8 @@
     "year": 2018,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS404",
@@ -3679,7 +4011,8 @@
     "year": 2018,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS403",
@@ -3690,7 +4023,8 @@
     "year": 2016,
     "buyPrice": "손동준 선물",
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS402",
@@ -3701,7 +4035,8 @@
     "year": 2019,
     "buyPrice": 200000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS401",
@@ -3712,7 +4047,8 @@
     "year": 2019,
     "buyPrice": "장영훈 선물",
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS400",
@@ -3723,7 +4059,8 @@
     "year": 2020,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": "김정훈"
   },
   {
     "code": "YS399",
@@ -3734,7 +4071,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS398",
@@ -3745,7 +4083,8 @@
     "year": 2019,
     "buyPrice": 200000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS397",
@@ -3756,7 +4095,8 @@
     "year": 2019,
     "buyPrice": 200000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS396",
@@ -3767,7 +4107,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS395",
@@ -3778,7 +4119,8 @@
     "year": 2022,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS394",
@@ -3789,7 +4131,8 @@
     "year": 1978,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS393",
@@ -3800,7 +4143,8 @@
     "year": 2006,
     "buyPrice": 2500000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS392",
@@ -3811,7 +4155,8 @@
     "year": 2006,
     "buyPrice": 2500000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS391",
@@ -3822,7 +4167,8 @@
     "year": 2006,
     "buyPrice": 2500000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS390",
@@ -3833,7 +4179,8 @@
     "year": 2017,
     "buyPrice": 4000000,
     "sellPrice": 8000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS389",
@@ -3844,7 +4191,8 @@
     "year": 2007,
     "buyPrice": 1500000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS388",
@@ -3855,7 +4203,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS387",
@@ -3866,7 +4215,8 @@
     "year": 2014,
     "buyPrice": 4000000,
     "sellPrice": 8000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS386",
@@ -3877,7 +4227,8 @@
     "year": 2012,
     "buyPrice": 4000000,
     "sellPrice": 8000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS385",
@@ -3888,7 +4239,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS384",
@@ -3899,7 +4251,8 @@
     "year": 2012,
     "buyPrice": 1500000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS383",
@@ -3910,7 +4263,8 @@
     "year": 2012,
     "buyPrice": 1500000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": "김형규"
   },
   {
     "code": "YS382",
@@ -3921,7 +4275,8 @@
     "year": 2009,
     "buyPrice": 100000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": "김정훈"
   },
   {
     "code": "YS381",
@@ -3932,7 +4287,8 @@
     "year": 2007,
     "buyPrice": 4000000,
     "sellPrice": 12800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS380",
@@ -3943,7 +4299,8 @@
     "year": 2004,
     "buyPrice": 1800000,
     "sellPrice": 4800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS379",
@@ -3954,7 +4311,8 @@
     "year": 2016,
     "buyPrice": 2000000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": "변희주"
   },
   {
     "code": "YS378",
@@ -3965,7 +4323,8 @@
     "year": 2016,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": "지준만"
   },
   {
     "code": "YS377",
@@ -3976,7 +4335,8 @@
     "year": 2016,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "장정미"
   },
   {
     "code": "YS376",
@@ -3987,7 +4347,8 @@
     "year": 1999,
     "buyPrice": 2000000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS375",
@@ -3998,7 +4359,8 @@
     "year": 1999,
     "buyPrice": 2000000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": "김형규"
   },
   {
     "code": "YS374",
@@ -4009,7 +4371,8 @@
     "year": 2002,
     "buyPrice": 1500000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS373",
@@ -4020,7 +4383,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS372",
@@ -4031,7 +4395,8 @@
     "year": 2018,
     "buyPrice": 15000000,
     "sellPrice": 40000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS371",
@@ -4042,7 +4407,8 @@
     "year": 2022,
     "buyPrice": 2000000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS370",
@@ -4053,7 +4419,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS369",
@@ -4064,7 +4431,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS368",
@@ -4075,7 +4443,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS367",
@@ -4086,7 +4455,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS366",
@@ -4097,7 +4467,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS365",
@@ -4108,7 +4479,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS364",
@@ -4119,7 +4491,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS363",
@@ -4130,7 +4503,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS362",
@@ -4141,7 +4515,8 @@
     "year": 2021,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS361",
@@ -4152,7 +4527,8 @@
     "year": 2021,
     "buyPrice": "선물",
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS360",
@@ -4163,7 +4539,8 @@
     "year": 2021,
     "buyPrice": "선물",
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS359",
@@ -4174,7 +4551,8 @@
     "year": 2021,
     "buyPrice": 1500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS358",
@@ -4185,7 +4563,8 @@
     "year": 2021,
     "buyPrice": 1500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS357",
@@ -4196,7 +4575,8 @@
     "year": 2021,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS356",
@@ -4207,7 +4587,8 @@
     "year": 2019,
     "buyPrice": 800000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS355",
@@ -4218,7 +4599,8 @@
     "year": 2019,
     "buyPrice": 800000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS354",
@@ -4229,7 +4611,8 @@
     "year": null,
     "buyPrice": 2100000,
     "sellPrice": 4200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS353",
@@ -4240,7 +4623,8 @@
     "year": 2020,
     "buyPrice": 1800000,
     "sellPrice": 3600000,
-    "setName": null
+    "setName": null,
+    "owner": "김태리"
   },
   {
     "code": "YS352",
@@ -4251,7 +4635,8 @@
     "year": 2020,
     "buyPrice": 2250000,
     "sellPrice": 4500000,
-    "setName": null
+    "setName": null,
+    "owner": "양진호"
   },
   {
     "code": "YS351",
@@ -4262,7 +4647,8 @@
     "year": 2020,
     "buyPrice": 3000000,
     "sellPrice": 4500000,
-    "setName": null
+    "setName": null,
+    "owner": "송영환"
   },
   {
     "code": "YS350",
@@ -4273,7 +4659,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS349",
@@ -4284,7 +4671,8 @@
     "year": 2019,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "김미란"
   },
   {
     "code": "YS348",
@@ -4295,7 +4683,8 @@
     "year": 2019,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS347",
@@ -4306,7 +4695,8 @@
     "year": 2019,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS346",
@@ -4317,7 +4707,8 @@
     "year": 2019,
     "buyPrice": 1200000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": "김지우"
   },
   {
     "code": "YS345",
@@ -4328,7 +4719,8 @@
     "year": 2019,
     "buyPrice": 1500000,
     "sellPrice": 2500000,
-    "setName": null
+    "setName": null,
+    "owner": "지준만"
   },
   {
     "code": "YS344",
@@ -4339,7 +4731,8 @@
     "year": 2019,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "김은진"
   },
   {
     "code": "YS343",
@@ -4350,7 +4743,8 @@
     "year": 2019,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "김은진"
   },
   {
     "code": "YS342",
@@ -4361,7 +4755,8 @@
     "year": 2019,
     "buyPrice": 4500000,
     "sellPrice": 15000000,
-    "setName": null
+    "setName": null,
+    "owner": "최원철"
   },
   {
     "code": "YS341",
@@ -4372,7 +4767,8 @@
     "year": 2019,
     "buyPrice": 2250000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": "임종기"
   },
   {
     "code": "YS340",
@@ -4383,7 +4779,8 @@
     "year": 2019,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS339",
@@ -4394,7 +4791,8 @@
     "year": 2019,
     "buyPrice": 2500000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS338",
@@ -4405,7 +4803,8 @@
     "year": 2019,
     "buyPrice": 3000000,
     "sellPrice": 9000000,
-    "setName": null
+    "setName": null,
+    "owner": "박수경"
   },
   {
     "code": "YS337",
@@ -4416,7 +4815,8 @@
     "year": 2019,
     "buyPrice": 1800000,
     "sellPrice": 4800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS336",
@@ -4427,7 +4827,8 @@
     "year": 2019,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS335",
@@ -4438,7 +4839,8 @@
     "year": 2019,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS334",
@@ -4449,7 +4851,8 @@
     "year": 2012,
     "buyPrice": 7000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": "김은진"
   },
   {
     "code": "YS333",
@@ -4460,7 +4863,8 @@
     "year": null,
     "buyPrice": 2500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS332",
@@ -4471,7 +4875,8 @@
     "year": 2020,
     "buyPrice": 5000000,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS331",
@@ -4482,7 +4887,8 @@
     "year": 2020,
     "buyPrice": 3000000,
     "sellPrice": 8000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS330",
@@ -4493,7 +4899,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS329",
@@ -4504,7 +4911,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS328",
@@ -4515,7 +4923,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS327",
@@ -4526,7 +4935,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS326",
@@ -4537,7 +4947,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS325",
@@ -4548,7 +4959,8 @@
     "year": 2011,
     "buyPrice": 1000000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS324",
@@ -4559,7 +4971,8 @@
     "year": 2018,
     "buyPrice": 1500000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS323",
@@ -4570,7 +4983,8 @@
     "year": 2018,
     "buyPrice": 1500000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS322",
@@ -4581,7 +4995,8 @@
     "year": 2019,
     "buyPrice": 500000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS321",
@@ -4592,7 +5007,8 @@
     "year": 2019,
     "buyPrice": 500000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS320",
@@ -4603,7 +5019,8 @@
     "year": 2019,
     "buyPrice": 500000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS319",
@@ -4614,7 +5031,8 @@
     "year": 2019,
     "buyPrice": 500000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS318",
@@ -4625,7 +5043,8 @@
     "year": 2019,
     "buyPrice": 500000,
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS317",
@@ -4636,7 +5055,8 @@
     "year": 2019,
     "buyPrice": 800000,
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": "장정미"
   },
   {
     "code": "YS316",
@@ -4647,7 +5067,8 @@
     "year": 2019,
     "buyPrice": "전혜연 선물",
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": "장영훈"
   },
   {
     "code": "YS315",
@@ -4658,7 +5079,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS314",
@@ -4669,7 +5091,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS313",
@@ -4680,7 +5103,8 @@
     "year": 2018,
     "buyPrice": 2800000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS312",
@@ -4691,7 +5115,8 @@
     "year": 2018,
     "buyPrice": 8000000,
     "sellPrice": 16000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS311",
@@ -4702,7 +5127,8 @@
     "year": 2018,
     "buyPrice": 600000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS310",
@@ -4713,7 +5139,8 @@
     "year": 2019,
     "buyPrice": 1200000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS309",
@@ -4724,7 +5151,8 @@
     "year": 2015,
     "buyPrice": 450000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS308",
@@ -4735,7 +5163,8 @@
     "year": 2019,
     "buyPrice": 600000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS307",
@@ -4746,7 +5175,8 @@
     "year": 2015,
     "buyPrice": 3000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": "김형규"
   },
   {
     "code": "YS306",
@@ -4757,7 +5187,8 @@
     "year": 2019,
     "buyPrice": 3000000,
     "sellPrice": 8000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS305",
@@ -4768,7 +5199,8 @@
     "year": 2014,
     "buyPrice": 1200000,
     "sellPrice": 3200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS304",
@@ -4779,7 +5211,8 @@
     "year": 2015,
     "buyPrice": 1200000,
     "sellPrice": 3200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS303",
@@ -4790,7 +5223,8 @@
     "year": 2020,
     "buyPrice": 600000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS302",
@@ -4801,7 +5235,8 @@
     "year": 2020,
     "buyPrice": 6000000,
     "sellPrice": 16000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS301",
@@ -4812,7 +5247,8 @@
     "year": 2014,
     "buyPrice": null,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS300",
@@ -4823,7 +5259,8 @@
     "year": 2015,
     "buyPrice": 7500000,
     "sellPrice": 40000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS299",
@@ -4834,7 +5271,8 @@
     "year": 2015,
     "buyPrice": 900000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "고은정"
   },
   {
     "code": "YS298",
@@ -4845,7 +5283,8 @@
     "year": 2019,
     "buyPrice": 9000000,
     "sellPrice": 24000000,
-    "setName": null
+    "setName": null,
+    "owner": "박영길"
   },
   {
     "code": "YS297",
@@ -4856,7 +5295,8 @@
     "year": 2010,
     "buyPrice": 1500000,
     "sellPrice": 4800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS296",
@@ -4867,7 +5307,8 @@
     "year": 2014,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": "최정범"
   },
   {
     "code": "YS295",
@@ -4878,7 +5319,8 @@
     "year": 2014,
     "buyPrice": 1000000,
     "sellPrice": 3200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS294",
@@ -4889,7 +5331,8 @@
     "year": 2014,
     "buyPrice": 600000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS293",
@@ -4900,7 +5343,8 @@
     "year": 2019,
     "buyPrice": 600000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS292",
@@ -4911,7 +5355,8 @@
     "year": 2017,
     "buyPrice": 6000000,
     "sellPrice": 16000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS291",
@@ -4922,7 +5367,8 @@
     "year": 2015,
     "buyPrice": 4500000,
     "sellPrice": 24000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS290",
@@ -4933,7 +5379,8 @@
     "year": 2019,
     "buyPrice": 3000000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS289",
@@ -4944,7 +5391,8 @@
     "year": 2015,
     "buyPrice": 1500000,
     "sellPrice": 8000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS288",
@@ -4955,7 +5403,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS287",
@@ -4966,7 +5415,8 @@
     "year": 2014,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS286",
@@ -4977,7 +5427,8 @@
     "year": 2014,
     "buyPrice": 100000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS285",
@@ -4988,7 +5439,8 @@
     "year": 2014,
     "buyPrice": 450000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS284",
@@ -4999,7 +5451,8 @@
     "year": 2019,
     "buyPrice": 600000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS283",
@@ -5010,7 +5463,8 @@
     "year": 2019,
     "buyPrice": 600000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS282",
@@ -5021,7 +5475,8 @@
     "year": 2015,
     "buyPrice": 1500000,
     "sellPrice": 8000000,
-    "setName": null
+    "setName": null,
+    "owner": "김진표"
   },
   {
     "code": "YS281",
@@ -5032,7 +5487,8 @@
     "year": 2014,
     "buyPrice": 1500000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS280",
@@ -5043,7 +5499,8 @@
     "year": 2014,
     "buyPrice": 1500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS279",
@@ -5054,7 +5511,8 @@
     "year": 2014,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS278",
@@ -5065,7 +5523,8 @@
     "year": 2022,
     "buyPrice": 10000000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS277",
@@ -5076,7 +5535,8 @@
     "year": 2022,
     "buyPrice": 3500000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS276",
@@ -5087,7 +5547,8 @@
     "year": 2014,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS275",
@@ -5098,7 +5559,8 @@
     "year": 2014,
     "buyPrice": 1200000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS274",
@@ -5109,7 +5571,8 @@
     "year": 2014,
     "buyPrice": 1200000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS273",
@@ -5120,7 +5583,8 @@
     "year": 2011,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS272",
@@ -5131,7 +5595,8 @@
     "year": 2022,
     "buyPrice": 900000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS271",
@@ -5142,7 +5607,8 @@
     "year": 2022,
     "buyPrice": 900000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS270",
@@ -5153,7 +5619,8 @@
     "year": 2022,
     "buyPrice": 900000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS269",
@@ -5164,7 +5631,8 @@
     "year": 2022,
     "buyPrice": 900000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS268",
@@ -5175,7 +5643,8 @@
     "year": 2022,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS267",
@@ -5186,7 +5655,8 @@
     "year": 2020,
     "buyPrice": 2250000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": "강현경"
   },
   {
     "code": "YS266",
@@ -5197,7 +5667,8 @@
     "year": 2011,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS265",
@@ -5208,7 +5679,8 @@
     "year": 2014,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS264",
@@ -5219,7 +5691,8 @@
     "year": 2014,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS263",
@@ -5230,7 +5703,8 @@
     "year": 2000,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS262",
@@ -5241,7 +5715,8 @@
     "year": 2013,
     "buyPrice": 1500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS261",
@@ -5252,7 +5727,8 @@
     "year": 2000,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS260",
@@ -5263,7 +5739,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS259",
@@ -5274,7 +5751,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS258",
@@ -5285,7 +5763,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS257",
@@ -5296,7 +5775,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS256",
@@ -5307,7 +5787,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS255",
@@ -5318,7 +5799,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS254",
@@ -5329,7 +5811,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS253",
@@ -5340,7 +5823,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS252",
@@ -5351,7 +5835,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS251",
@@ -5362,7 +5847,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS250",
@@ -5373,7 +5859,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS249",
@@ -5384,7 +5871,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS248",
@@ -5395,7 +5883,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS247",
@@ -5406,7 +5895,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS246",
@@ -5417,7 +5907,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS245",
@@ -5428,7 +5919,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS244",
@@ -5439,7 +5931,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS243",
@@ -5450,7 +5943,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS242",
@@ -5461,7 +5955,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS241",
@@ -5472,7 +5967,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS240",
@@ -5483,7 +5979,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS239",
@@ -5494,7 +5991,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": "박수근 목판화 전작집"
+    "setName": "박수근 목판화 전작집",
+    "owner": null
   },
   {
     "code": "YS238",
@@ -5505,7 +6003,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS237",
@@ -5516,7 +6015,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS236",
@@ -5527,7 +6027,8 @@
     "year": 2000,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS235",
@@ -5538,7 +6039,8 @@
     "year": null,
     "buyPrice": 640750,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS234",
@@ -5549,7 +6051,8 @@
     "year": null,
     "buyPrice": 582500,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS233",
@@ -5560,7 +6063,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS232",
@@ -5571,7 +6075,8 @@
     "year": null,
     "buyPrice": 3000000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS231",
@@ -5582,7 +6087,8 @@
     "year": null,
     "buyPrice": 2330000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS230",
@@ -5593,7 +6099,8 @@
     "year": null,
     "buyPrice": 11165000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS229",
@@ -5604,7 +6111,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS228",
@@ -5615,7 +6123,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS227",
@@ -5626,7 +6135,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS226",
@@ -5637,7 +6147,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": 500000,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS225",
@@ -5648,7 +6159,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS224",
@@ -5659,7 +6171,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": 500000,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS223",
@@ -5670,7 +6183,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS222",
@@ -5681,7 +6195,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS221",
@@ -5692,7 +6207,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": 500000,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS220",
@@ -5703,7 +6219,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": 500000,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS219",
@@ -5714,7 +6231,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS218",
@@ -5725,7 +6243,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS217",
@@ -5736,7 +6255,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS216",
@@ -5747,7 +6267,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": null,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS215",
@@ -5758,7 +6279,8 @@
     "year": 1994,
     "buyPrice": 2796000,
     "sellPrice": 600000,
-    "setName": "박고석 판화세트"
+    "setName": "박고석 판화세트",
+    "owner": null
   },
   {
     "code": "YS214",
@@ -5769,7 +6291,8 @@
     "year": 2015,
     "buyPrice": 256000,
     "sellPrice": 600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS213",
@@ -5780,7 +6303,8 @@
     "year": 2015,
     "buyPrice": 512000,
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS212",
@@ -5791,7 +6315,8 @@
     "year": 2015,
     "buyPrice": 512000,
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS211",
@@ -5802,7 +6327,8 @@
     "year": 2015,
     "buyPrice": 3840000,
     "sellPrice": 9000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS210",
@@ -5813,7 +6339,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS209",
@@ -5824,7 +6351,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS208",
@@ -5835,7 +6363,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS207",
@@ -5846,7 +6375,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS206",
@@ -5857,7 +6387,8 @@
     "year": 2015,
     "buyPrice": 768000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS205",
@@ -5868,7 +6399,8 @@
     "year": 2015,
     "buyPrice": 7000000,
     "sellPrice": 9000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS204",
@@ -5879,7 +6411,8 @@
     "year": 2015,
     "buyPrice": 2560000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS203",
@@ -5890,7 +6423,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS202",
@@ -5901,7 +6435,8 @@
     "year": 2015,
     "buyPrice": 512000,
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": "최만식"
   },
   {
     "code": "YS201",
@@ -5912,7 +6447,8 @@
     "year": 2015,
     "buyPrice": 51200,
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": "박아영"
   },
   {
     "code": "YS200",
@@ -5923,7 +6459,8 @@
     "year": 2015,
     "buyPrice": 256000,
     "sellPrice": 600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS199",
@@ -5934,7 +6471,8 @@
     "year": 2015,
     "buyPrice": 256000,
     "sellPrice": 600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS198",
@@ -5945,7 +6483,8 @@
     "year": 2015,
     "buyPrice": 256000,
     "sellPrice": 600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS197",
@@ -5956,7 +6495,8 @@
     "year": 2015,
     "buyPrice": 256000,
     "sellPrice": 600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS196",
@@ -5967,7 +6507,8 @@
     "year": 2015,
     "buyPrice": 256000,
     "sellPrice": 600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS195",
@@ -5978,7 +6519,8 @@
     "year": 2015,
     "buyPrice": 256000,
     "sellPrice": 600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS194",
@@ -5989,7 +6531,8 @@
     "year": 2015,
     "buyPrice": 768000,
     "sellPrice": 1800000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS193",
@@ -6000,7 +6543,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS192",
@@ -6011,7 +6555,8 @@
     "year": 2015,
     "buyPrice": 10000000,
     "sellPrice": 30000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS191",
@@ -6022,7 +6567,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 18000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS190",
@@ -6033,7 +6579,8 @@
     "year": 2015,
     "buyPrice": 7680000,
     "sellPrice": 18000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS189",
@@ -6044,7 +6591,8 @@
     "year": 2015,
     "buyPrice": 512000,
     "sellPrice": 1200000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS188",
@@ -6055,7 +6603,8 @@
     "year": 2015,
     "buyPrice": 1280000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS187",
@@ -6066,7 +6615,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS186",
@@ -6077,7 +6627,8 @@
     "year": 2015,
     "buyPrice": 1280000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS185",
@@ -6088,7 +6639,8 @@
     "year": 2015,
     "buyPrice": 2560000,
     "sellPrice": 6000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS184",
@@ -6099,7 +6651,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 18000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS183",
@@ -6110,7 +6663,8 @@
     "year": 2015,
     "buyPrice": 5120000,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS182",
@@ -6121,7 +6675,8 @@
     "year": 2015,
     "buyPrice": 1024000,
     "sellPrice": 2400000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS181",
@@ -6132,7 +6687,8 @@
     "year": 1983,
     "buyPrice": 932000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS180",
@@ -6143,7 +6699,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS179",
@@ -6154,7 +6711,8 @@
     "year": 2015,
     "buyPrice": 1000000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS178",
@@ -6165,7 +6723,8 @@
     "year": null,
     "buyPrice": 163200,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS177",
@@ -6176,7 +6735,8 @@
     "year": 1986,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS176",
@@ -6187,7 +6747,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS175",
@@ -6198,7 +6759,8 @@
     "year": 2017,
     "buyPrice": 2000000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS174",
@@ -6209,7 +6771,8 @@
     "year": 2002,
     "buyPrice": 2800000,
     "sellPrice": 5600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS173",
@@ -6220,7 +6783,8 @@
     "year": 2016,
     "buyPrice": 7000000,
     "sellPrice": 14000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS172",
@@ -6231,7 +6795,8 @@
     "year": 2019,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS171",
@@ -6242,7 +6807,8 @@
     "year": 2024,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS170",
@@ -6253,7 +6819,8 @@
     "year": 2024,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS169",
@@ -6264,7 +6831,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS168",
@@ -6275,7 +6843,8 @@
     "year": 1990,
     "buyPrice": 757250,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS167",
@@ -6286,7 +6855,8 @@
     "year": null,
     "buyPrice": 990250,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS166",
@@ -6297,7 +6867,8 @@
     "year": 1985,
     "buyPrice": 815500,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS165",
@@ -6308,7 +6879,8 @@
     "year": 1983,
     "buyPrice": 3495000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS164",
@@ -6319,7 +6891,8 @@
     "year": null,
     "buyPrice": 7572500,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS163",
@@ -6330,7 +6903,8 @@
     "year": 2016,
     "buyPrice": 2500000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS162",
@@ -6341,7 +6915,8 @@
     "year": 1956,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS161",
@@ -6352,7 +6927,8 @@
     "year": 1957,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS160",
@@ -6363,7 +6939,8 @@
     "year": 1959,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS159",
@@ -6374,7 +6951,8 @@
     "year": 2020,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS158",
@@ -6385,7 +6963,8 @@
     "year": 2013,
     "buyPrice": 1000000,
     "sellPrice": 1600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS157",
@@ -6396,7 +6975,8 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": 35000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS156",
@@ -6407,7 +6987,8 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": 35000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS155",
@@ -6418,7 +6999,8 @@
     "year": 2011,
     "buyPrice": null,
     "sellPrice": 30000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS154",
@@ -6429,7 +7011,8 @@
     "year": 2018,
     "buyPrice": 500000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS153",
@@ -6440,7 +7023,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS152",
@@ -6451,7 +7035,8 @@
     "year": 2010,
     "buyPrice": 3800000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS151",
@@ -6462,7 +7047,8 @@
     "year": 1992,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS150",
@@ -6473,7 +7059,8 @@
     "year": 2016,
     "buyPrice": null,
     "sellPrice": 35000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS149",
@@ -6484,7 +7071,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS148",
@@ -6495,7 +7083,8 @@
     "year": 2015,
     "buyPrice": 15000000,
     "sellPrice": 30000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS147",
@@ -6506,7 +7095,8 @@
     "year": 2015,
     "buyPrice": 6000000,
     "sellPrice": 12000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS146",
@@ -6517,7 +7107,8 @@
     "year": 2022,
     "buyPrice": null,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS145",
@@ -6528,7 +7119,8 @@
     "year": 2018,
     "buyPrice": 2000000,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS144",
@@ -6539,7 +7131,8 @@
     "year": 2018,
     "buyPrice": 1500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS143",
@@ -6550,7 +7143,8 @@
     "year": 2018,
     "buyPrice": 1500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS142",
@@ -6561,7 +7155,8 @@
     "year": 2003,
     "buyPrice": 932000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS141",
@@ -6572,7 +7167,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS140",
@@ -6583,7 +7179,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS139",
@@ -6594,7 +7191,8 @@
     "year": 2023,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS138",
@@ -6605,7 +7203,8 @@
     "year": 2023,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS137",
@@ -6616,7 +7215,8 @@
     "year": 2023,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS136",
@@ -6627,7 +7227,8 @@
     "year": null,
     "buyPrice": 108800,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS135",
@@ -6638,7 +7239,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS134",
@@ -6649,7 +7251,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS133",
@@ -6660,7 +7263,8 @@
     "year": 2015,
     "buyPrice": 1650000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS132",
@@ -6671,7 +7275,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS131",
@@ -6682,7 +7287,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS130",
@@ -6693,7 +7299,8 @@
     "year": 2019,
     "buyPrice": 750000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS129",
@@ -6704,7 +7311,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS128",
@@ -6715,7 +7323,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS127",
@@ -6726,7 +7335,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS126",
@@ -6737,7 +7347,8 @@
     "year": 1955,
     "buyPrice": 250000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS125",
@@ -6748,7 +7359,8 @@
     "year": 1985,
     "buyPrice": null,
     "sellPrice": 300000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS124",
@@ -6759,7 +7371,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS123",
@@ -6770,7 +7383,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 700000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS122",
@@ -6781,7 +7395,8 @@
     "year": 2020,
     "buyPrice": "서수영 선물",
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS121",
@@ -6792,7 +7407,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS120",
@@ -6803,7 +7419,8 @@
     "year": 2023,
     "buyPrice": null,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS119",
@@ -6814,7 +7431,8 @@
     "year": 2024,
     "buyPrice": null,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS118",
@@ -6825,7 +7443,8 @@
     "year": 2018,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS117",
@@ -6836,7 +7455,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS116",
@@ -6847,7 +7467,8 @@
     "year": null,
     "buyPrice": 184000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS115",
@@ -6858,7 +7479,8 @@
     "year": null,
     "buyPrice": 100000,
     "sellPrice": 300000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS114",
@@ -6869,7 +7491,8 @@
     "year": 2000,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS113",
@@ -6880,7 +7503,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 700000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS112",
@@ -6891,7 +7515,8 @@
     "year": null,
     "buyPrice": 300000,
     "sellPrice": 700000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS111",
@@ -6902,7 +7527,8 @@
     "year": null,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS110",
@@ -6913,7 +7539,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS109",
@@ -6924,7 +7551,8 @@
     "year": null,
     "buyPrice": 15000000,
     "sellPrice": 45000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS108",
@@ -6935,7 +7563,8 @@
     "year": null,
     "buyPrice": 100000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS107",
@@ -6946,7 +7575,8 @@
     "year": null,
     "buyPrice": 7000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS106",
@@ -6957,7 +7587,8 @@
     "year": null,
     "buyPrice": 7000000,
     "sellPrice": 20000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS105",
@@ -6968,7 +7599,8 @@
     "year": null,
     "buyPrice": 633000,
     "sellPrice": 1900000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS104",
@@ -6979,7 +7611,8 @@
     "year": null,
     "buyPrice": 15000000,
     "sellPrice": 45000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS103",
@@ -6990,7 +7623,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS102",
@@ -7001,7 +7635,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS101",
@@ -7012,7 +7647,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS100",
@@ -7023,7 +7659,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS99",
@@ -7034,7 +7671,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS98",
@@ -7045,7 +7683,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS97",
@@ -7056,7 +7695,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS96",
@@ -7067,7 +7707,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS95",
@@ -7078,7 +7719,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS94",
@@ -7089,7 +7731,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS93",
@@ -7100,7 +7743,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS92",
@@ -7111,7 +7755,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS91",
@@ -7122,7 +7767,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": "한중석"
   },
   {
     "code": "YS90",
@@ -7133,7 +7779,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 70000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS89",
@@ -7144,7 +7791,8 @@
     "year": null,
     "buyPrice": 2000000,
     "sellPrice": 5000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS88",
@@ -7155,7 +7803,8 @@
     "year": null,
     "buyPrice": 8666000,
     "sellPrice": 26000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS87",
@@ -7166,7 +7815,8 @@
     "year": null,
     "buyPrice": 3166000,
     "sellPrice": 9500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS86",
@@ -7177,7 +7827,8 @@
     "year": null,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS85",
@@ -7188,7 +7839,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS84",
@@ -7199,7 +7851,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS83",
@@ -7210,7 +7863,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS82",
@@ -7221,7 +7875,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS81",
@@ -7232,7 +7887,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS80",
@@ -7243,7 +7899,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS79",
@@ -7254,7 +7911,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS78",
@@ -7265,7 +7923,8 @@
     "year": null,
     "buyPrice": 7000000,
     "sellPrice": 30000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS77",
@@ -7276,7 +7935,8 @@
     "year": null,
     "buyPrice": 5000000,
     "sellPrice": 15000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS76",
@@ -7287,7 +7947,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS75",
@@ -7298,7 +7959,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS74",
@@ -7309,7 +7971,8 @@
     "year": null,
     "buyPrice": 100000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS73",
@@ -7320,7 +7983,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS72",
@@ -7331,7 +7995,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS71",
@@ -7342,7 +8007,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS70",
@@ -7353,7 +8019,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS69",
@@ -7364,7 +8031,8 @@
     "year": null,
     "buyPrice": 316000,
     "sellPrice": 950000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS68",
@@ -7375,7 +8043,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS67",
@@ -7386,7 +8055,8 @@
     "year": null,
     "buyPrice": 1000000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS66",
@@ -7397,7 +8067,8 @@
     "year": null,
     "buyPrice": 15000000,
     "sellPrice": 45000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS65",
@@ -7408,7 +8079,8 @@
     "year": null,
     "buyPrice": 100000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS64",
@@ -7419,7 +8091,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS63",
@@ -7430,7 +8103,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS62",
@@ -7441,7 +8115,8 @@
     "year": null,
     "buyPrice": 500000,
     "sellPrice": 2000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS61",
@@ -7452,7 +8127,8 @@
     "year": null,
     "buyPrice": 100000,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS60",
@@ -7463,7 +8139,8 @@
     "year": null,
     "buyPrice": 4000000,
     "sellPrice": 10000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS59",
@@ -7474,7 +8151,8 @@
     "year": null,
     "buyPrice": 8000000,
     "sellPrice": 30000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS58",
@@ -7485,7 +8163,8 @@
     "year": null,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": "박정애"
   },
   {
     "code": "YS57",
@@ -7496,7 +8175,8 @@
     "year": null,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS56",
@@ -7507,7 +8187,8 @@
     "year": null,
     "buyPrice": 300000,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS55",
@@ -7518,7 +8199,8 @@
     "year": 2017,
     "buyPrice": 50000000,
     "sellPrice": 70000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS54",
@@ -7529,7 +8211,8 @@
     "year": 2017,
     "buyPrice": 1000000,
     "sellPrice": 1500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS53",
@@ -7540,7 +8223,8 @@
     "year": 2017,
     "buyPrice": 2450000,
     "sellPrice": 3500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS52",
@@ -7551,7 +8235,8 @@
     "year": 2017,
     "buyPrice": 2450000,
     "sellPrice": 3500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS51",
@@ -7562,7 +8247,8 @@
     "year": 1952,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS50",
@@ -7573,7 +8259,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS49",
@@ -7584,7 +8271,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS48",
@@ -7595,7 +8283,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS47",
@@ -7606,7 +8295,8 @@
     "year": null,
     "buyPrice": 539100,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS46",
@@ -7617,7 +8307,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS45",
@@ -7628,7 +8319,8 @@
     "year": 1994,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS44",
@@ -7639,7 +8331,8 @@
     "year": 2019,
     "buyPrice": 300000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS43",
@@ -7650,7 +8343,8 @@
     "year": 2015,
     "buyPrice": 2500000,
     "sellPrice": 3000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS42",
@@ -7661,7 +8355,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS41",
@@ -7672,7 +8367,8 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS40",
@@ -7683,7 +8379,8 @@
     "year": 2011,
     "buyPrice": 198000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS39",
@@ -7694,7 +8391,8 @@
     "year": 2009,
     "buyPrice": 1800000,
     "sellPrice": 3600000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS38",
@@ -7705,7 +8403,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS37",
@@ -7716,7 +8415,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS36",
@@ -7727,7 +8427,8 @@
     "year": 2015,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS35",
@@ -7738,7 +8439,8 @@
     "year": 2017,
     "buyPrice": 45000000,
     "sellPrice": 70000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS34",
@@ -7749,7 +8451,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS33",
@@ -7760,7 +8463,8 @@
     "year": 2020,
     "buyPrice": null,
     "sellPrice": 1000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS32",
@@ -7771,7 +8475,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS31",
@@ -7782,7 +8487,8 @@
     "year": null,
     "buyPrice": 54000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS30",
@@ -7793,7 +8499,8 @@
     "year": 2021,
     "buyPrice": 1300000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS29",
@@ -7804,7 +8511,8 @@
     "year": 2020,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS28",
@@ -7815,7 +8523,8 @@
     "year": 2020,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS27",
@@ -7826,7 +8535,8 @@
     "year": 2020,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS26",
@@ -7837,7 +8547,8 @@
     "year": 2020,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS25",
@@ -7848,7 +8559,8 @@
     "year": 2020,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS24",
@@ -7859,7 +8571,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS23",
@@ -7870,7 +8583,8 @@
     "year": 1980,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS22",
@@ -7881,7 +8595,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS21",
@@ -7892,7 +8607,8 @@
     "year": 2016,
     "buyPrice": 3020000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS20",
@@ -7903,7 +8619,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS19",
@@ -7914,7 +8631,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS18",
@@ -7925,7 +8643,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": 500000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS17",
@@ -7936,7 +8655,8 @@
     "year": 2022,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS16",
@@ -7947,7 +8667,8 @@
     "year": 2019,
     "buyPrice": 50000000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS15",
@@ -7958,7 +8679,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS14",
@@ -7969,7 +8691,8 @@
     "year": 2015,
     "buyPrice": 15000000,
     "sellPrice": 18000000,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS13",
@@ -7980,7 +8703,8 @@
     "year": null,
     "buyPrice": 70000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS12",
@@ -7991,7 +8715,8 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS11",
@@ -8002,7 +8727,8 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": 4000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS10",
@@ -8013,7 +8739,8 @@
     "year": 2018,
     "buyPrice": 4500000,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": "영선갤러리"
   },
   {
     "code": "YS9",
@@ -8024,7 +8751,8 @@
     "year": 1971,
     "buyPrice": 582500,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS8",
@@ -8035,7 +8763,8 @@
     "year": 1975,
     "buyPrice": 582500,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS7",
@@ -8046,7 +8775,8 @@
     "year": 1973,
     "buyPrice": 582250,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS6",
@@ -8057,7 +8787,8 @@
     "year": 2019,
     "buyPrice": 5000000,
     "sellPrice": 7000000,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS5",
@@ -8068,7 +8799,8 @@
     "year": 1980,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS4",
@@ -8079,7 +8811,8 @@
     "year": 2022,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS3",
@@ -8090,7 +8823,8 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS2",
@@ -8101,7 +8835,8 @@
     "year": 1984,
     "buyPrice": null,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   },
   {
     "code": "YS1",
@@ -8112,6 +8847,7 @@
     "year": 1983,
     "buyPrice": 582500,
     "sellPrice": null,
-    "setName": null
+    "setName": null,
+    "owner": null
   }
 ]
