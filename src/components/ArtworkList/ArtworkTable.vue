@@ -15,6 +15,7 @@
           <th>판매가</th>
           <th>입고일</th>
           <th>세트명</th>
+          <th>소장자</th>
           <th>관리</th>
         </tr>
       </thead>
@@ -69,6 +70,11 @@
             <td>
               <span v-if="!artwork.isEditing">{{ artwork.setName }}</span>
               <input v-else v-model="artwork.editedData.setName" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!artwork.isEditing" :class="{ 'text-placeholder': !artwork.owner || artwork.owner.trim() === '' }">
+              {{ (artwork.owner && artwork.owner.trim() !== '') ? artwork.owner : '영선갤러리' }} </span>
+              <input v-else v-model="artwork.editedData.owner" type="text" class="edit-input" placeholder="영선갤러리" />
             </td>
             <td class="actions-col">
               <template v-if="!artwork.isEditing">
@@ -182,4 +188,8 @@ onUnmounted(() => {
 <style lang="scss" scoped>
 // _style.scss에서 공용 스타일을 가져와서 사용합니다.
 @use '@/assets/styles/_style.scss' as var;
+
+.text-placeholder {
+  color: #a0a0a0; /* 연한 회색 */
+}
 </style>
