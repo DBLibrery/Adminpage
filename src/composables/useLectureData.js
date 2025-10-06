@@ -1,27 +1,93 @@
 // src/composables/useLectureData.js
 import { ref, onMounted } from 'vue';
 
+// ✨ 특강 이미지 Base URL 정의 ✨
+const LECTURE_IMAGE_BASE_URL = 'https://raw.githubusercontent.com/youngsungallery/IMG_DB/main/youngsungallery/exh/';
+
+
 export function useLectureData() {
   const lectures = ref([]); // 특강 데이터 배열
   const loading = ref(true);   // 데이터 로딩 중 여부
   const error = ref(null);     // 에러 발생 시 에러 객체
 
+  // Helper function: 전체 URL에서 파일명(.png 확장자 없이)을 추출 (전시와 동일)
+  const extractFilenameWithoutExtension = (url) => {
+    if (!url) return '';
+    let cleanUrl = url.split('?')[0];
+
+    if (cleanUrl.includes('raw.githubusercontent.com')) {
+      const parts = cleanUrl.split('/');
+      let filenameWithExtension = parts[parts.length - 1];
+      if (filenameWithExtension.endsWith('.png')) {
+        return filenameWithExtension.slice(0, -4);
+      }
+      return filenameWithExtension;
+    }
+
+    if (cleanUrl.includes('/blob/')) {
+      const blobPath = cleanUrl.split('/blob/')[1];
+      const parts = blobPath.split('/');
+      let filenameWithExtension = parts[parts.length - 1];
+      if (filenameWithExtension.endsWith('.png')) {
+        return filenameWithExtension.slice(0, -4);
+      }
+      return filenameWithExtension;
+    }
+    
+    if (cleanUrl.endsWith('.png')) {
+      return cleanUrl.slice(0, -4);
+    }
+    return cleanUrl; 
+  };
+
+  // Helper function: 파일명으로 완성된 이미지 URL 생성 (전시와 동일)
+  const generateFullImageUrl = (imageFilename) => {
+    if (!imageFilename) return '';
+    if (imageFilename.endsWith('.png')) { // 혹시 파일명에 이미 확장자가 포함된 경우
+        return `${LECTURE_IMAGE_BASE_URL}${imageFilename}`;
+    }
+    return `${LECTURE_IMAGE_BASE_URL}${imageFilename}.png`;
+  };
+
+
   // 데이터 불러오기 로직
   onMounted(async () => {
     try {
-      const response = await fetch('/data/lectures.json');
+      const response = await fetch('/data/lectures.json'); // 특강 JSON 파일 경로
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
       
-      // 각 아이템에 편집 관련 상태 초기화
-      lectures.value = data.map(item => ({
-        ...item,
-        isEditing: false, // 편집 모드 여부
-        editedData: { ...item }, // 편집 중인 데이터
-        originalDataCopy: { ...item } // 원본 데이터 (취소 시 되돌리기 위해)
-      }));
+      lectures.value = data.map(item => {
+        let resolvedImageFilename = '';
+        if (item.imageFile) { // imageFile 필드가 있으면 우선 사용
+          resolvedImageFilename = item.imageFile;
+        } else if (item.image) { // imageFile이 없고 image 필드가 있으면 image에서 파일명 추출
+          resolvedImageFilename = extractFilenameWithoutExtension(item.image);
+        } else {
+          resolvedImageFilename = '';
+        }
+
+        const fullImageUrl = generateFullImageUrl(resolvedImageFilename); // 이미지 필드까지 생성
+        return {
+          ...item,
+          imageFile: resolvedImageFilename, // ✨ imageFile 필드에 파일명만 저장 ✨
+          image: fullImageUrl, // ✨ image 필드에 완성된 URL 채우기 ✨
+          isEditing: false, 
+          // editedData와 originalDataCopy에도 imageFile과 image 필드 모두 업데이트
+          editedData: { 
+            ...item, 
+            imageFile: resolvedImageFilename, 
+            image: fullImageUrl
+          }, 
+          originalDataCopy: { 
+            ...item, 
+            imageFile: resolvedImageFilename, 
+            image: fullImageUrl
+          }
+        };
+      });
     } catch (e) {
       error.value = e;
       console.error("특강 정보를 불러오는데 실패했습니다:", e);
@@ -30,87 +96,64 @@ export function useLectureData() {
     }
   });
 
-  // 새 특강 ID를 생성하는 함수 (가장 높은 ID + 1)
-  const generateNewLectureId = () => {
-    const maxId = lectures.value.reduce((max, item) => Math.max(max, item.id), 0);
-    return maxId + 1;
-  };
-
-  // 이미지 URL에 ?raw=true가 붙도록 정규화하는 헬퍼 함수
-  const ensureRawTrue = (imageUrl) => {
-    if (!imageUrl) return ''; 
-    if (imageUrl.includes('?raw=')) { 
-      return imageUrl;
-    }
-    if (imageUrl.includes('github.com') && imageUrl.includes('blob')) {
-      return imageUrl + '?raw=true';
-    }
-    return imageUrl; 
-  };
-
-  // 새 특강을 추가하는 함수
   const addLecture = (newLecData) => {
-    // ID 중복 검사 (새로 생성하는 ID는 일반적으로 Unique하지만, 혹시 모를 상황 대비)
-    if (lectures.value.some(item => item.id === newLecData.id)) {
-      alert(`ID '${newLecData.id}'는 이미 존재합니다. 다른 ID를 사용해 주세요.`);
-      return false;
-    }
+    const newImageFile = newLecData.imageFile || '';
+    const newImageUrl = generateFullImageUrl(newImageFile); // 새 특강의 image URL 생성
 
     const newLec = {
       ...newLecData,
-      image: ensureRawTrue(newLecData.image), // 이미지 URL 정규화
+      imageFile: newImageFile, // ✨ imageFile 사용 ✨
+      image: newImageUrl,     // ✨ image 필드에 완성된 URL 채우기 ✨
       isEditing: false,
-      editedData: { ...newLecData },
-      originalDataCopy: { ...newLecData }
+      editedData: { ...newLecData, imageFile: newImageFile, image: newImageUrl },
+      originalDataCopy: { ...newLecData, imageFile: newImageFile, image: newImageUrl }
     };
 
-    lectures.value.unshift(newLec); // 목록 상단에 추가
-    alert(`'${newLec.title}' 특강이 목록에 추가되었습니다! (ID: ${newLec.id})`);
+    lectures.value.unshift(newLec); // 목록 상단에 추가 (최신 항목이 맨 위)
+    alert(`'${newLec.title}' 특강이 목록에 추가되었습니다!`);
     console.log('새 특강 추가됨:', newLec);
+    console.log('새 특강 이미지 URL 확인:', newLec.image); 
     return true;
   };
 
-  // 특강 정보 수정을 시작하는 함수
   const startEditingLecture = (lec) => {
     lec.originalDataCopy = { ...lec };
-    lec.editedData = { ...lec };
+    lec.editedData = { ...lec, imageFile: lec.imageFile, image: lec.image }; 
     lec.isEditing = true;
   };
 
-  // 특강 정보를 저장하는 함수
   const saveEditedLecture = (lec) => {
-    // 이미지 URL 저장 전에 정규화
-    lec.editedData.image = ensureRawTrue(lec.editedData.image);
+    const updatedImageFile = lec.editedData.imageFile || ''; 
+    const updatedImageUrl = generateFullImageUrl(updatedImageFile); 
+    
+    lec.title = lec.editedData.title;
+    lec.SLI = lec.editedData.SLI; // SLI 필드 저장
+    lec.date = lec.editedData.date;
+    lec.imageFile = updatedImageFile; // imageFile (파일명) 업데이트
+    lec.image = updatedImageUrl;     // ✨ image (완성된 URL) 업데이트 ✨
 
-    Object.assign(lec, lec.editedData);
+    // 기존 image 필드가 객체에 남아있었을 경우 제거할 필요 없음 (이제 활용하므로)
+    
     lec.isEditing = false;
     alert(`'${lec.title}' 특강 정보가 프론트엔드에 저장되었습니다!`);
     console.log('특강 저장됨 (프론트엔드):', lec);
-    lec.originalDataCopy = { ...lec };
+    console.log('수정된 특강 이미지 URL 확인:', lec.image); 
+    lec.originalDataCopy = { ...lec }; 
   };
 
-  // 특강 수정 취소하는 함수
   const cancelEditingLecture = (lec) => {
     lec.editedData = { ...lec.originalDataCopy };
     lec.isEditing = false;
     console.log('편집 취소됨:', lec);
   };
 
-  // 특강을 삭제하는 함수
-  const deleteLecture = (lec) => {
-    if (confirm(`정말로 '${lec.title}' 특강을 삭제하시겠습니까?`)) {
-      lectures.value = lectures.value.filter(item => item.id !== lec.id);
-      alert(`'${lec.title}' 특강을 삭제합니다! (프론트엔드에서만 반영)`);
-    }
-  };
-
-  // 현재 목록을 JSON 파일로 다운로드하는 함수
   const downloadJson = () => {
     const dataToDownload = lectures.value.map(item => {
-      const { isEditing, editedData, originalDataCopy, ...rest } = item;
-      // 다운로드 시에도 이미지 URL이 정규화되도록 (필요하다면)
-      rest.image = ensureRawTrue(rest.image); 
-      return rest;
+      const { isEditing, editedData, originalDataCopy, image, ...rest } = item; 
+      return {
+        ...rest,
+        imageFile: item.imageFile || '' 
+      };
     });
 
     const jsonString = JSON.stringify(dataToDownload, null, 2);
@@ -127,17 +170,14 @@ export function useLectureData() {
     alert('수정된 특강 목록 JSON 파일이 다운로드됩니다!');
   };
 
-  // 외부에서 사용할 수 있도록 노출할 반응형 데이터와 함수들
   return {
     lectures,
     loading,
     error,
-    generateNewLectureId,
     addLecture,
     startEditingLecture,
     saveEditedLecture,
     cancelEditingLecture,
-    deleteLecture,
     downloadJson
   };
 }

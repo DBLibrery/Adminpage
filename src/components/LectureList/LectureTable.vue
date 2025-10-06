@@ -4,8 +4,6 @@
     <table>
       <thead>
         <tr>
-          <!-- PC 버전에서만 보이는 헤더 -->
-          <th v-if="!isMobile">ID</th>
           <th>포스터</th>
           <th>제목</th>
           <th>강사</th>
@@ -16,8 +14,7 @@
       <tbody>
         <!-- PC 버전 레이아웃 -->
         <template v-if="!isMobile">
-          <tr v-for="lec in lectures" :key="lec.id">
-            <td>{{ lec.id }}</td>
+          <tr v-for="lec in lectures" :key="lec.title + lec.SLI + lec.date">
             <td class="poster-col">
               <img v-if="lec.image" :src="lec.image" :alt="lec.title" class="lecture-poster-thumb" />
               <span v-else class="no-image-text">이미지 없음</span>
@@ -48,20 +45,26 @@
 
         <!-- 모바일 버전 레이아웃 (카드형 + 이미지 왼쪽/내용 오른쪽) -->
         <template v-else>
-          <tr v-for="lec in lectures" :key="lec.id">
+          <tr v-for="lec in lectures" :key="lec.title + lec.SLI + lec.date">
             <td class="mobile-card-row">
-              <!-- <<<<<<< 여기가 수정됩니다! 이미지가 있을 때만 poster-col 렌더링! >>>>>>> -->
               <div v-if="lec.image" class="poster-col">
                 <img :src="lec.image" :alt="lec.title" class="lecture-poster-thumb" />
               </div>
-              <!-- <<<<<<< '이미지 없음' 문구는 렌더링하지 않음! >>>>>>> -->
               
-              <!-- 내용 컬럼 (우측) -->
               <div class="card-content-wrapper">
-                <!-- ID 숨김 지시 반영 -->
-                <div class="card-item card-item--title">{{ lec.title }}</div>
-                <div class="card-item card-item--sli">{{ lec.SLI }}</div>
-                <div class="card-item card-item--date">{{ lec.date }}</div>
+                <div class="card-item card-item--title">
+                    <span>{{ lec.title }}</span> <!-- 모바일에서는 수정 불가하므로 input 제거 -->
+                </div>
+                <div class="card-item card-item--sli">
+                    <span>{{ lec.SLI }}</span> <!-- 모바일에서는 수정 불가하므로 input 제거 -->
+                </div>
+                <div class="card-item card-item--date">
+                    <span>{{ lec.date }}</span> <!-- 모바일에서는 수정 불가하므로 input 제거 -->
+                </div>
+                <!-- ✨ 모바일에서는 관리 버튼 자체를 완전히 제거했습니다 ✨ -->
+                <!-- <div class="card-actions">
+                  ... 버튼들 ...
+                </div> -->
               </div>
             </td>
           </tr>
@@ -73,7 +76,6 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'; 
-import { defineProps, defineEmits } from 'vue';
 
 const props = defineProps({
   lectures: {
@@ -82,27 +84,23 @@ const props = defineProps({
   }
 });
 
-const emits = defineEmits(['start-edit', 'save-lecture', 'cancel-edit', 'delete-lecture']);
+const emits = defineEmits(['start-edit', 'save-lecture', 'cancel-edit']);
 
 const emitStartEditing = (lec) => { emits('start-edit', lec); };
 const emitSaveLecture = (lec) => { emits('save-lecture', lec); };
 const emitCancelEditing = (lec) => { emits('cancel-edit', lec); };
 
-// 모바일 여부를 판단하는 반응형 상태
 const isMobile = ref(false);
 
-// 화면 너비를 체크하여 isMobile 상태를 업데이트하는 함수
 const checkMobile = () => {
   isMobile.value = window.innerWidth <= 768; // 768px을 기준으로 모바일 판단
 };
 
-// 컴포넌트 마운트 시, 초기 체크 및 resize 이벤트 리스너 추가
 onMounted(() => {
   checkMobile();
   window.addEventListener('resize', checkMobile);
 });
 
-// 컴포넌트 언마운트 시, resize 이벤트 리스너 제거
 onUnmounted(() => {
   window.removeEventListener('resize', checkMobile);
 });
@@ -111,14 +109,30 @@ onUnmounted(() => {
 <style lang="scss" scoped>
 @use '@/assets/styles/_style.scss' as var;
 
-// LectureTable.vue 고유의 PC 스타일 (_style.scss의 공통 스타일 외)
-// 이는 PC 템플릿에만 적용됩니다.
+// LectureTable.vue 컴포넌트 내에서만 사용되는 고유 스타일
 .lecture-poster-thumb {
-    max-width: 80px;
-    height: auto;
+    max-width: 80px; /* PC 테이블에서의 특정 포스터 너비 */
+    height: auto; 
     display: block;
     margin: 0 auto;
     border-radius: 4px;
 }
-// 모바일 스타일은 _style.scss에서 공통으로 관리됩니다.
+.no-image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #888;
+  font-size: 0.8em;
+  height: 80px; /* 썸네일과 동일 높이 */
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+}
+
+// 모바일 카드 내부의 고유한 텍스트 스타일
+.card-item--title { font-weight: bold; color: #333; }
+.card-item--sli { color: #555; }
+.card-item--date { color: #666; font-size: 0.85em; }
+
+// 이 외의 모든 공용/반복 스타일은 _style.scss에서 관리됩니다.
 </style>
