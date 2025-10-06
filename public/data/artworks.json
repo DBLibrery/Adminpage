@@ -73,7 +73,7 @@
     "year": 1986,
     "buyPrice": 599000,
     "sellPrice": null,
-    "stockDate": "",
+    "stockDate": "2021.11.22",
     "setName": null,
     "owner": null
   },
@@ -1359,6 +1359,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2022.01.31",
     "setName": null,
     "owner": null
   },
@@ -1395,6 +1396,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.10.04",
     "setName": null,
     "owner": null
   },
@@ -1407,6 +1409,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -1419,6 +1422,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.07.28",
     "setName": null,
     "owner": null
   },
@@ -1563,6 +1567,7 @@
     "year": 2016,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.09.13",
     "setName": null,
     "owner": null
   },
@@ -1647,6 +1652,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -1971,6 +1977,7 @@
     "year": 1989,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -1983,6 +1990,7 @@
     "year": 1979,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -1995,6 +2003,7 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.09.13",
     "setName": null,
     "owner": null
   },
@@ -2007,6 +2016,7 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.09.08",
     "setName": null,
     "owner": null
   },
@@ -2019,6 +2029,7 @@
     "year": 1982,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2031,6 +2042,7 @@
     "year": 1981,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2043,6 +2055,7 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2055,6 +2068,7 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2067,6 +2081,7 @@
     "year": 1982,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2079,6 +2094,7 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.10.06",
     "setName": null,
     "owner": null
   },
@@ -2091,6 +2107,7 @@
     "year": 1986,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2103,6 +2120,7 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2115,6 +2133,7 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2127,6 +2146,7 @@
     "year": 1977,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2139,6 +2159,7 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2187,6 +2208,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.06.02",
     "setName": null,
     "owner": null
   },
@@ -2511,6 +2533,7 @@
     "year": 1997,
     "buyPrice": null,
     "sellPrice": 54000000,
+    "stockDate": "2021.12.28",
     "setName": null,
     "owner": null
   },
@@ -2607,6 +2630,7 @@
     "year": 1989,
     "buyPrice": "배기성 선물",
     "sellPrice": 3000000,
+    "stockDate": "2021.12.01",
     "setName": null,
     "owner": null
   },
@@ -2876,13 +2900,14 @@
   },
   {
     "code": "YS498",
-    "title": "Untitled",
+    "title": "청송에서",
     "artist": "이원희",
-    "technique": "Print",
-    "size": "20 X 28.5cm",
-    "year": 2019,
-    "buyPrice": null,
+    "technique": "Oil on Canvas",
+    "size": "45.5 X 53cm",
+    "year": 1998,
+    "buyPrice": 958400,
     "sellPrice": 1000000,
+    "stockDate": "2021.09.13",
     "setName": null,
     "owner": null
   },
@@ -2895,6 +2920,7 @@
     "year": 2017,
     "buyPrice": 20000000,
     "sellPrice": 20000000,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -2907,6 +2933,7 @@
     "year": 2009,
     "buyPrice": null,
     "sellPrice": 40000000,
+    "stockDate": "2021.06.17",
     "setName": null,
     "owner": null
   },
@@ -2919,6 +2946,7 @@
     "year": 1982,
     "buyPrice": 5000000,
     "sellPrice": 5000000,
+    "stockDate": "2022.01.10",
     "setName": null,
     "owner": null
   },
@@ -2943,6 +2971,7 @@
     "year": 2008,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -2967,6 +2996,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.09.20",
     "setName": null,
     "owner": null
   },
@@ -3207,6 +3237,7 @@
     "year": 2018,
     "buyPrice": 900000,
     "sellPrice": 1500000,
+    "stockDate": "2020.02.10",
     "setName": null,
     "owner": null
   },
@@ -3219,6 +3250,7 @@
     "year": 2017,
     "buyPrice": 1200000,
     "sellPrice": 2000000,
+    "stockDate": "2020.02.10",
     "setName": null,
     "owner": null
   },
@@ -3471,6 +3503,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -3495,6 +3528,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -3538,11 +3572,12 @@
     "code": "YS443",
     "title": "#94043",
     "artist": "이강소",
-    "technique": "스크린 프린트",
+    "technique": "Screen Print",
     "size": "70 X 99.2cm",
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -3555,6 +3590,7 @@
     "year": 2018,
     "buyPrice": 400000,
     "sellPrice": 800000,
+    "stockDate": "2019.04.04",
     "setName": null,
     "owner": null
   },
@@ -3675,6 +3711,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -3759,6 +3796,7 @@
     "year": 2017,
     "buyPrice": 1100000,
     "sellPrice": 3000000,
+    "stockDate": "2020.02.05",
     "setName": null,
     "owner": null
   },
@@ -3771,6 +3809,7 @@
     "year": 1992,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.06.02",
     "setName": null,
     "owner": null
   },
@@ -3783,6 +3822,7 @@
     "year": 2019,
     "buyPrice": 3000000,
     "sellPrice": 5000000,
+    "stockDate": "2020.08.",
     "setName": null,
     "owner": null
   },
@@ -3795,6 +3835,7 @@
     "year": 2019,
     "buyPrice": 5000000,
     "sellPrice": 1000000,
+    "stockDate": "2019.05.05",
     "setName": null,
     "owner": "박영길"
   },
@@ -3879,6 +3920,7 @@
     "year": 1975,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2022.02.07",
     "setName": null,
     "owner": null
   },
@@ -5079,6 +5121,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -5091,6 +5134,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.09.27",
     "setName": null,
     "owner": null
   },
@@ -5127,7 +5171,7 @@
     "year": 2018,
     "buyPrice": 600000,
     "sellPrice": 1000000,
-    "setName": null,
+    "setName": "2019.01.30",
     "owner": null
   },
   {
@@ -5403,6 +5447,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.07.28",
     "setName": null,
     "owner": null
   },
@@ -5511,6 +5556,7 @@
     "year": 2014,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.09.27",
     "setName": null,
     "owner": null
   },
@@ -5583,6 +5629,7 @@
     "year": 2011,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.12.28",
     "setName": null,
     "owner": null
   },
@@ -5775,6 +5822,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.07.28",
     "setName": null,
     "owner": null
   },
@@ -6027,6 +6075,7 @@
     "year": 2000,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.06.30",
     "setName": null,
     "owner": null
   },
@@ -6075,6 +6124,7 @@
     "year": null,
     "buyPrice": 3000000,
     "sellPrice": null,
+    "stockDate": "2021.09.16",
     "setName": null,
     "owner": null
   },
@@ -6111,6 +6161,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2022.01.03",
     "setName": null,
     "owner": null
   },
@@ -6975,6 +7026,7 @@
     "year": 2006,
     "buyPrice": null,
     "sellPrice": 35000000,
+    "stockDate": "2021.07.05",
     "setName": null,
     "owner": null
   },
@@ -6987,6 +7039,7 @@
     "year": 2012,
     "buyPrice": null,
     "sellPrice": 35000000,
+    "stockDate": "2021.07.05",
     "setName": null,
     "owner": null
   },
@@ -6999,6 +7052,7 @@
     "year": 2011,
     "buyPrice": null,
     "sellPrice": 30000000,
+    "stockDate": "2021.06.10",
     "setName": null,
     "owner": null
   },
@@ -7023,18 +7077,20 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
   {
     "code": "YS152",
-    "title": "회귀",
+    "title": "회귀-SH011008",
     "artist": "김창열",
     "technique": "Oil and Acrylic on Hemp Cloth",
     "size": "40.9 X 53cm",
     "year": 2010,
     "buyPrice": 3800000,
     "sellPrice": null,
+    "stockDate": "2021.05.26",
     "setName": null,
     "owner": null
   },
@@ -7059,6 +7115,7 @@
     "year": 2016,
     "buyPrice": null,
     "sellPrice": 35000000,
+    "stockDate": "2021.09.20",
     "setName": null,
     "owner": null
   },
@@ -7071,6 +7128,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.11",
     "setName": null,
     "owner": null
   },
@@ -7167,6 +7225,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.09.08",
     "setName": null,
     "owner": null
   },
@@ -8295,6 +8354,7 @@
     "year": null,
     "buyPrice": 539100,
     "sellPrice": null,
+    "stockDate": "2021.10.18",
     "setName": null,
     "owner": null
   },
@@ -8355,6 +8415,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -8475,6 +8536,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -8715,6 +8777,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.06.30",
     "setName": null,
     "owner": "영선갤러리"
   },
@@ -8727,6 +8790,7 @@
     "year": 2021,
     "buyPrice": null,
     "sellPrice": 4000000,
+    "stockDate": "2021.09.18",
     "setName": null,
     "owner": null
   },
@@ -8787,6 +8851,7 @@
     "year": 2019,
     "buyPrice": 5000000,
     "sellPrice": 7000000,
+    "stockDate": "2018.03.19",
     "setName": null,
     "owner": null
   },
