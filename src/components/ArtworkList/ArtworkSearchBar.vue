@@ -13,7 +13,6 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue';
 
 // 부모 컴포넌트로부터 검색어(modelValue)를 받습니다.
 // Vue의 v-model을 커스텀 컴포넌트에서 사용할 때 modelValue prop과 update:modelValue 이벤트 사용.

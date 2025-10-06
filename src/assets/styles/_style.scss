@@ -2,6 +2,34 @@
 
 @use 'sass:color'; // color 함수 사용을 위해 임포트
 
+// ✨ Netlify 링크 기반으로 색상 및 스타일 변수 복구 ✨
+// 색상 변수
+$main-bg-color: #f0f2f5;           // 전체 페이지 배경색 (Netlify와 유사하게 조정)
+$card-bg-color: #ffffff;           // 카드/패널 배경색
+$header-bg-color: #f7f7f7;         // 헤더 배경색 (Netlify 링크 기반으로 밝게 조정)
+$header-text-color: #333;          // 헤더 텍스트 색상 (Netlify 링크 기반으로 어둡게 조정)
+$sidebar-bg-color: #ffffff;        // 사이드바 배경색 (Netlify 링크 기반으로 밝게 조정)
+$sidebar-text-color: #555;         // 사이드바 텍스트 색상 (Netlify 링크 기반으로 어둡게 조정)
+$sidebar-hover-bg-color: #f0f0f0;  // 사이드바 호버 배경색 (Netlify 링크 기반으로 밝게 조정)
+$sidebar-hover-text-color: #333;    // 사이드바 호버 텍스트 색상
+$sidebar-active-bg-color: #e0e0e0; // 사이드바 활성화 배경색 (Netlify 링크 기반으로 조정)
+$sidebar-active-text-color: #000;  // 사이드바 활성화 텍스트 색상 (Netlify 링크 기반으로 조정)
+$text-color: #333;                 // 기본 텍스트 색상
+$border-color: #e0e0e0;            // 경계선 색상
+
+// 그림자 변수
+$header-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); // Netlify 링크 기반으로 조정
+$sidebar-shadow: 2px 0 5px rgba(0, 0, 0, 0.05); // Netlify 링크 기반으로 조정
+$card-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); // Netlify 링크 기반으로 조정
+
+// 폰트 변수
+$font-family-base: 'Noto Sans KR', sans-serif; // 한국어 폰트 예시
+$font-size-base: 16px;
+
+// border-radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+
 /* --- ✨ 모든 패널 및 UI 컴포넌트에 공용으로 적용될 스타일 (Common / Base Component Styles) ✨ --- */
 
 // 모든 패널 컨테이너의 기본 스타일 
@@ -353,123 +381,91 @@ table {
 
 
     // 테이블 (모바일 카드형)
-    table {
-        thead { display: none; } /* 헤더 숨김 */
-
-        tbody {
-            display: block;
-            tr {
-                /* PC 테이블의 TR이 아니며, 모바일 전용 .mobile-card-row와 묶여 사용됨 */
-                display: block; /* tr이 여전히 블록으로 쌓임 (artwork table의 mobile-card-row가 다시 flex) */
-                width: 100%; 
-                margin-bottom: 15px; 
-                border: 1px solid #e0e0e0; 
-                border-radius: 8px; 
-                box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
-                background-color: white; 
-                padding: 0; /* tr 자체 패딩 제거 */
-            }
-        }
-        
-        td { /* 모바일 td 기본 스타일 (일반적인 테이블들용) */
-            display: block; /* 블록으로 쌓이게 함 */
-            width: 100% !important; /* 너비 100% */
-            border: none; 
-            padding: 10px 15px; 
-            text-align: left; 
-            font-size: 0.9rem; 
-            &::before { /* 라벨 붙임 */
-                font-weight: bold; margin-right: 5px; color: #777;
-            }
-        }
-       
-        // ArtworkTable.vue의 mobile-card-row에 적용될 스타일 (재정렬)
-        .mobile-card-row { /* ArtworkTable.vue에서 추가된 모바일 전용 행 */
-            display: flex; /* flex 컨테이너로 */
-            flex-direction: row; /* 이미지 왼쪽, 내용 오른쪽 */
-            align-items: center; /* 세로 중앙 정렬 */
-            width: 100%;
-            border: none;
-            padding: 10px; /* 이 flex 컨테이너의 내부 패딩 */
-
-            .poster-col {
-                flex-shrink: 0; width: 100px; text-align: center; padding: 5px;
-                img { max-width: 90px; }
-            }
-
-            .card-content-wrapper {
-                flex-grow: 1; padding: 0 10px; display: flex;
-                flex-direction: column; gap: 5px;
-                .card-item {
-                    display: block; font-size: 0.9rem; color: #444;
-                    &:empty { display: none; } /* 내용이 없는 card-item 숨김 */
-                    
-                    /* 라벨 정의 (card-item 클래스 내에) */
-                    &.card-item--code::before { content: none; } 
-                    &.card-item--title::before { content: none; }
-                    &.card-item--artist::before { content: none; }
-                    &.card-item:nth-of-type(4)::before { content: none; } /* 기법 */
-                    &.card-item:nth-of-type(5)::before { content: none; } /* 규격 */
-                    &.card-item:nth-of-type(6)::before { content: none; } /* 연도 */
-                    &.card-item:nth-of-type(7)::before { content: "세트명: "; font-weight: bold; margin-right: 5px; color: #777; } 
-
-                    /* 제목 폰트 키우고 코드 맨 아래 배치 + 폰트 작게 */
-                    &.card-item--title { font-size: 1.2rem; color: #24292e; order: -1; }
-                    &.card-item--code { font-size: 0.75rem; color: #999; order: 99; margin-top: auto; }
-                }
-            }
-        }
-
-        /* ExhibitionTable, LectureTable 전용 모바일 td 라벨링 및 배치 (시작) */
-        &.exhibition-table-container,
-        &.lecture-table-container {
-            /* 이들은 card-content-wrapper 구조를 가지지 않음. 기존 모바일 td 스타일 활용 */
-            tbody tr {
-                display: block; /* tr이 여전히 블록으로 쌓임 */
-            }
-            td {
-                display: block; /* td가 여전히 블록으로 쌓임 */
-                width: 100% !important; /* 너비 100% */
-                border: none; 
-                padding: 10px 15px; 
-                text-align: left; 
-                font-size: 0.9rem; 
-                &::before { /* 라벨 붙임 */
-                    font-weight: bold; margin-right: 5px; color: #777;
-                }
-            }
-        }
-        
-        // <<<<<<< 여기가 수정됩니다! 모바일 전시/특강 ID 숨김 및 라벨 숨김 >>>>>>>
-        &.exhibition-table-container td:nth-of-type(1),
-        &.lecture-table-container td:nth-of-type(1) { 
-            display: none !important; /* <<<<<<< !important를 추가하여 강제 숨김 >>>>>>> */
-        }
-        &.exhibition-table-container td:nth-of-type(1)::before,
-        &.lecture-table-container td:nth-of-type(1)::before { 
-            content: none !important; /* <<<<<<< !important를 추가하여 강제 숨김 >>>>>>> */
-        }
-        // <<<<<<< 여기까지 수정됩니다! >>>>>>>
-
-
-        /* 컬럼 라벨 (Exhibition/LectureTable) */
-        &.exhibition-table-container td:nth-of-type(3)::before { content: "제목: "; }
-        &.exhibition-table-container td:nth-of-type(4)::before { content: "기간: "; }
-        &.exhibition-table-container td.desc-col::before { content: "설명: "; } 
-
-        &.lecture-table-container td:nth-of-type(3)::before { content: "제목: "; }
-        &.lecture-table-container td:nth-of-type(4)::before { content: "강사: "; } 
-        &.lecture-table-container td:nth-of-type(5)::before { content: "일시: "; }
-
-        // 관리 컬럼 숨김 (공용)
-        .actions-col { display: none; }
-        th:nth-child(6) { display: none; } /* Exhibition, Lecture 관리 헤더 */
-        td:nth-of-type(6) { display: none; } /* Exhibition, Lecture 관리 셀 */
+    .artwork-table-container, .exhibition-table-container, .lecture-table-container {
+        /* overflow-x: auto; */ /* 모바일에서 가로 스크롤 대신 카드형 레이아웃 */
+        box-shadow: none; 
+        background-color: transparent; 
+        margin-top: 15px; 
     }
 
+    table {
+        border-radius: 0; 
+        background-color: transparent;
+        border: none;
+    }
+    thead { display: none; } /* 모바일에서 테이블 헤더 숨김 */
 
-    /* --- 추가적인 모바일 최적화 (화면 너비 480px 이하) --- */
-    @media (max-width: 480px) {
-        .admin-header h1 { font-size: 1.3rem; }
+    tbody {
+        display: flex;
+        flex-direction: column; 
+        gap: 15px; 
+    }
+    tbody tr {
+        background-color: white; 
+        border-radius: 10px; 
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
+        display: block; 
+    }
+    tbody tr:hover { background-color: #f8f8f8; } /* 모바일 호버 효과 조정 */
+
+    td {
+        display: block; 
+        width: 100% !important; 
+        border: none; 
+        padding: 10px 15px; 
+        text-align: left; 
+    }
+    
+    td:first-child { 
+        padding-top: 15px; 
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 10px;
+    }
+    td:last-child { 
+        padding-bottom: 15px; 
+        border-bottom-left-radius: 10px; 
+        border-bottom-right-radius: 10px;
+    }
+
+    .poster-col {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0 10px; 
+        img { 
+            max-width: 100px; 
+            width: auto;
+            border-radius: 8px; 
+        }
+        .no-image-text { 
+            height: 100px; line-height: 100px; 
+            font-size: 0.9rem; 
+        }
+    }
+    .actions-col {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 15px; 
+        display: flex;
+        justify-content: center; 
+        gap: 10px; 
+        button { 
+            width: auto; flex-grow: 1; 
+            max-width: 120px; 
+        }
+    }
+    
+    // 각 컬럼의 제목 표시 (모바일)
+    td::before {
+        content: attr(data-label); 
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color: #777;
+    }
+
+    // Edit 폼 내부 (모바일)
+    .edit-input, .edit-textarea {
+        padding: 8px; 
+        font-size: 0.85rem; 
     }
 }

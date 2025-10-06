@@ -1,183 +1,72 @@
-// src/assets/styles/_global-layout.scss
+// src/assets/styles/_admin-layout.scss
 
-// @use './variables' as var; // 공용 변수 파일 임포트 (삭제 지시 따름)
-@use 'sass:color'; // color 함수 사용을 위해 임포트 (SASS 내장 모듈이므로 유지)
+// 이 파일은 AdminLayout.vue의 사이드바 및 메뉴 관련 스타일을 정의합니다.
+// _style.scss에서 변수를 가져와 사용합니다.
+@use 'sass:map'; // SASS map 함수 사용을 위해 임포트
+@use '@/assets/styles/_style.scss' as var; // _style.scss 가져오기
 
-/* === 전역 기본 스타일 === */
-* {
-  box-sizing: border-box; 
-}
 
-html, body {
-  margin: 0; padding: 0; height: 100%;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: #333; 
-  overflow: hidden; 
-}
+// AdminLayout 내부의 헤더 스타일 (여기서는 직접 정의하지 않고 AdminLayout.vue 자체에 두었습니다)
+// .admin-layout-header {
+//   // var.$header-bg-color 등을 사용
+// }
 
-/* === AdminLayout의 새로운 Template 구조에 맞춘 PC용 기본 레이아웃 스타일 === */
-
-.admin-wrapper {
-  display: flex;
-  flex-direction: column; 
-  min-height: 100vh;
-  background-color: #f0f2f5; 
-}
-
-// .admin-header : 상단 고정 헤더
-.admin-header {
-  background-color: #ffffff; 
-  color: #333333;            
-  padding: 15px 20px;
-  display: flex;
-  align-items: center; 
-  justify-content: space-between; 
-  flex-shrink: 0; 
-
-  h1 { 
+// 사이드바 내비게이션 메뉴 스타일 (SidebarMenu.vue에서 사용)
+.admin-nav {
+  ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    font-size: 1.8rem;
-    color: #24292e; 
   }
 
-  .header-buttons-container { 
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  li {
+    margin-bottom: 5px; /* 메뉴 항목 간 간격 */
   }
-}
 
-// .admin-content-area : 사이드바와 메인 콘텐츠 영역 
-.admin-content-area {
-  display: flex;
-  flex-grow: 1; 
-  /* overflow: hidden; 제거됨 */
-}
+  a {
+    display: block; /* 링크 전체 영역 클릭 가능 */
+    padding: 10px 15px; /* 메뉴 항목 패딩 */
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    color: var.$sidebar-text-color; /* 텍스트 색상 */
+    font-size: var.$font-size-base;
+    cursor: pointer;
+    border-radius: var.$border-radius-sm;
+    transition: background-color 0.2s ease, color 0.2s ease; /* 호버 시 부드러운 전환 */
 
-// .admin-sidebar : 왼쪽 사이드바 (PC)
-.admin-sidebar {
-  width: 250px; 
-  flex-shrink: 0; 
-  color: #333333;          
-  padding: 20px 0;
-  overflow-y: auto; 
-  border-right: 1px solid #e0e0e0; 
+    &:hover {
+      background-color: var.$sidebar-hover-bg-color;
+      color: var.$sidebar-hover-text-color;
+    }
 
-  /* 사이드바 안의 메뉴 슬롯에 들어갈 메뉴 스타일링 */
-  nav { 
-    ul {
-      list-style: none; padding: 0; margin: 0;
-      li {
-        margin-bottom: 10px;
-        a {
-          display: block; padding: 10px 20px;
-          color: #333333; 
-          text-decoration: none; transition: background-color 0.2s ease;
-          border-radius: 5px; 
-          &:hover { 
-            background-color: #f0f0f0; 
-          } 
-          &.active {
-            background-color: #7a31cd; 
-            color: white; 
-          }
-        }
-      }
+    &.active {
+      background-color: var.$sidebar-active-bg-color;
+      color: var.$sidebar-active-text-color;
+      font-weight: bold; /* 활성화된 항목 강조 */
     }
   }
 }
 
-// .admin-main : 메인 콘텐츠 영역 (오른쪽 나머지 공간)
-.admin-main {
-  flex-grow: 1; 
-  padding: 20px;
-  overflow-y: auto; 
-  background-color: #f0f2f5; 
-}
-
-
-/* === 모바일용 레이아웃 (반응형: 화면 너비 768px 이하일 때 적용) === */
+// 모바일 반응형 스타일 (SidebarMenu의 반응형은 보통 AdminLayout에서 처리)
 @media (max-width: 768px) {
-  .admin-header {
-    flex-direction: column; 
-    align-items: flex-start; 
-    padding: 10px 15px; 
-    
-    h1 {
-      font-size: 1.5rem; 
-      margin-bottom: 5px; 
+  .admin-nav {
+    ul {
+      display: flex; /* 가로로 정렬 */
+      justify-content: space-around; /* 균등하게 간격 분배 */
+      padding: 0 10px;
     }
 
-    .header-buttons-container {
-      width: 100%; 
-      justify-content: space-around; 
-      gap: 5px; 
-      button { 
-        padding: 8px 12px; 
-        font-size: 0.9rem; 
-      }
+    li {
+      flex: 1; /* 동일 너비 */
+      margin: 0 2px; /* 항목 간 간격 줄이기 */
     }
-  }
 
-  // .admin-content-area (모바일에서 사이드바와 메인 콘텐츠를 세로로 나열)
-  .admin-content-area {
-    flex-direction: column; /* <<<<<<< 여기가 수정됩니다! 자식 요소(사이드바/메인)를 세로로 정렬! >>>>>>> */
-    width: 100%; /* 모바일에서 너비 100% 명확히 */
-    height: auto; /* 내용에 따라 높이 자동 조절 */
-    min-height: 0; /* flex 컨테이너의 최소 높이 충돌 방지 */
-    overflow: visible; /* 내부 요소의 스크롤 허용 */
-    flex-shrink: 0; /* 모바일에서 축소되지 않도록 함 */
-  }
-
-  // .admin-sidebar (모바일 상단 네비게이션 역할)
-  .admin-sidebar {
-    width: 100%; 
-    flex-basis: 100%; 
-    height: auto; 
-    padding: 10px 0; 
-    overflow-y: visible; 
-    border-right: none; 
-    border-bottom: 1px solid color.adjust(#2c3e50, $lightness: 10%); 
-    
-    nav {
-      width: 100%; 
-      ul {
-        display: flex; 
-        justify-content: space-around; 
-        flex-wrap: wrap; 
-        width: 100%; 
-        
-        li {
-          flex-grow: 1; 
-          flex-basis: 0; 
-          margin-bottom: 0; 
-          text-align: center; 
-
-          a { 
-            padding: 8px 5px; 
-            font-size: 0.85rem; 
-            border-radius: 0; 
-            &:hover, &.active { 
-                color: #ffffff; 
-            }
-          }
-        }
-      }
+    a {
+      text-align: center;
+      padding: 8px 5px; /* 패딩 조절 */
+      font-size: 0.9em; /* 폰트 크기 조절 */
     }
-  }
-
-  // .admin-main (모바일 메인 콘텐츠)
-  .admin-main {
-    flex-grow: 1;
-    width: 100%; /* <<<<<<< 추가: 모바일에서 메인 콘텐츠도 100% 너비! >>>>>>> */
-    padding: 15px; 
-    overflow-y: auto; 
-  }
-}
-
-// === 추가적인 모바일 최적화 (화면 너비 480px 이하) ===
-@media (max-width: 480px) {
-  .admin-header h1 {
-    font-size: 1.3rem; 
   }
 }

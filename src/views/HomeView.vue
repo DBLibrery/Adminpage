@@ -9,7 +9,7 @@
     <!-- AdminLayout의 "사이드바" 슬롯에 SidebarMenu 컴포넌트를 넣어줍니다. -->
     <template #sidebar> 
       <SidebarMenu 
-        :selectedHomepage="selectedPageName" 
+        :selectedMenuItem="selectedMenuItem" 
         @select-menu-item="handleMenuItemSelect" 
       />
     </template>
@@ -29,6 +29,8 @@
       <ArtworkListPanel 
         v-else-if="selectedPageName === '영선갤러리' && selectedMenuItem === 'artwork_list_management'" 
       />
+      <!-- '전시특강 연결점 관리' 패널 관련 코드는 이전 상태로 되돌리기 위해 추가하지 않습니다. -->
+      
       <!-- 그 외의 경우 (초기 상태, 다른 홈페이지/메뉴 선택) -->
       <div v-else>
         <h2>환영합니다!</h2>
@@ -45,14 +47,17 @@
 <script setup>
 import { ref } from 'vue';
 import AdminLayout from '@/components/AdminLayout.vue';
-import ManagedHomepages from '@/components/ManagedHomepages.vue';
+import ManagedHomepages from '@/components/ManagedHomepages.vue'; 
 import SidebarMenu from '@/components/SidebarMenu.vue';
+
+// 패널 컴포넌트들 임포트 
 import ExhibitionListPanel from '@/components/ExhibitionList/ExhibitionListPanel.vue';
 import LectureListPanel from '@/components/LectureList/LectureListPanel.vue'; 
-import ArtworkListPanel from '@/components/ArtworkList/ArtworkListPanel.vue'; // ArtworkListPanel 컴포넌트 불러오기
+import ArtworkListPanel from '@/components/ArtworkList/ArtworkListPanel.vue'; 
+// import ConnectionManagerPanel from '@/components/ConnectionManager/ConnectionManagerPanel.vue'; // 이전 상태로 되돌리기 위해 제거합니다.
 
-const selectedPageName = ref('없음');
-const selectedMenuItem = ref('');
+const selectedPageName = ref('영선갤러리'); // ✨ 초기값을 '영선갤러리'로 변경하여 항상 조건이 충족되도록 합니다. ✨
+const selectedMenuItem = ref(''); // 원래 초기값 유지
 
 const handlePageSelect = (pageName) => {
   selectedPageName.value = pageName;

@@ -11,7 +11,6 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue';
 
 // 부모 컴포넌트로부터 '더 불러올 항목이 있는지' 여부를 받습니다.
 const props = defineProps({
