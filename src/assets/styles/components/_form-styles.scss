@@ -1,0 +1,55 @@
+// src/assets/styles/components/_form-styles.scss 파일 맨 위에 추가!
+
+@use '../variables' as var; // <--- 이 줄 추가!
+
+// 3. 공통 폼 스타일
+.add-new-form {
+  background-color: #ffffff; 
+  border: 1px solid #e0e0e0;
+  border-radius: 10px; 
+  padding: 30px; 
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
+
+  h4 {
+    color: #42b983; 
+    font-size: 1.4rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    label {
+      font-weight: bold;
+      color: #555;
+      margin-bottom: 5px;
+    }
+    input[type="text"], input[type="number"], textarea {
+      width: 100%;
+      padding: 12px; 
+      border: 1px solid #d0d0d0; 
+      border-radius: 6px; 
+      font-size: 1rem;
+      box-sizing: border-box;
+      &:focus {
+        border-color: #42b983; 
+        box-shadow: 0 0 5px rgba(66, 185, 131, 0.5); 
+        outline: none;
+      }
+    }
+    textarea { resize: vertical; min-height: 80px; }
+  }
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; 
+    button { 
+        padding: 12px 25px; 
+        font-size: 1.05rem; 
+        font-weight: bold; 
+    }
+  }
+}

@@ -1,0 +1,12 @@
+// src/assets/styles/components/_panel-base.scss 파일 맨 위에 추가!
+
+@use '../variables' as var;
+
+/* --- ✨ 모든 패널 및 UI 컴포넌트에 공용으로 적용될 스타일 (Common / Base Component Styles) ✨ --- */
+
+// 모든 패널 컨테이너의 기본 스타일 
+.artwork-list-panel,
+.exhibition-list-panel,
+.lecture-list-panel {
+  // 컴포넌트 자체에 필요한 공통적인 스타일 (지금은 비어있어도 무방)
+}

@@ -1,0 +1,40 @@
+// src/assets/styles/components/_main-buttons.scss 파일 맨 위에 추가!
+
+@use 'sass:color';          // <--- 이 줄 추가!
+@use '../variables' as var; // <--- 이 줄 추가!
+
+// 2-1. 영선갤러리 관련 메인 버튼 (PC 버전)
+.add-new-button,
+.download-json-button {
+  border: 1px solid transparent; 
+  background-color: #5cb85c; 
+  color: white; 
+  font-weight: bold; 
+  padding: 12px 25px; 
+  border-radius: 8px; 
+  font-size: 1.05rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+  &:hover {
+      background-color: color.adjust(#5cb85c, $lightness: -5%); 
+      border-color: color.adjust(#5cb85c, $lightness: -5%);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  }
+}
+/* 영선갤러리 버튼의 색상 오버라이드 (PC 버전) */
+.add-new-button { 
+  background-color: #5cb85c; 
+  border-color: #5cb85c; 
+  &:hover { 
+    background-color: color.adjust(#5cb85c, $lightness: -5%); 
+    border-color: color.adjust(#5cb85c, $lightness: -5%);
+  }
+} 
+.download-json-button { 
+  background-color: #5bc0de; 
+  border-color: #5bc0de; 
+  &:hover { 
+    background-color: color.adjust(#5bc0de, $lightness: -5%); 
+    border-color: color.adjust(#5bc0de, $lightness: -5%);
+  }
+} 

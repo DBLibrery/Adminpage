@@ -1,0 +1,22 @@
+// src/assets/styles/components/_load-more-button.scss 파일 맨 위에 추가!
+
+@use '../variables' as var; // <--- 이 줄 추가!
+
+// 2-3. 더 보기 버튼 (PC 버전)
+.load-more-button {
+  display: block;
+  width: 100%;
+  padding: 15px 20px; 
+  background-color: #e6e6e6; 
+  border: 1px solid #c2c2c2; 
+  border-radius: 8px; 
+  margin-top: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #555555;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+  &:hover { 
+    background-color: #d8d8d8; 
+    box-shadow: 0 3px 7px rgba(0,0,0,0.08);
+  }
+}

@@ -1,6 +1,6 @@
 // src/assets/styles/_global-layout.scss
 
-// @use './variables' as var; // 공용 변수 파일 임포트 (삭제 지시 따름)
+@use 'variables' as var; // 공용 변수 파일 임포트! (주석 해제 또는 추가)
 @use 'sass:color'; // color 함수 사용을 위해 임포트 (SASS 내장 모듈이므로 유지)
 
 /* === 전역 기본 스타일 === */

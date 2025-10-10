@@ -1,9 +1,9 @@
 // src/assets/styles/_admin-layout.scss
 
 // 이 파일은 AdminLayout.vue의 사이드바 및 메뉴 관련 스타일을 정의합니다.
-// _style.scss에서 변수를 가져와 사용합니다.
+// _variables.scss에서 변수를 가져와 사용합니다.  <-- 주석도 같이 수정!
 @use 'sass:map'; // SASS map 함수 사용을 위해 임포트
-@use '@/assets/styles/_style.scss' as var; // _style.scss 가져오기
+@use 'variables' as var; // <--- 이 줄을 이렇게 수정해주세요! _style.scss 대신 _variables.scss를 불러오는 거예요!
 
 
 // AdminLayout 내부의 헤더 스타일 (여기서는 직접 정의하지 않고 AdminLayout.vue 자체에 두었습니다)

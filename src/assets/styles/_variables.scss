@@ -1,0 +1,29 @@
+@use 'sass:color'; // color 함수 사용을 위해 임포트
+
+// ✨ Netlify 링크 기반으로 색상 및 스타일 변수 복구 ✨
+// 색상 변수
+$main-bg-color: #f0f2f5;           // 전체 페이지 배경색 (Netlify와 유사하게 조정)
+$card-bg-color: #ffffff;           // 카드/패널 배경색
+$header-bg-color: #f7f7f7;         // 헤더 배경색 (Netlify 링크 기반으로 밝게 조정)
+$header-text-color: #333;          // 헤더 텍스트 색상 (Netlify 링크 기반으로 어둡게 조정)
+$sidebar-bg-color: #ffffff;        // 사이드바 배경색 (Netlify 링크 기반으로 밝게 조정)
+$sidebar-text-color: #555;         // 사이드바 텍스트 색상 (Netlify 링크 기반으로 어둡게 조정)
+$sidebar-hover-bg-color: #f0f0f0;  // 사이드바 호버 배경색 (Netlify 링크 기반으로 밝게 조정)
+$sidebar-hover-text-color: #333;    // 사이드바 호버 텍스트 색상
+$sidebar-active-bg-color: #e0e0e0; // 사이드바 활성화 배경색 (Netlify 링크 기반으로 조정)
+$sidebar-active-text-color: #000;  // 사이드바 활성화 텍스트 색상 (Netlify 링크 기반으로 조정)
+$text-color: #333;                 // 기본 텍스트 색상
+$border-color: #e0e0e0;            // 경계선 색상
+
+// 그림자 변수
+$header-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); // Netlify 링크 기반으로 조정
+$sidebar-shadow: 2px 0 5px rgba(0, 0, 0, 0.05); // Netlify 링크 기반으로 조정
+$card-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); // Netlify 링크 기반으로 조정
+
+// 폰트 변수
+$font-family-base: 'Noto Sans KR', sans-serif; // 한국어 폰트 예시
+$font-size-base: 16px;
+
+// border-radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;

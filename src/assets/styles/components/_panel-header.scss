@@ -1,0 +1,25 @@
+// src/assets/styles/components/_panel-header.scss
+
+// 상위 폴더의 _variables.scss 파일에서 변수를 가져오기
+// 이 코드를 추가하여 $변수명들을 사용할 준비를 합니다.
+@use '../variables' as var;
+
+// 1. 공통 패널 헤더 스타일
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #7a31cd; /* 강조색 #7a31cd */
+  padding-bottom: 10px;
+
+  h3 {
+    color: #42b983; /* 기본 글자색 #42b983 */
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  div {
+    display: flex;
+    gap: 10px;
+  }
+}

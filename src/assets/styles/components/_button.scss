@@ -1,0 +1,22 @@
+// src/assets/styles/components/_button.scss
+
+@use 'sass:color';          // <--- 이 줄이 있어야 color.adjust() 함수를 쓸 수 있어요!
+@use '../variables' as var; // <--- 이 줄이 있어야 우리 변수들을 쓸 수 있구요!
+
+// 2-1. 영선갤러리 관련 메인 버튼 (PC 버전)
+@use 'main-buttons';
+
+// 2-2. 테이블 안의 액션 버튼 (작은 산뜻한 디자인)
+@use 'action-buttons';
+
+// 2-3. 더 보기 버튼 (PC 버전)
+@use 'load-more-button';
+
+// 2. 공통 버튼 기본 스타일 (산뜻한 디자인을 위한 재해석)
+button {
+  font-family: 'Noto Sans KR', sans-serif; /* 폰트 일관성 유지 */
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  outline: none; /* 클릭 시 아웃라인 제거 */
+}

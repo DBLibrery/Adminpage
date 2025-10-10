@@ -1,0 +1,22 @@
+// src/assets/styles/components/_search-bar.scss 파일 맨 위에 추가!
+
+@use 'sass:color';          // <--- 이 줄 추가! (혹시 color 함수 사용될까봐 미리 넣어두면 좋아요!)
+@use '../variables' as var; // <--- 이 줄 추가!
+
+// 4. 공통 검색창 스타일
+.search-bar {
+  margin-bottom: 20px;
+  .search-input {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #d0d0d0; 
+    border-radius: 6px; 
+    font-size: 1rem;
+    box-sizing: border-box;
+    &:focus {
+      border-color: #42b983; 
+      box-shadow: 0 0 5px rgba(66, 185, 131, 0.5); 
+      outline: none;
+    }
+  }
+}

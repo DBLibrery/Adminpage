@@ -1,0 +1,80 @@
+// src/assets/styles/components/_table-styles.scss 파일 맨 위에 추가!
+
+@use 'sass:color';          // <--- 이 줄 추가! (color.adjust는 안보이지만, 만약을 위해 미리 넣어두는 게 좋아요!)
+@use '../variables' as var;
+
+// 6. 공통 테이블 컨테이너
+.artwork-table-container, .exhibition-table-container, .lecture-table-container {
+    overflow-x: auto;
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08); 
+    background-color: white; 
+}
+
+// 7. 공통 테이블 스타일
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0; 
+    border-radius: 10px;
+
+    th, td {
+        border: 1px solid #eceff1; 
+        padding: 15px; 
+        text-align: left;
+        vertical-align: middle;
+        font-size: 0.95rem; 
+    }
+
+    th {
+        background-color: #e0e5ea; 
+        color: #333333; 
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    tbody tr:nth-child(even) { background-color: #fcfcfc; }
+    tbody tr:hover { background-color: #eef2f5; }
+
+    .edit-input, .edit-textarea {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+        border: 1px solid #d0d0d0;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        resize: vertical;
+        &:focus {
+          border-color: #42b983; 
+          box-shadow: 0 0 5px rgba(66, 185, 131, 0.5); 
+          outline: none;
+        }
+    }
+    .edit-textarea { min-height: 60px; }
+
+    .poster-col {
+        width: 100px;
+        text-align: center;
+        img {
+            max-width: 80px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+        }
+        .no-image-text { color: #888; font-size: 0.85rem; }
+    }
+    .actions-col {
+        width: 150px;
+        text-align: center;
+        white-space: nowrap;
+        button { /* 테이블 안의 버튼들은 이미 위에서 작은 스타일을 정의함 */ }
+    }
+    .desc-col { /* ExhibitionTable의 설명 컬럼 */
+        max-width: 250px;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+}

@@ -20,7 +20,7 @@
 </script>
 
 <style lang="scss" scoped>
-@use '@/assets/styles/_style.scss' as var; // _style.scss에서 변수 참조
+@use '@/assets/styles/_variables.scss' as var; 
 
 .admin-layout-container {
   display: grid;
