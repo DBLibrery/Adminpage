@@ -1,5 +1,31 @@
 [
   {
+    "code": "YS740",
+    "title": "Untitled",
+    "artist": "Hendrick Lilanga",
+    "technique": "Paint on Cavas",
+    "size": "35 X 35cm",
+    "year": 2024,
+    "buyPrice": "한중석 선물",
+    "sellPrice": 500000,
+    "stockDate": "2025.10.01",
+    "setName": null,
+    "owner": "박성희"
+  },
+  {
+    "code": "YS739",
+    "title": "Untitled",
+    "artist": "Hendrick Lilanga",
+    "technique": "Paint on Canvas",
+    "size": "35 X 35cm",
+    "year": 2024,
+    "buyPrice": "한중석 선물",
+    "sellPrice": 500000,
+    "stockDate": "2025.10.01",
+    "setName": null,
+    "owner": "박성희"
+  },
+  {
     "code": "YS738",
     "title": "현묵 25-05-20",
     "artist": "김정환",
