@@ -1,39 +1,14 @@
 [
   {
-    "code": "YS740",
-    "title": "Untitled",
-    "artist": "Hendrick Lilanga",
-    "technique": "Paint on Canvas",
-    "size": "35 X 35cm",
-    "year": 2024,
-    "buyPrice": "한중석 선물",
-    "sellPrice": 500000,
-    "stockDate": "2025.10.01",
-    "setName": null,
-    "owner": "박성희"
-  },
-  {
-    "code": "YS739",
-    "title": "Untitled",
-    "artist": "Hendrick Lilanga",
-    "technique": "Paint on Canvas",
-    "size": "35 X 35cm",
-    "year": 2024,
-    "buyPrice": "한중석 선물",
-    "sellPrice": 500000,
-    "stockDate": "2025.10.01",
-    "setName": null,
-    "owner": "박성희"
-  },
-  {
     "code": "YS738",
     "title": "현묵 25-05-20",
     "artist": "김정환",
     "technique": "Acrylic and silica sand mounted on linen",
     "size": "53 X 45cm",
     "year": 2025,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
+    "stockDate": "2025.06.10",
     "setName": null,
     "owner": null
   },
@@ -44,8 +19,9 @@
     "technique": "Acrylic and silica sand mounted on linen",
     "size": "53 X 45cm",
     "year": 2025,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
+    "stockDate": "2025.06.10",
     "setName": null,
     "owner": null
   },
@@ -56,8 +32,9 @@
     "technique": "Offset Print",
     "size": "55 X 55cm",
     "year": 2024,
-    "buyPrice": null,
+    "buyPrice": 1165000,
     "sellPrice": null,
+    "stockDate": "2025.10.02",
     "setName": null,
     "owner": null
   },
@@ -68,8 +45,9 @@
     "technique": "Offset Print",
     "size": "60 X 60cm",
     "year": 2024,
-    "buyPrice": null,
+    "buyPrice": 1515500,
     "sellPrice": null,
+    "stockDate": "2025.09.24",
     "setName": null,
     "owner": null
   },
@@ -80,8 +58,9 @@
     "technique": "Offset Print",
     "size": "60 X 60cm(103/300)",
     "year": 2021,
-    "buyPrice": null,
+    "buyPrice": 1514500,
     "sellPrice": null,
+    "stockDate": "2025.09.24",
     "setName": null,
     "owner": null
   },
@@ -92,8 +71,9 @@
     "technique": "하드보드에 혼합재료",
     "size": "32 X 21cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 932000,
     "sellPrice": null,
+    "stockDate": "2025.09.24",
     "setName": null,
     "owner": null
   },
@@ -104,8 +84,9 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 582500,
     "sellPrice": null,
+    "stockDate": "2025.09.24",
     "setName": null,
     "owner": null
   },
@@ -116,8 +97,9 @@
     "technique": "Lithography",
     "size": "39 X 27cm",
     "year": 1986,
-    "buyPrice": null,
+    "buyPrice": 599000,
     "sellPrice": null,
+    "stockDate": "2021.11.22",
     "setName": null,
     "owner": null
   },
@@ -128,8 +110,9 @@
     "technique": "비단에 채색",
     "size": "34.2 X 76cm",
     "year": 1981,
-    "buyPrice": null,
+    "buyPrice": 6524000,
     "sellPrice": null,
+    "stockDate": "2025.08.27",
     "setName": null,
     "owner": null
   },
@@ -140,8 +123,9 @@
     "technique": "Offset Print",
     "size": "60 X 60cm(226/300)",
     "year": 2021,
-    "buyPrice": null,
+    "buyPrice": 1747500,
     "sellPrice": null,
+    "stockDate": "2025.08.27",
     "setName": null,
     "owner": null
   },
@@ -152,8 +136,9 @@
     "technique": "Lithography",
     "size": "60 X 76cm",
     "year": 2020,
-    "buyPrice": null,
+    "buyPrice": 5031600,
     "sellPrice": null,
+    "stockDate": "2022.03.08",
     "setName": null,
     "owner": null
   },
@@ -164,10 +149,11 @@
     "technique": "Ink and Light color on Paper",
     "size": "68.5 X 132cm",
     "year": 1987,
-    "buyPrice": null,
+    "buyPrice": 658900,
     "sellPrice": null,
+    "stockDate": "2023.06.19",
     "setName": null,
-    "owner": null
+    "owner": "김재옥"
   },
   {
     "code": "YS726",
@@ -176,8 +162,9 @@
     "technique": "Silkscreen",
     "size": "40 X 43.5cm",
     "year": 2021,
-    "buyPrice": null,
+    "buyPrice": 958400,
     "sellPrice": null,
+    "stockDate": "2023.05.01",
     "setName": null,
     "owner": null
   },
@@ -188,8 +175,9 @@
     "technique": "종이에 색연필",
     "size": "46 X 61.2cm",
     "year": 2019,
-    "buyPrice": null,
+    "buyPrice": 1200000,
     "sellPrice": null,
+    "stockDate": "2025.06.29",
     "setName": null,
     "owner": null
   },
@@ -200,8 +188,9 @@
     "technique": "Lithography",
     "size": "45 X 30.5cm",
     "year": 1987,
-    "buyPrice": null,
+    "buyPrice": 2500000,
     "sellPrice": null,
+    "stockDate": "2025.06.20",
     "setName": "최종태 판화집",
     "owner": null
   },
@@ -212,8 +201,9 @@
     "technique": "종이에 수묵담채",
     "size": "137 X 33.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 582000,
     "sellPrice": null,
+    "stockDate": "2025.06.12",
     "setName": null,
     "owner": null
   },
@@ -224,8 +214,9 @@
     "technique": "Drowing",
     "size": "22.5 X 31cm",
     "year": 1986,
-    "buyPrice": null,
+    "buyPrice": 320375,
     "sellPrice": null,
+    "stockDate": "2025.04.23",
     "setName": null,
     "owner": null
   },
@@ -236,8 +227,9 @@
     "technique": "Drowing",
     "size": "22.5 X 31cm",
     "year": 1986,
-    "buyPrice": null,
+    "buyPrice": 320375,
     "sellPrice": null,
+    "stockDate": "2025.04.23",
     "setName": null,
     "owner": null
   },
@@ -248,8 +240,9 @@
     "technique": "Drowing",
     "size": "22.5 X 31cm",
     "year": 1986,
-    "buyPrice": null,
+    "buyPrice": 320375,
     "sellPrice": null,
+    "stockDate": "2025.04.23",
     "setName": null,
     "owner": null
   },
@@ -260,8 +253,9 @@
     "technique": "Drowing",
     "size": "22.5 X 31cm",
     "year": 1986,
-    "buyPrice": null,
+    "buyPrice": 320375,
     "sellPrice": null,
+    "stockDate": "2025.04.23",
     "setName": null,
     "owner": null
   },
@@ -272,8 +266,9 @@
     "technique": "Offset Lithography",
     "size": "71 X 71cm",
     "year": 2015,
-    "buyPrice": null,
+    "buyPrice": 1398000,
     "sellPrice": null,
+    "stockDate": "2025.04.23",
     "setName": null,
     "owner": null
   },
@@ -284,7 +279,7 @@
     "technique": "Oil on Canvas",
     "size": "65.1 X 53cm",
     "year": 2022,
-    "buyPrice": null,
+    "buyPrice": 2500000,
     "sellPrice": null,
     "setName": null,
     "owner": null
@@ -296,8 +291,9 @@
     "technique": "판화",
     "size": "35 X 60cm",
     "year": 1990,
-    "buyPrice": null,
+    "buyPrice": 233000,
     "sellPrice": null,
+    "stockDate": "2025.03.27",
     "setName": null,
     "owner": null
   },
@@ -308,8 +304,9 @@
     "technique": "Lithography",
     "size": "42.5 X 64.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 256300,
     "sellPrice": null,
+    "stockDate": "2025.03.27",
     "setName": null,
     "owner": null
   },
@@ -320,8 +317,9 @@
     "technique": "2000년 판화다력",
     "size": "64 X 44cm",
     "year": 2000,
-    "buyPrice": null,
+    "buyPrice": 466000,
     "sellPrice": null,
+    "stockDate": "2025.03.27",
     "setName": null,
     "owner": null
   },
@@ -332,8 +330,9 @@
     "technique": "Acrylic on Canvas",
     "size": "45.5 X 45.5cm",
     "year": 2007,
-    "buyPrice": null,
+    "buyPrice": 7000000,
     "sellPrice": null,
+    "stockDate": "2025.03.26",
     "setName": null,
     "owner": null
   },
@@ -344,8 +343,8 @@
     "technique": "Silkscreen",
     "size": "24 X 17cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -356,8 +355,8 @@
     "technique": "도침장지 위에 석채, 금박24K, 금니 24K, 합금박, 먹",
     "size": "24 X 17cm",
     "year": 2008,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -368,8 +367,8 @@
     "technique": "수제장지에 합금박 (24K), 석채, 먹",
     "size": "24 X 17cm",
     "year": 2023,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -380,8 +379,8 @@
     "technique": "100% 코튼지, 펜, 잉크",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -392,8 +391,8 @@
     "technique": "100% 코튼지, 펜, 잉크",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -404,8 +403,8 @@
     "technique": "Acrylic and silica sand mounted on linen",
     "size": "53 X 45cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -416,8 +415,8 @@
     "technique": "Acrylic and silica sand mounted on linen",
     "size": "53 X 45cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -428,8 +427,8 @@
     "technique": "수제장지에 혼합재료",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -440,8 +439,8 @@
     "technique": "수제장지에 혼합재료",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -452,8 +451,8 @@
     "technique": "수제장지에 혼합재료",
     "size": "24 X 17cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -464,8 +463,8 @@
     "technique": "캔버스에 혼합재료",
     "size": "50cm",
     "year": 2025,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 3500000,
     "setName": null,
     "owner": null
   },
@@ -476,8 +475,8 @@
     "technique": "캔버스에 혼합재료",
     "size": "50cm",
     "year": 2025,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 3500000,
     "setName": null,
     "owner": null
   },
@@ -488,8 +487,9 @@
     "technique": "판화",
     "size": "88.5 X 68cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 359400,
     "sellPrice": null,
+    "stockDate": "2025.01.31",
     "setName": null,
     "owner": null
   },
@@ -501,7 +501,7 @@
     "size": "72.7 X 60.6cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 3750000,
     "setName": null,
     "owner": null
   },
@@ -512,8 +512,9 @@
     "technique": "Oil on Canvas",
     "size": "97 X 130.3cm",
     "year": 1982,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6174500,
+    "sellPrice": 6174500,
+    "stockDate": "2024.05.02",
     "setName": null,
     "owner": null
   },
@@ -524,8 +525,9 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 37.9cm",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1000000,
+    "stockDate": "2024.11.21",
     "setName": null,
     "owner": null
   },
@@ -536,10 +538,10 @@
     "technique": "Oil on Canvas",
     "size": "90.9 X 65.1cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7500000,
+    "sellPrice": 15000000,
     "setName": null,
-    "owner": null
+    "owner": "김형진"
   },
   {
     "code": "YS695",
@@ -548,10 +550,10 @@
     "technique": "Oil on Canvas",
     "size": "100 X 100cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
-    "owner": null
+    "owner": "김세제"
   },
   {
     "code": "YS694",
@@ -560,8 +562,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -572,8 +574,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -584,8 +586,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -596,8 +598,8 @@
     "technique": "Oil on Canvas",
     "size": "59 X 59cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -608,10 +610,10 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null,
-    "owner": null
+    "owner": "임종기"
   },
   {
     "code": "YS689",
@@ -620,8 +622,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -632,8 +634,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -644,8 +646,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -656,8 +658,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -668,8 +670,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -680,8 +682,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -692,8 +694,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -704,8 +706,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -716,8 +718,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -728,8 +730,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -740,8 +742,8 @@
     "technique": "Oil on Linen",
     "size": "55 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -752,10 +754,10 @@
     "technique": "Oil on Canvas",
     "size": "116 X 73cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7500000,
+    "sellPrice": 25000000,
     "setName": null,
-    "owner": null
+    "owner": "박하은"
   },
   {
     "code": "YS677",
@@ -764,10 +766,10 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
-    "owner": null
+    "owner": "김지아"
   },
   {
     "code": "YS676",
@@ -776,8 +778,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -788,8 +790,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -800,10 +802,10 @@
     "technique": "Oil on Canvas",
     "size": "162 X 130cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 50000000,
     "setName": null,
-    "owner": null
+    "owner": "백찬윤"
   },
   {
     "code": "YS673",
@@ -812,10 +814,10 @@
     "technique": "Oil on Canvas",
     "size": "162 X 130cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 50000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS672",
@@ -824,8 +826,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -836,8 +838,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -848,10 +850,10 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS669",
@@ -860,8 +862,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -872,8 +874,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 73cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -884,10 +886,10 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 10000000,
     "setName": null,
-    "owner": null
+    "owner": "박경진"
   },
   {
     "code": "YS666",
@@ -896,8 +898,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -908,8 +910,8 @@
     "technique": "Oil on Canvas",
     "size": "70 X 174cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 30000000,
+    "sellPrice": 50000000,
     "setName": null,
     "owner": null
   },
@@ -920,10 +922,10 @@
     "technique": "Oil on Canvas",
     "size": "60 X 60cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null,
-    "owner": null
+    "owner": "우효성"
   },
   {
     "code": "YS663",
@@ -932,10 +934,10 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 4000000,
     "setName": null,
-    "owner": null
+    "owner": "정국현"
   },
   {
     "code": "YS662",
@@ -944,10 +946,10 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
-    "owner": null
+    "owner": "임영임"
   },
   {
     "code": "YS661",
@@ -956,10 +958,10 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
-    "owner": null
+    "owner": "김은진"
   },
   {
     "code": "YS660",
@@ -968,8 +970,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -980,8 +982,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -992,8 +994,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -1004,8 +1006,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -1016,10 +1018,10 @@
     "technique": "Oil on Canvas",
     "size": "175 X 70cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 25000000,
+    "sellPrice": 50000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS655",
@@ -1028,8 +1030,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 91cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
     "owner": null
   },
@@ -1040,8 +1042,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 91cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
     "owner": null
   },
@@ -1052,10 +1054,10 @@
     "technique": "Oil on Canvas",
     "size": "116 X 73cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
-    "owner": null
+    "owner": "장영훈"
   },
   {
     "code": "YS652",
@@ -1064,8 +1066,8 @@
     "technique": "Oil on Canvas",
     "size": "116 X 73cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -1076,10 +1078,10 @@
     "technique": "Oil on Linen",
     "size": "175 X 70cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 25000000,
+    "sellPrice": 50000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS650",
@@ -1088,8 +1090,8 @@
     "technique": "Oil on Linen",
     "size": "116 X 89cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
     "owner": null
   },
@@ -1100,8 +1102,8 @@
     "technique": "Oil on Linen",
     "size": "116 X 83cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
     "owner": null
   },
@@ -1112,8 +1114,8 @@
     "technique": "Oil on Linen",
     "size": "100 X 100cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
     "owner": null
   },
@@ -1124,8 +1126,8 @@
     "technique": "Oil on Canvas",
     "size": "116.8 X 91cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 12500000,
+    "sellPrice": 25000000,
     "setName": null,
     "owner": null
   },
@@ -1136,10 +1138,10 @@
     "technique": "Oil on Canvas",
     "size": "92 X 73cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4500000,
+    "sellPrice": 15000000,
     "setName": null,
-    "owner": null
+    "owner": "한중석"
   },
   {
     "code": "YS645",
@@ -1148,8 +1150,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -1160,8 +1162,8 @@
     "technique": "Oil on Canvas",
     "size": "54 X 73cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -1172,8 +1174,8 @@
     "technique": "Oil on Linen",
     "size": "55 X 46cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -1184,8 +1186,8 @@
     "technique": "Oil on Linen",
     "size": "55 X 46cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -1196,8 +1198,8 @@
     "technique": "Oil on Linen",
     "size": "30 X 70cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -1208,8 +1210,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -1220,10 +1222,10 @@
     "technique": "Oil on Canvas",
     "size": "30 X 60cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 1500000,
     "setName": null,
-    "owner": null
+    "owner": "김지현"
   },
   {
     "code": "YS638",
@@ -1244,10 +1246,10 @@
     "technique": "Oil on Canvas",
     "size": "34 X 24cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "김형규"
   },
   {
     "code": "YS636",
@@ -1257,7 +1259,7 @@
     "size": "55 X 46cm",
     "year": 2021,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -1268,8 +1270,8 @@
     "technique": "Oil on Canvas",
     "size": "46 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -1280,8 +1282,8 @@
     "technique": "Oil on Canvas",
     "size": "46 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -1292,8 +1294,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -1304,8 +1306,8 @@
     "technique": "Oil on Canvas",
     "size": "175 X 700cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000000,
+    "sellPrice": 400000000,
     "setName": null,
     "owner": null
   },
@@ -1316,10 +1318,10 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
-    "owner": null
+    "owner": "김학천"
   },
   {
     "code": "YS630",
@@ -1328,8 +1330,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -1340,8 +1342,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -1352,8 +1354,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -1364,10 +1366,10 @@
     "technique": "Oil on Canvas",
     "size": "100 X 81cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 20000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS626",
@@ -1376,8 +1378,8 @@
     "technique": "장지 위에 석채",
     "size": "22 X 27cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -1388,8 +1390,9 @@
     "technique": "Ink and Light Color on Silk",
     "size": "109 X 33.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 599000,
     "sellPrice": null,
+    "stockDate": "2022.01.31",
     "setName": null,
     "owner": null
   },
@@ -1400,8 +1403,8 @@
     "technique": "한지 위에 목각인",
     "size": "8 X 10.5cm",
     "year": 2002,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 250000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -1412,8 +1415,9 @@
     "technique": "종이에 수묵담채",
     "size": "119.5 X 119.5cm",
     "year": 1950,
-    "buyPrice": null,
+    "buyPrice": 3500000,
     "sellPrice": null,
+    "stockDate": "2024.06.05",
     "setName": null,
     "owner": null
   },
@@ -1426,6 +1430,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.10.04",
     "setName": null,
     "owner": null
   },
@@ -1436,10 +1441,11 @@
     "technique": "종이에 수묵",
     "size": "112 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 679200,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
-    "owner": null
+    "owner": "박영길 선물"
   },
   {
     "code": "YS620",
@@ -1448,10 +1454,11 @@
     "technique": "종이에 수묵",
     "size": "33.5 X 45.8cm",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 249040,
+    "sellPrice": 500000,
+    "stockDate": "2021.07.28",
     "setName": null,
-    "owner": null
+    "owner": "한정우"
   },
   {
     "code": "YS619",
@@ -1460,8 +1467,9 @@
     "technique": "종이에 수묵담채",
     "size": "42 X 48cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 200000,
     "sellPrice": null,
+    "stockDate": "2024.01.18",
     "setName": null,
     "owner": null
   },
@@ -1472,10 +1480,10 @@
     "technique": "Conte Paper",
     "size": "42 X 58cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
-    "owner": null
+    "owner": "이기은"
   },
   {
     "code": "YS617",
@@ -1484,10 +1492,10 @@
     "technique": "Conte Paper",
     "size": "42 X 58cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
-    "owner": null
+    "owner": "김형진"
   },
   {
     "code": "YS616",
@@ -1496,10 +1504,10 @@
     "technique": "Oil on Canvas",
     "size": "55 X 46cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "김수안"
   },
   {
     "code": "YS615",
@@ -1520,10 +1528,10 @@
     "technique": "Oil on Canvas",
     "size": "38 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "박재순"
   },
   {
     "code": "YS613",
@@ -1532,8 +1540,8 @@
     "technique": "Conte Paper",
     "size": "30 X 42cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -1544,8 +1552,8 @@
     "technique": "Conte Paper",
     "size": "30 X 42cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -1556,8 +1564,8 @@
     "technique": "Conte Paper",
     "size": "30 X 42cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -1568,8 +1576,8 @@
     "technique": "Print",
     "size": "10 X 7cm",
     "year": 1995,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -1580,8 +1588,9 @@
     "technique": "아쿼틴트",
     "size": "49.5 X 48.5cm",
     "year": 1974,
-    "buyPrice": null,
+    "buyPrice": 700000,
     "sellPrice": null,
+    "stockDate": "2024.08.21",
     "setName": null,
     "owner": null
   },
@@ -1592,8 +1601,9 @@
     "technique": "Digital Pigment Print",
     "size": "90 X 90cm",
     "year": 2016,
-    "buyPrice": null,
+    "buyPrice": 2276200,
     "sellPrice": null,
+    "stockDate": "2021.09.13",
     "setName": null,
     "owner": null
   },
@@ -1604,8 +1614,9 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 53cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 5825000,
     "sellPrice": null,
+    "stockDate": "2024.11.20",
     "setName": null,
     "owner": null
   },
@@ -1616,8 +1627,9 @@
     "technique": "Oil on Canvas",
     "size": "80.3 X 100cm",
     "year": 2022,
-    "buyPrice": null,
+    "buyPrice": 2679500,
     "sellPrice": null,
+    "stockDate": "2024.03.27",
     "setName": null,
     "owner": null
   },
@@ -1628,8 +1640,8 @@
     "technique": "믹스 미디어",
     "size": "26 X 26cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -1640,8 +1652,9 @@
     "technique": "Lithography",
     "size": "39.5 X 26.6cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 326400,
     "sellPrice": null,
+    "stockDate": "2023.07.27",
     "setName": null,
     "owner": null
   },
@@ -1652,8 +1665,9 @@
     "technique": "종이에 유채",
     "size": "67 X 49.3cm",
     "year": 1974,
-    "buyPrice": null,
+    "buyPrice": 800000,
     "sellPrice": null,
+    "stockDate": "2024.10.24",
     "setName": null,
     "owner": null
   },
@@ -1664,8 +1678,9 @@
     "technique": "종이에 유채",
     "size": "67 X 49.3cm",
     "year": 1974,
-    "buyPrice": null,
+    "buyPrice": 800000,
     "sellPrice": null,
+    "stockDate": "2024.10.24",
     "setName": null,
     "owner": null
   },
@@ -1676,8 +1691,9 @@
     "technique": "Woodcut",
     "size": "59 X 59.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 679200,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -1688,8 +1704,8 @@
     "technique": "Oil on Canvas",
     "size": "90.9 X 65.1cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 21000000,
     "setName": null,
     "owner": null
   },
@@ -1700,8 +1716,8 @@
     "technique": "Oil on Canvas",
     "size": "90.9 X 90.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 35000000,
     "setName": null,
     "owner": null
   },
@@ -1712,8 +1728,8 @@
     "technique": "Oil on Canvas",
     "size": "71 X 71cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 21000000,
     "setName": null,
     "owner": null
   },
@@ -1724,8 +1740,8 @@
     "technique": "Oil on Canvas",
     "size": "71 X 71cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 21000000,
     "setName": null,
     "owner": null
   },
@@ -1736,10 +1752,10 @@
     "technique": "Oil on Canvas",
     "size": "70 X 70cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 9000000,
     "setName": null,
-    "owner": null
+    "owner": "백찬윤"
   },
   {
     "code": "YS595",
@@ -1748,8 +1764,8 @@
     "technique": "Oil on Canvas",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 4200000,
     "setName": null,
     "owner": null
   },
@@ -1760,8 +1776,8 @@
     "technique": "Oil on Canvas",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 4200000,
     "setName": null,
     "owner": null
   },
@@ -1772,8 +1788,8 @@
     "technique": "Oil on Canvas",
     "size": "60.6 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 84000000,
     "setName": null,
     "owner": null
   },
@@ -1784,8 +1800,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 40.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 7000000,
     "setName": null,
     "owner": null
   },
@@ -1796,8 +1812,8 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 5600000,
     "setName": null,
     "owner": null
   },
@@ -1808,8 +1824,8 @@
     "technique": "Oil on Canvas",
     "size": "45 X 45cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 7000000,
     "setName": null,
     "owner": null
   },
@@ -1820,8 +1836,8 @@
     "technique": "Oil on Canvas",
     "size": "71 X 71cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 21000000,
     "setName": null,
     "owner": null
   },
@@ -1832,8 +1848,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 100cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 42000000,
     "setName": null,
     "owner": null
   },
@@ -1844,8 +1860,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 14000000,
     "setName": null,
     "owner": null
   },
@@ -1856,8 +1872,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 53cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 14000000,
     "setName": null,
     "owner": null
   },
@@ -1868,8 +1884,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 53cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 14000000,
     "setName": null,
     "owner": null
   },
@@ -1880,8 +1896,8 @@
     "technique": "Oil on Canvas",
     "size": "72 X 72cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 21000000,
     "setName": null,
     "owner": null
   },
@@ -1892,8 +1908,8 @@
     "technique": "Oil on Canvas",
     "size": "71 X 71cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 5600000,
     "setName": null,
     "owner": null
   },
@@ -1904,8 +1920,8 @@
     "technique": "Oil on Canvas",
     "size": "65.1 X 53cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 14000000,
     "setName": null,
     "owner": null
   },
@@ -1916,8 +1932,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 7000000,
     "setName": null,
     "owner": null
   },
@@ -1928,8 +1944,8 @@
     "technique": "Oil on Canvas",
     "size": "52 X 52cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 7500000,
     "setName": null,
     "owner": null
   },
@@ -1940,8 +1956,8 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 5600000,
     "setName": null,
     "owner": null
   },
@@ -1952,8 +1968,8 @@
     "technique": "Oil on Canvas",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 7000000,
     "setName": null,
     "owner": null
   },
@@ -1964,8 +1980,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 14000000,
     "setName": null,
     "owner": null
   },
@@ -1976,8 +1992,8 @@
     "technique": "Oil on Canvas",
     "size": "40.9 X 27.3cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 5600000,
     "setName": null,
     "owner": null
   },
@@ -1988,8 +2004,8 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 37.9cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -2002,6 +2018,7 @@
     "year": 1989,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2014,6 +2031,7 @@
     "year": 1979,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2024,8 +2042,9 @@
     "technique": "Offset Lithography",
     "size": "34.5 X 31cm",
     "year": 2006,
-    "buyPrice": null,
+    "buyPrice": 2036600,
     "sellPrice": null,
+    "stockDate": "2021.09.13",
     "setName": null,
     "owner": null
   },
@@ -2036,8 +2055,9 @@
     "technique": "Offset Lithography",
     "size": "31 X 31.6cm",
     "year": 2006,
-    "buyPrice": null,
+    "buyPrice": 2264000,
     "sellPrice": null,
+    "stockDate": "2021.09.08",
     "setName": null,
     "owner": null
   },
@@ -2050,6 +2070,7 @@
     "year": 1982,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2062,6 +2083,7 @@
     "year": 1981,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2074,6 +2096,7 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2086,6 +2109,7 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2098,6 +2122,7 @@
     "year": 1982,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2108,8 +2133,9 @@
     "technique": "Offset Lithography",
     "size": "34.5 X 31cm",
     "year": 2006,
-    "buyPrice": null,
+    "buyPrice": 1811200,
     "sellPrice": null,
+    "stockDate": "2021.10.06",
     "setName": null,
     "owner": null
   },
@@ -2122,6 +2148,7 @@
     "year": 1986,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2134,6 +2161,7 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2146,6 +2174,7 @@
     "year": 1983,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2158,6 +2187,7 @@
     "year": 1977,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2170,6 +2200,7 @@
     "year": 1993,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2019.09.07",
     "setName": "천경자 판화집",
     "owner": null
   },
@@ -2180,8 +2211,8 @@
     "technique": "화선지에 수묵담채",
     "size": "23 X 16cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -2192,8 +2223,8 @@
     "technique": "친환경 건죽자재 위 물감",
     "size": "53 X 53cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -2205,9 +2236,9 @@
     "size": "53 X 45.5cm",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 7000000,
     "setName": null,
-    "owner": null
+    "owner": "박래현"
   },
   {
     "code": "YS556",
@@ -2216,10 +2247,11 @@
     "technique": "견에 수묵채색",
     "size": "10.8 X 24.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 233000,
     "sellPrice": null,
+    "stockDate": "2021.06.02",
     "setName": null,
-    "owner": null
+    "owner": "김형국"
   },
   {
     "code": "YS555",
@@ -2228,8 +2260,8 @@
     "technique": "Acrylic on Canvas",
     "size": "75 X 38cm",
     "year": 1999,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -2240,8 +2272,9 @@
     "technique": "Book on wood",
     "size": "40.5 X 40.5cm",
     "year": 2011,
-    "buyPrice": null,
+    "buyPrice": 524250,
     "sellPrice": null,
+    "stockDate": "2023.05.25",
     "setName": null,
     "owner": null
   },
@@ -2252,8 +2285,8 @@
     "technique": "Oil on Canvas",
     "size": "41 X 31.8cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -2264,8 +2297,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 50cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -2276,8 +2309,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -2288,8 +2321,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 50cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -2300,8 +2333,8 @@
     "technique": "Oil on Canvas",
     "size": "91 X 65.2cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4500000,
+    "sellPrice": 9000000,
     "setName": null,
     "owner": null
   },
@@ -2312,8 +2345,8 @@
     "technique": "Oil on Canvas",
     "size": "90.9 X 72.7cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -2324,8 +2357,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -2336,8 +2369,8 @@
     "technique": "Oil on Canvas",
     "size": "65.1 X 45.5cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2250000,
+    "sellPrice": 4500000,
     "setName": null,
     "owner": null
   },
@@ -2348,8 +2381,8 @@
     "technique": "Oil on Canvas",
     "size": "65.1 X 45.5cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2250000,
+    "sellPrice": 4500000,
     "setName": null,
     "owner": null
   },
@@ -2360,8 +2393,8 @@
     "technique": "Oil on Canvas",
     "size": "61 X 61cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -2372,8 +2405,8 @@
     "technique": "Oil on Canvas",
     "size": "45 X 45cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -2384,8 +2417,8 @@
     "technique": "Oil on Canvas",
     "size": "41 X 27.3cm",
     "year": 2011,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -2396,8 +2429,8 @@
     "technique": "Oil on Canvas",
     "size": "55 X 35cm",
     "year": 2011,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -2408,8 +2441,8 @@
     "technique": "Oil on Canvas",
     "size": "110 X 54cm",
     "year": 2007,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6750000,
+    "sellPrice": 13500000,
     "setName": null,
     "owner": null
   },
@@ -2420,8 +2453,9 @@
     "technique": "Oil on Canvas",
     "size": "53 X 40.9.cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1916800,
     "sellPrice": null,
+    "stockDate": "2021.12.20",
     "setName": null,
     "owner": null
   },
@@ -2504,8 +2538,8 @@
     "technique": "종이에 실크스크린",
     "size": "15 X 15cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "김윤섭 선물",
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -2516,8 +2550,9 @@
     "technique": "닥종이에 혼합재료",
     "size": "47 X 39cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15200000,
+    "sellPrice": 25000000,
+    "stockDate": "2024.03.27",
     "setName": null,
     "owner": null
   },
@@ -2528,8 +2563,8 @@
     "technique": "Mixed Mdia with Korean Mulberry Paper",
     "size": "60x52cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 35000000,
+    "sellPrice": 45000000,
     "setName": null,
     "owner": null
   },
@@ -2540,8 +2575,9 @@
     "technique": "Mixed Media with Korean Mulberry Paper",
     "size": "163 X 132cm",
     "year": 1997,
-    "buyPrice": null,
+    "buyPrice": 54000000,
     "sellPrice": null,
+    "stockDate": "2021.12.28",
     "setName": null,
     "owner": null
   },
@@ -2552,8 +2588,8 @@
     "technique": "Mixed with Korean Mulberry Paper",
     "size": "22 X 36cm",
     "year": 2007,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5500000,
+    "sellPrice": 15000000,
     "setName": null,
     "owner": null
   },
@@ -2564,8 +2600,8 @@
     "technique": "Mixed with Korean Mulberry Paper",
     "size": "98 X 147cm",
     "year": 2003,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 50000000,
+    "sellPrice": 70000000,
     "setName": null,
     "owner": null
   },
@@ -2576,10 +2612,10 @@
     "technique": "Mixed with Korean Mulberry Paper",
     "size": "113 X 163cm",
     "year": 2002,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 50000000,
+    "sellPrice": 80000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS525",
@@ -2588,8 +2624,8 @@
     "technique": "캔버스 위에 혼합매체",
     "size": "67 X 78cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 3500000,
     "setName": null,
     "owner": null
   },
@@ -2600,8 +2636,9 @@
     "technique": "Lithography",
     "size": "31.1 X 31.3cm",
     "year": 1986,
-    "buyPrice": null,
+    "buyPrice": 256300,
     "sellPrice": null,
+    "stockDate": "2022.05.27",
     "setName": null,
     "owner": null
   },
@@ -2612,8 +2649,9 @@
     "technique": "종이에 매직",
     "size": "21.5 X 31cm",
     "year": 1979,
-    "buyPrice": null,
+    "buyPrice": 3776600,
     "sellPrice": null,
+    "stockDate": "2024.11.21",
     "setName": null,
     "owner": null
   },
@@ -2624,8 +2662,9 @@
     "technique": "종이에 수묵담채",
     "size": "42.5 X 29.5cm",
     "year": 1971,
-    "buyPrice": null,
+    "buyPrice": 524250,
     "sellPrice": null,
+    "stockDate": "2023.05.25",
     "setName": null,
     "owner": null
   },
@@ -2636,8 +2675,9 @@
     "technique": "수묵담채",
     "size": "58 X 44cm",
     "year": 1989,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "배기성 선물",
+    "sellPrice": 3000000,
+    "stockDate": "2021.12.01",
     "setName": null,
     "owner": null
   },
@@ -2648,8 +2688,9 @@
     "technique": "종이에 수묵담채",
     "size": "40 X 32.5cm",
     "year": 1976,
-    "buyPrice": null,
+    "buyPrice": 350000,
     "sellPrice": null,
+    "stockDate": "2024.01.17",
     "setName": null,
     "owner": null
   },
@@ -2660,8 +2701,9 @@
     "technique": "종이에 수묵담채",
     "size": "23.5 X 27.3cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 113200,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2672,8 +2714,9 @@
     "technique": "종이에 수묵담채",
     "size": "48 X 64cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 113200,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2684,8 +2727,9 @@
     "technique": "브론즈",
     "size": "7.5 X 11.5 X 18.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 110000,
     "sellPrice": null,
+    "stockDate": "2023.11.15",
     "setName": null,
     "owner": null
   },
@@ -2696,8 +2740,9 @@
     "technique": "브론즈",
     "size": "7 X 11.5 X 26cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 140000,
     "sellPrice": null,
+    "stockDate": "2023.11.15",
     "setName": null,
     "owner": null
   },
@@ -2708,8 +2753,9 @@
     "technique": "견에 수묵담채",
     "size": "29 X 22cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 76160,
     "sellPrice": null,
+    "stockDate": "2023.10.04",
     "setName": null,
     "owner": null
   },
@@ -2720,8 +2766,9 @@
     "technique": "비단에 수묵담채",
     "size": "114 X 36.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 135840,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2732,8 +2779,9 @@
     "technique": "비단에 수묵담채",
     "size": "118.3 X 34.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 181120,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2744,8 +2792,9 @@
     "technique": "비단에 수묵담채",
     "size": "118.3 X 34.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 181120,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2756,8 +2805,9 @@
     "technique": "비단에 수묵담채",
     "size": "118.3 X 34.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 181120,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2768,8 +2818,9 @@
     "technique": "비단에 수묵담채",
     "size": "118 X 34cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 181120,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2780,8 +2831,9 @@
     "technique": "비단에 수묵담채",
     "size": "118.3 X 34.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 181120,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2792,8 +2844,9 @@
     "technique": "브론즈",
     "size": "9 X 19 X 30cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 135000,
     "sellPrice": null,
+    "stockDate": "2023.11.15",
     "setName": null,
     "owner": null
   },
@@ -2804,8 +2857,9 @@
     "technique": "종이에 수묵담채",
     "size": "91 X 26.7cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 139800,
     "sellPrice": null,
+    "stockDate": "2022.04.15",
     "setName": null,
     "owner": null
   },
@@ -2816,8 +2870,9 @@
     "technique": "종이에 수묵담채",
     "size": "128 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 362240,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2828,8 +2883,9 @@
     "technique": "종이에 수묵담채",
     "size": "128 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 362240,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2840,8 +2896,9 @@
     "technique": "종이에 수묵담채",
     "size": "128 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 362240,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2852,8 +2909,9 @@
     "technique": "종이에 수묵담채",
     "size": "128 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 362240,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -2864,8 +2922,9 @@
     "technique": "Lithography",
     "size": "23.5 X 20.8cm",
     "year": 1983,
-    "buyPrice": null,
+    "buyPrice": 266400,
     "sellPrice": null,
+    "stockDate": "2023.04.27",
     "setName": null,
     "owner": null
   },
@@ -2876,8 +2935,9 @@
     "technique": "종이에 수채",
     "size": "39 X 29.5cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 260000,
     "sellPrice": null,
+    "stockDate": "2024.01.18",
     "setName": null,
     "owner": null
   },
@@ -2888,8 +2948,9 @@
     "technique": "사후판화",
     "size": "53 X 33.4cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 452800,
     "sellPrice": null,
+    "stockDate": "2022.05.24",
     "setName": null,
     "owner": null
   },
@@ -2900,8 +2961,8 @@
     "technique": "Print",
     "size": "20 X 28.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -2912,8 +2973,9 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 53cm",
     "year": 1998,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 958400,
+    "sellPrice": 1000000,
+    "stockDate": "2021.09.13",
     "setName": null,
     "owner": null
   },
@@ -2924,8 +2986,9 @@
     "technique": "Lithography",
     "size": "45.8 X 62.3cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 20000000,
+    "sellPrice": 20000000,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -2936,8 +2999,9 @@
     "technique": "원형도판 - 아우환, 도자기 - 박영숙",
     "size": "∅33.8cm",
     "year": 2009,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 43500000,
+    "sellPrice": 40000000,
+    "stockDate": "2021.06.17",
     "setName": null,
     "owner": null
   },
@@ -2948,8 +3012,9 @@
     "technique": "Lithography",
     "size": "28 X 31cm",
     "year": 1982,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4792000,
+    "sellPrice": 5000000,
+    "stockDate": "2022.01.10",
     "setName": null,
     "owner": null
   },
@@ -2960,8 +3025,9 @@
     "technique": "Lithography",
     "size": "75 X 94.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 15000000,
+    "stockDate": "2022.03.21",
     "setName": null,
     "owner": null
   },
@@ -2972,8 +3038,9 @@
     "technique": "종이에 수묵담채",
     "size": "29 X 26cm",
     "year": 2008,
-    "buyPrice": null,
+    "buyPrice": 1132000,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -2984,8 +3051,8 @@
     "technique": "Silkscreen",
     "size": "145.5 X 97cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -2996,8 +3063,9 @@
     "technique": "Silkscreen",
     "size": "40 X 110cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1198000,
     "sellPrice": null,
+    "stockDate": "2021.09.20",
     "setName": null,
     "owner": null
   },
@@ -3020,8 +3088,9 @@
     "technique": "종이에 수묵담채",
     "size": "57.5 X 71cm",
     "year": 1988,
-    "buyPrice": null,
+    "buyPrice": 792400,
     "sellPrice": null,
+    "stockDate": "2022.02.16",
     "setName": null,
     "owner": null
   },
@@ -3033,7 +3102,7 @@
     "size": "64 X 50cm",
     "year": 2018,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -3045,7 +3114,7 @@
     "size": "36 X 50cm",
     "year": 2022,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -3057,7 +3126,7 @@
     "size": "87 X 87cm",
     "year": 2022,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -3069,7 +3138,7 @@
     "size": "37 X 37cm",
     "year": 2018,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 2500000,
     "setName": null,
     "owner": null
   },
@@ -3081,7 +3150,7 @@
     "size": "74 X 60cm",
     "year": 2018,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 7000000,
     "setName": null,
     "owner": null
   },
@@ -3093,7 +3162,7 @@
     "size": "52 X 38cm",
     "year": 2018,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -3105,7 +3174,7 @@
     "size": "37 X 37cm",
     "year": 2018,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 2500000,
     "setName": null,
     "owner": null
   },
@@ -3117,7 +3186,7 @@
     "size": "49 X 36cm",
     "year": 2018,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -3129,7 +3198,7 @@
     "size": "37 X 37cm",
     "year": 2018,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 2500000,
     "setName": null,
     "owner": null
   },
@@ -3141,7 +3210,7 @@
     "size": "35.5 X 35.5cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -3153,7 +3222,7 @@
     "size": "40 X 40cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -3165,7 +3234,7 @@
     "size": "30 X 30cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -3177,7 +3246,7 @@
     "size": "25 X 20cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -3189,7 +3258,7 @@
     "size": "22 X 20cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -3200,8 +3269,9 @@
     "technique": "Woodcut",
     "size": "60.2 X 5.7cm",
     "year": 1993,
-    "buyPrice": null,
+    "buyPrice": 217600,
     "sellPrice": null,
+    "stockDate": "2023.11.15",
     "setName": null,
     "owner": null
   },
@@ -3212,8 +3282,9 @@
     "technique": "Woodcut",
     "size": "22 X 33cm",
     "year": 1989,
-    "buyPrice": null,
+    "buyPrice": 407750,
     "sellPrice": null,
+    "stockDate": "2023.11.22",
     "setName": null,
     "owner": null
   },
@@ -3224,8 +3295,9 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 1991,
-    "buyPrice": null,
+    "buyPrice": 20000000,
     "sellPrice": null,
+    "stockDate": "2022.05.20",
     "setName": null,
     "owner": null
   },
@@ -3236,8 +3308,9 @@
     "technique": "옻칠, 나전, 계란껍질, 은선",
     "size": "43 X 43cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 1500000,
+    "stockDate": "2020.02.10",
     "setName": null,
     "owner": null
   },
@@ -3248,8 +3321,9 @@
     "technique": "옻칠, 은선, 나전, 어피, 대모",
     "size": "49 X 49cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 2000000,
+    "stockDate": "2020.02.10",
     "setName": null,
     "owner": null
   },
@@ -3260,8 +3334,9 @@
     "technique": "옻칠, 은선, 나전, 대모",
     "size": "49 X 49cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 2000000,
+    "stockDate": "2020.02.10",
     "setName": null,
     "owner": null
   },
@@ -3272,10 +3347,10 @@
     "technique": "화선지에 수묵담채",
     "size": "68 X 43cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1000000,
     "setName": null,
-    "owner": null
+    "owner": "최준부"
   },
   {
     "code": "YS467",
@@ -3284,8 +3359,8 @@
     "technique": "Oil on Canvas",
     "size": "162.2 X 130.3cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 25000000,
+    "sellPrice": 50000000,
     "setName": null,
     "owner": null
   },
@@ -3296,8 +3371,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -3309,7 +3384,7 @@
     "size": "53 X 45.5cm",
     "year": 2015,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -3370,6 +3445,7 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2023.10.11",
     "setName": null,
     "owner": null
   },
@@ -3381,9 +3457,10 @@
     "size": "102.5 X 66.3cm",
     "year": 2021,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 70000000,
+    "stockDate": "2022.03.02",
     "setName": null,
-    "owner": null
+    "owner": "황정우"
   },
   {
     "code": "YS458",
@@ -3392,8 +3469,9 @@
     "technique": "Silkscreen",
     "size": "57 X 38cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 5000000,
+    "stockDate": "2024.02.26",
     "setName": null,
     "owner": null
   },
@@ -3404,10 +3482,10 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2008,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 30000000,
     "setName": null,
-    "owner": null
+    "owner": "백찬윤"
   },
   {
     "code": "YS456",
@@ -3416,8 +3494,8 @@
     "technique": "Oil on Canvas",
     "size": "90.9 X 72.7cm",
     "year": 1998,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 30000000,
     "setName": null,
     "owner": null
   },
@@ -3428,8 +3506,8 @@
     "technique": "Oil on Canvas",
     "size": "65.1 X 53cm",
     "year": 1998,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 15000000,
     "setName": null,
     "owner": null
   },
@@ -3440,8 +3518,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 1998,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -3452,8 +3530,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2000,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -3464,8 +3542,8 @@
     "technique": "Acrylic on Canvas, 크리스탈",
     "size": "53 X 45.5cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2800000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -3476,8 +3554,8 @@
     "technique": "Acrylic on Canvas, 크리스탈",
     "size": "53 X 45.5cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2800000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -3488,8 +3566,9 @@
     "technique": "견에 수묵담채",
     "size": "23.8 X 16.8cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 699000,
     "sellPrice": null,
+    "stockDate": "2023.04.19",
     "setName": null,
     "owner": null
   },
@@ -3500,8 +3579,9 @@
     "technique": "Lithography",
     "size": "30.3 X 35cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 679200,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -3514,8 +3594,9 @@
     "year": null,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2022.04.13",
     "setName": null,
-    "owner": null
+    "owner": "삭제요망"
   },
   {
     "code": "YS447",
@@ -3524,8 +3605,9 @@
     "technique": "",
     "size": "105 X 32.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 226400,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -3536,8 +3618,9 @@
     "technique": "종이에 수묵담채",
     "size": "123 X 30.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 600000,
     "sellPrice": null,
+    "stockDate": "2024.02.28",
     "setName": null,
     "owner": null
   },
@@ -3548,8 +3631,9 @@
     "technique": "종이에 수묵담채",
     "size": "127.5 X 32.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 466000,
     "sellPrice": null,
+    "stockDate": "2024.01.18",
     "setName": null,
     "owner": null
   },
@@ -3560,8 +3644,9 @@
     "technique": "종이에 수묵담채",
     "size": "121 X 34cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 500000,
     "sellPrice": null,
+    "stockDate": "2024.03.28",
     "setName": null,
     "owner": null
   },
@@ -3572,8 +3657,9 @@
     "technique": "Screen Print",
     "size": "70 X 99.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 2563000,
     "sellPrice": null,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -3584,8 +3670,9 @@
     "technique": "Archival Pigment Print",
     "size": "40 X 70cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 400000,
+    "sellPrice": 800000,
+    "stockDate": "2019.04.04",
     "setName": null,
     "owner": null
   },
@@ -3596,8 +3683,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -3608,8 +3695,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -3620,8 +3707,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2009,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -3632,8 +3719,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2010,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -3645,7 +3732,7 @@
     "size": "90.9 X 60.6cm",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -3657,7 +3744,7 @@
     "size": "90.9 X 60.6cm",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -3668,8 +3755,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 150000,
+    "sellPrice": 300000,
     "setName": null,
     "owner": null
   },
@@ -3680,8 +3767,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 150000,
+    "sellPrice": 300000,
     "setName": null,
     "owner": null
   },
@@ -3692,8 +3779,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 46cm",
     "year": 2024,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 150000,
+    "sellPrice": 300000,
     "setName": null,
     "owner": null
   },
@@ -3704,8 +3791,9 @@
     "technique": "Woodcut",
     "size": "49.8 X 34.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1631000,
     "sellPrice": null,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -3717,7 +3805,7 @@
     "size": "40.9 X 31.8cm",
     "year": 1985,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 9000000,
     "setName": null,
     "owner": null
   },
@@ -3728,8 +3816,9 @@
     "technique": "종이에 혼합재료",
     "size": "35.5 X 33cm",
     "year": 1984,
-    "buyPrice": null,
+    "buyPrice": 599000,
     "sellPrice": null,
+    "stockDate": "2023.10.30",
     "setName": null,
     "owner": null
   },
@@ -3740,8 +3829,9 @@
     "technique": "Lithograph",
     "size": "40 X 49.8cm",
     "year": 1996,
-    "buyPrice": null,
+    "buyPrice": 113200,
     "sellPrice": null,
+    "stockDate": "2023.02.09",
     "setName": null,
     "owner": null
   },
@@ -3753,7 +3843,7 @@
     "size": "38 X 38cm",
     "year": 2009,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -3776,8 +3866,9 @@
     "technique": "Ink on Paper",
     "size": "9.5 X 14.3cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 339600,
     "sellPrice": null,
+    "stockDate": "2023.03.30",
     "setName": null,
     "owner": null
   },
@@ -3788,8 +3879,9 @@
     "technique": "Acrylic on Canvas",
     "size": "53 X 33.3cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1100000,
+    "sellPrice": 3000000,
+    "stockDate": "2020.02.05",
     "setName": null,
     "owner": null
   },
@@ -3800,8 +3892,9 @@
     "technique": "나무에 유채, 금박",
     "size": "52.2 X 61.4cm",
     "year": 1992,
-    "buyPrice": null,
+    "buyPrice": 582500,
     "sellPrice": null,
+    "stockDate": "2021.06.02",
     "setName": null,
     "owner": null
   },
@@ -3812,8 +3905,9 @@
     "technique": "Acrylic on Canvas",
     "size": "53 X 45.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 5000000,
+    "stockDate": "2020.08.",
     "setName": null,
     "owner": null
   },
@@ -3824,10 +3918,11 @@
     "technique": "Acrylic on Canvas",
     "size": "72.7 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 1000000,
+    "stockDate": "2019.05.05",
     "setName": null,
-    "owner": null
+    "owner": "박영길"
   },
   {
     "code": "YS421",
@@ -3836,10 +3931,10 @@
     "technique": "Acrylic on Canvas",
     "size": "72.7 X 53cm",
     "year": 2009,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 5000000,
     "setName": null,
-    "owner": null
+    "owner": "백찬윤"
   },
   {
     "code": "YS420",
@@ -3848,8 +3943,8 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 37.9cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1650000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -3860,8 +3955,8 @@
     "technique": "Archival Pigment Print",
     "size": "25 X 34cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 250000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -3872,8 +3967,8 @@
     "technique": "Flower in green wood grain 2",
     "size": "35 X 35cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "배기성 선물",
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -3884,8 +3979,9 @@
     "technique": "종이에 수묵담채",
     "size": "38 X 48cm",
     "year": 1981,
-    "buyPrice": null,
+    "buyPrice": 279600,
     "sellPrice": null,
+    "stockDate": "2023.03.16",
     "setName": null,
     "owner": null
   },
@@ -3896,8 +3992,9 @@
     "technique": "종이에 수묵담채",
     "size": "34.8 X 46.2cm",
     "year": 1982,
-    "buyPrice": null,
+    "buyPrice": 233000,
     "sellPrice": null,
+    "stockDate": "2023.03.16",
     "setName": null,
     "owner": null
   },
@@ -3908,8 +4005,9 @@
     "technique": "Ink and Light Color on Paper",
     "size": "7 X 60cm",
     "year": 1975,
-    "buyPrice": null,
+    "buyPrice": 539100,
     "sellPrice": null,
+    "stockDate": "2022.02.07",
     "setName": null,
     "owner": null
   },
@@ -3920,8 +4018,9 @@
     "technique": "종이에 수묵담채",
     "size": "44 X 51.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 326200,
     "sellPrice": null,
+    "stockDate": "2023.04.19",
     "setName": null,
     "owner": null
   },
@@ -3932,8 +4031,9 @@
     "technique": "종이에 수묵담채",
     "size": "24 X 52.5cm",
     "year": 1976,
-    "buyPrice": null,
+    "buyPrice": 407750,
     "sellPrice": null,
+    "stockDate": "2023.10.12",
     "setName": null,
     "owner": null
   },
@@ -3944,8 +4044,9 @@
     "technique": "종이에 수묵담채",
     "size": "68 X 16cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 140000,
     "sellPrice": null,
+    "stockDate": "2024.01.18",
     "setName": null,
     "owner": null
   },
@@ -3956,8 +4057,8 @@
     "technique": "화선지에 먹",
     "size": "24 X 26.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 200000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -3968,8 +4069,8 @@
     "technique": "화선지에 먹",
     "size": "30 X 30cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 200000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -3980,8 +4081,8 @@
     "technique": "화선지에 먹",
     "size": "30 X 38cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -4040,8 +4141,8 @@
     "technique": "Acrylic on Canvas",
     "size": "60 X 60cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -4052,8 +4153,8 @@
     "technique": "Acrylic on Canvas",
     "size": "20 X 36cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "손동준 선물",
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -4064,8 +4165,8 @@
     "technique": "화선지에 먹",
     "size": "24 X 26.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 200000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -4076,8 +4177,8 @@
     "technique": "혼합재료, 아크릴",
     "size": "52 X 52cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "장영훈 선물",
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -4088,10 +4189,10 @@
     "technique": "화선지에 먹",
     "size": "125 X 25cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
-    "owner": null
+    "owner": "김정훈"
   },
   {
     "code": "YS399",
@@ -4112,8 +4213,8 @@
     "technique": "화선지에 먹",
     "size": "24 X 26.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 200000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -4124,8 +4225,8 @@
     "technique": "화선지에 먹",
     "size": "24 X 26.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 200000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -4136,8 +4237,9 @@
     "technique": "Ink and Light Color on Paper",
     "size": "32 X 32.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 2396000,
     "sellPrice": null,
+    "stockDate": "2022.05.10",
     "setName": null,
     "owner": null
   },
@@ -4160,8 +4262,9 @@
     "technique": "나무에 각인",
     "size": "92.2 X 19.5cm",
     "year": 1978,
-    "buyPrice": null,
+    "buyPrice": 163100,
     "sellPrice": null,
+    "stockDate": "2023.10.12",
     "setName": null,
     "owner": null
   },
@@ -4172,8 +4275,8 @@
     "technique": "수제장지 위에 금박24K, 석채, 합금박",
     "size": "30 X 75cm",
     "year": 2006,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -4184,8 +4287,8 @@
     "technique": "수제장지 위에 금박24K, 석채, 합금박",
     "size": "30 X 75cm",
     "year": 2006,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -4196,8 +4299,8 @@
     "technique": "수제장지 위에 금박24K, 석채, 합금박",
     "size": "30 X 75cm",
     "year": 2006,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -4208,8 +4311,8 @@
     "technique": "",
     "size": "72.7 X 60.6cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 8000000,
     "setName": null,
     "owner": null
   },
@@ -4220,8 +4323,8 @@
     "technique": "닥종이, 위에 금박, 금니, 석채, 먹",
     "size": "28 X 33.6cm",
     "year": 2007,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -4232,8 +4335,8 @@
     "technique": "도침장지 위에 금박24K, 합금박, 석채, 먹",
     "size": "91 X 112cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 20000000,
     "setName": null,
     "owner": null
   },
@@ -4244,8 +4347,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "60.8 X 72.8cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 8000000,
     "setName": null,
     "owner": null
   },
@@ -4256,8 +4359,8 @@
     "technique": "금박, 동박, 금니, 석채, 먹, 도침장치",
     "size": "60.8 X 72.8cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 8000000,
     "setName": null,
     "owner": null
   },
@@ -4280,8 +4383,8 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -4292,10 +4395,10 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null,
-    "owner": null
+    "owner": "김형규"
   },
   {
     "code": "YS382",
@@ -4304,10 +4407,10 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "41 X 27cm",
     "year": 2009,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 1000000,
     "setName": null,
-    "owner": null
+    "owner": "김정훈"
   },
   {
     "code": "YS381",
@@ -4316,8 +4419,8 @@
     "technique": "도침장치 위에 금박24K, 석채, 합금박",
     "size": "130 X 30cm",
     "year": 2007,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 12800000,
     "setName": null,
     "owner": null
   },
@@ -4328,8 +4431,8 @@
     "technique": "장지에 분채, 석채",
     "size": "50 X 50cm",
     "year": 2004,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1800000,
+    "sellPrice": 4800000,
     "setName": null,
     "owner": null
   },
@@ -4340,10 +4443,10 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null,
-    "owner": null
+    "owner": "변희주"
   },
   {
     "code": "YS378",
@@ -4352,10 +4455,10 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "27.3 X 41cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
-    "owner": null
+    "owner": "지준만"
   },
   {
     "code": "YS377",
@@ -4364,10 +4467,10 @@
     "technique": "닥종이 위에 금박, 금니, 석채, 먹",
     "size": "53 X 45.5cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "장정미"
   },
   {
     "code": "YS376",
@@ -4376,8 +4479,8 @@
     "technique": "장지에 분채, 석채",
     "size": "51.5 X 44.5cm",
     "year": 1999,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -4388,10 +4491,10 @@
     "technique": "장지에 분채, 석채",
     "size": "51.5 X 44.5cm",
     "year": 1999,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null,
-    "owner": null
+    "owner": "김형규"
   },
   {
     "code": "YS374",
@@ -4400,8 +4503,8 @@
     "technique": "장지에 분채, 석채",
     "size": "53 X 45.5cm",
     "year": 2002,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -4424,8 +4527,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "100 X 162cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 40000000,
     "setName": null,
     "owner": null
   },
@@ -4436,8 +4539,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "79 X 79cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -4448,8 +4551,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4460,8 +4563,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4472,8 +4575,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4484,8 +4587,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4496,8 +4599,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4508,8 +4611,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4520,8 +4623,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4532,8 +4635,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4544,8 +4647,8 @@
     "technique": "머메이드지 위에 오일 스틱",
     "size": "29 X 30cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -4556,8 +4659,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -4568,8 +4671,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "선물",
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -4580,8 +4683,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -4592,8 +4695,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "40 X 39cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -4604,8 +4707,8 @@
     "technique": "머메이드 위에 오일스틱",
     "size": "80 X 79.5cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -4616,8 +4719,8 @@
     "technique": "오일스틱",
     "size": "35.7 X 27cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -4628,8 +4731,8 @@
     "technique": "오일스틱",
     "size": "35.7 X 27cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -4640,8 +4743,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2100000,
+    "sellPrice": 4200000,
     "setName": null,
     "owner": null
   },
@@ -4652,10 +4755,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "47 X 47cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1800000,
+    "sellPrice": 3600000,
     "setName": null,
-    "owner": null
+    "owner": "김태리"
   },
   {
     "code": "YS352",
@@ -4664,10 +4767,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2250000,
+    "sellPrice": 4500000,
     "setName": null,
-    "owner": null
+    "owner": "양진호"
   },
   {
     "code": "YS351",
@@ -4676,10 +4779,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 4500000,
     "setName": null,
-    "owner": null
+    "owner": "송영환"
   },
   {
     "code": "YS350",
@@ -4700,10 +4803,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "김미란"
   },
   {
     "code": "YS348",
@@ -4712,8 +4815,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "21 X 34cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -4724,8 +4827,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "30 X 21cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -4736,10 +4839,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "41 X 41cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 2400000,
     "setName": null,
-    "owner": null
+    "owner": "김지우"
   },
   {
     "code": "YS345",
@@ -4748,10 +4851,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "33.5 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2500000,
     "setName": null,
-    "owner": null
+    "owner": "지준만"
   },
   {
     "code": "YS344",
@@ -4760,10 +4863,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "33.5 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "김은진"
   },
   {
     "code": "YS343",
@@ -4772,10 +4875,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "33.5 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "김은진"
   },
   {
     "code": "YS342",
@@ -4784,10 +4887,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "90 X 90cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4500000,
+    "sellPrice": 15000000,
     "setName": null,
-    "owner": null
+    "owner": "최원철"
   },
   {
     "code": "YS341",
@@ -4796,10 +4899,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "55 X 55cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2250000,
+    "sellPrice": 6000000,
     "setName": null,
-    "owner": null
+    "owner": "임종기"
   },
   {
     "code": "YS340",
@@ -4808,10 +4911,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "35 X 24.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS339",
@@ -4820,8 +4923,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "60 X 53cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -4832,10 +4935,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "70 X 70cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 9000000,
     "setName": null,
-    "owner": null
+    "owner": "박수경"
   },
   {
     "code": "YS337",
@@ -4844,8 +4947,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "60.5 X 45.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1800000,
+    "sellPrice": 4800000,
     "setName": null,
     "owner": null
   },
@@ -4880,10 +4983,10 @@
     "technique": "닥종이 위에 금박, 석채, 먹",
     "size": "60 X 112.5cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 10000000,
     "setName": null,
-    "owner": null
+    "owner": "김은진"
   },
   {
     "code": "YS333",
@@ -4892,8 +4995,8 @@
     "technique": "100% 코튼지 위에 Pigment Print",
     "size": "100 X 57cm",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -4904,10 +5007,10 @@
     "technique": "도침장지 위에 금박24K, 합금박, 석채, 먹",
     "size": "80 X 100cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 12000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS331",
@@ -4916,8 +5019,8 @@
     "technique": "도침장지 위에 금박24K, 합금박, 석채, 먹",
     "size": "72.5 X 60.5cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 8000000,
     "setName": null,
     "owner": null
   },
@@ -4988,8 +5091,8 @@
     "technique": "견본채색",
     "size": "113 X 60cm",
     "year": 2011,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -5000,8 +5103,8 @@
     "technique": "도침장지 위에 석채, 금박",
     "size": "65 X 47cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -5012,8 +5115,8 @@
     "technique": "도침장지 위에 석채, 금박",
     "size": "65 X 47cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -5024,8 +5127,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "16 X 23cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -5036,8 +5139,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "16 X 23cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -5048,8 +5151,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "22.1 X 16.6cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -5060,8 +5163,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "24 X 19cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -5072,8 +5175,8 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "20 X 15cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1200000,
     "setName": null,
     "owner": null
   },
@@ -5084,10 +5187,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "20 X 15cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 800000,
+    "sellPrice": 1200000,
     "setName": null,
-    "owner": null
+    "owner": "장정미"
   },
   {
     "code": "YS316",
@@ -5096,10 +5199,10 @@
     "technique": "수제장지 위에 석채, 금박24K, 합금박",
     "size": "20 X 15cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "전혜연 선물",
+    "sellPrice": 1200000,
     "setName": null,
-    "owner": null
+    "owner": "장영훈"
   },
   {
     "code": "YS315",
@@ -5108,8 +5211,9 @@
     "technique": "종이에 수묵담채",
     "size": "41 X 41cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1398000,
     "sellPrice": null,
+    "stockDate": "2021.05.27",
     "setName": null,
     "owner": null
   },
@@ -5120,8 +5224,9 @@
     "technique": "Ink and Light Color on Paper",
     "size": "48 X 36cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 838600,
     "sellPrice": null,
+    "stockDate": "2021.09.27",
     "setName": null,
     "owner": null
   },
@@ -5132,8 +5237,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2800000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -5144,10 +5249,10 @@
     "technique": "Technique Mixte sur Chassis Bois",
     "size": "149 X 93 X 3cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 8000000,
+    "sellPrice": 16000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS311",
@@ -5156,8 +5261,8 @@
     "technique": "당지에 수묵담채",
     "size": "29.5 X 21cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 1000000,
     "setName": "2019.01.30",
     "owner": null
   },
@@ -5168,8 +5273,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5180,8 +5285,8 @@
     "technique": "Oil on Canvas",
     "size": "27.3 X 22cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 450000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5192,8 +5297,8 @@
     "technique": "Oil on Canvas",
     "size": "24 X 19cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5204,10 +5309,10 @@
     "technique": "Oil on Canvas",
     "size": "70 X 50cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 10000000,
     "setName": null,
-    "owner": null
+    "owner": "김형규"
   },
   {
     "code": "YS306",
@@ -5216,8 +5321,8 @@
     "technique": "Oil on Canvas",
     "size": "52.5 X 45cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 8000000,
     "setName": null,
     "owner": null
   },
@@ -5228,8 +5333,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3200000,
     "setName": null,
     "owner": null
   },
@@ -5240,8 +5345,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3200000,
     "setName": null,
     "owner": null
   },
@@ -5252,8 +5357,8 @@
     "technique": "Oil on Canvas",
     "size": "25.8 X 17.9cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5264,8 +5369,8 @@
     "technique": "Oil on Canvas",
     "size": "72.8 X 60.6cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 16000000,
     "setName": null,
     "owner": null
   },
@@ -5277,7 +5382,7 @@
     "size": "41 X 37cm",
     "year": 2014,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5288,8 +5393,8 @@
     "technique": "Oil on Canvas",
     "size": "134 X 57cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7500000,
+    "sellPrice": 40000000,
     "setName": null,
     "owner": null
   },
@@ -5300,10 +5405,10 @@
     "technique": "Oil on Canvas",
     "size": "41 X 31cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "고은정"
   },
   {
     "code": "YS298",
@@ -5312,10 +5417,10 @@
     "technique": "Oil on Canvas",
     "size": "90 X 64cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 9000000,
+    "sellPrice": 24000000,
     "setName": null,
-    "owner": null
+    "owner": "박영길"
   },
   {
     "code": "YS297",
@@ -5324,8 +5429,8 @@
     "technique": "Oil on Canvas",
     "size": "40.9 X 27.3cm",
     "year": 2010,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 4800000,
     "setName": null,
     "owner": null
   },
@@ -5336,10 +5441,10 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
-    "owner": null
+    "owner": "최정범"
   },
   {
     "code": "YS295",
@@ -5348,8 +5453,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 24.2cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3200000,
     "setName": null,
     "owner": null
   },
@@ -5360,8 +5465,8 @@
     "technique": "Oil on Canvas",
     "size": "25.8 X 17.9cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5372,8 +5477,8 @@
     "technique": "Oil on Canvas",
     "size": "25.8 X 17.9cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5384,8 +5489,8 @@
     "technique": "Oil on Canvas",
     "size": "72.8 X 60.6cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 16000000,
     "setName": null,
     "owner": null
   },
@@ -5396,8 +5501,8 @@
     "technique": "Oil on Canvas",
     "size": "90 X 64cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4500000,
+    "sellPrice": 24000000,
     "setName": null,
     "owner": null
   },
@@ -5408,8 +5513,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3000000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -5420,8 +5525,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 28cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 8000000,
     "setName": null,
     "owner": null
   },
@@ -5432,8 +5537,9 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 33.4cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1005600,
     "sellPrice": null,
+    "stockDate": "2021.07.28",
     "setName": null,
     "owner": null
   },
@@ -5444,8 +5550,8 @@
     "technique": "Oil on Canvas",
     "size": "40 X 20cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5456,8 +5562,8 @@
     "technique": "Oil on Canvas",
     "size": "33 X 24cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5468,8 +5574,8 @@
     "technique": "Oil on Canvas",
     "size": "27.3 X 22cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 450000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -5480,8 +5586,8 @@
     "technique": "Oil on Canvas",
     "size": "∅20cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5492,8 +5598,8 @@
     "technique": "Oil on Canvas",
     "size": "∅20cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 600000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5504,10 +5610,10 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 8000000,
     "setName": null,
-    "owner": null
+    "owner": "김진표"
   },
   {
     "code": "YS281",
@@ -5516,8 +5622,8 @@
     "technique": "수묵담채, Indian ink tint",
     "size": "39 X 39cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -5528,8 +5634,8 @@
     "technique": "수묵담채, Indian ink tint",
     "size": "21 X 30cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -5540,8 +5646,9 @@
     "technique": "Ink on Paper",
     "size": "33 X 133cm",
     "year": 2014,
-    "buyPrice": null,
+    "buyPrice": 658900,
     "sellPrice": null,
+    "stockDate": "2021.09.27",
     "setName": null,
     "owner": null
   },
@@ -5552,7 +5659,7 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "80 X 80cm",
     "year": 2022,
-    "buyPrice": null,
+    "buyPrice": 10000000,
     "sellPrice": null,
     "setName": null,
     "owner": null
@@ -5564,7 +5671,7 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "40 X 49cm",
     "year": 2022,
-    "buyPrice": null,
+    "buyPrice": 3500000,
     "sellPrice": null,
     "setName": null,
     "owner": null
@@ -5576,8 +5683,8 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "48 X 39cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5588,8 +5695,8 @@
     "technique": "석채, 목탄",
     "size": "48 X 39cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5600,8 +5707,8 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "48 X 39cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1200000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5614,6 +5721,7 @@
     "year": 2011,
     "buyPrice": null,
     "sellPrice": null,
+    "stockDate": "2021.12.28",
     "setName": null,
     "owner": null
   },
@@ -5624,8 +5732,8 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "33 X 24cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -5636,8 +5744,8 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "33 X 24cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -5648,8 +5756,8 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "33 X 24cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -5660,8 +5768,8 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "33 X 24cm",
     "year": 2022,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 900000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -5684,10 +5792,10 @@
     "technique": "장지, 방해말, 목탄, 숯",
     "size": "60 X 50cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2250000,
+    "sellPrice": 4000000,
     "setName": null,
-    "owner": null
+    "owner": "강현경"
   },
   {
     "code": "YS266",
@@ -5708,8 +5816,8 @@
     "technique": "Acrylic on Canvas",
     "size": "50 X 25cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -5720,8 +5828,8 @@
     "technique": "Acrylic on Canvas",
     "size": "50 X 25cm",
     "year": 2014,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -5732,8 +5840,8 @@
     "technique": "목판에 동판",
     "size": "28.5 X 32.4cm",
     "year": 2000,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -5744,8 +5852,8 @@
     "technique": "Acrylic on Canvas",
     "size": "90 X 44cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -5756,8 +5864,8 @@
     "technique": "목판에 아크릴",
     "size": "20 X 32.5cm",
     "year": 2000,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -5768,8 +5876,9 @@
     "technique": "종이에 수묵담채",
     "size": "33 X 68.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 849000,
     "sellPrice": null,
+    "stockDate": "2022.02.16",
     "setName": null,
     "owner": null
   },
@@ -5804,8 +5913,9 @@
     "technique": "Offset Lithography",
     "size": "35 X 27cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 158480,
     "sellPrice": null,
+    "stockDate": "2021.07.28",
     "setName": null,
     "owner": null
   },
@@ -6032,8 +6142,9 @@
     "technique": "종이에 인쇄",
     "size": "18 X 22.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 135840,
     "sellPrice": null,
+    "stockDate": "2022.02.16",
     "setName": null,
     "owner": null
   },
@@ -6044,8 +6155,9 @@
     "technique": "",
     "size": "12.6 X 28.1cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 181120,
     "sellPrice": null,
+    "stockDate": "2022.02.16",
     "setName": null,
     "owner": null
   },
@@ -6056,8 +6168,9 @@
     "technique": "Print",
     "size": "14.2 X 16.9cm",
     "year": 2000,
-    "buyPrice": null,
+    "buyPrice": 2037500,
     "sellPrice": null,
+    "stockDate": "2021.06.30",
     "setName": null,
     "owner": null
   },
@@ -6068,8 +6181,9 @@
     "technique": "종이에 수묵담채",
     "size": "127 X 32.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 650000,
     "sellPrice": null,
+    "stockDate": "2024.01.18",
     "setName": null,
     "owner": null
   },
@@ -6080,8 +6194,9 @@
     "technique": "종이에 수묵담채",
     "size": "32.5 X 127cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 600000,
     "sellPrice": null,
+    "stockDate": "2024.01.27",
     "setName": null,
     "owner": null
   },
@@ -6092,8 +6207,9 @@
     "technique": "비단에 수묵담채",
     "size": "62.7 X 42cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1864000,
     "sellPrice": null,
+    "stockDate": "2023.05.24",
     "setName": null,
     "owner": null
   },
@@ -6104,8 +6220,9 @@
     "technique": "종이에 연필",
     "size": "33.8 X 25.3cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 3000000,
     "sellPrice": null,
+    "stockDate": "2021.09.16",
     "setName": null,
     "owner": null
   },
@@ -6116,8 +6233,9 @@
     "technique": "Pencil on Paper",
     "size": "34 X 25.3cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 2330000,
     "sellPrice": null,
+    "stockDate": "2024.11.27",
     "setName": null,
     "owner": null
   },
@@ -6128,8 +6246,9 @@
     "technique": "종이에 수묵담채",
     "size": "46 X 59cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1200000,
     "sellPrice": null,
+    "stockDate": "2024.06.05",
     "setName": null,
     "owner": null
   },
@@ -6140,8 +6259,9 @@
     "technique": "Ink and Light Color on Paper",
     "size": "14.5 X 49cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 658900,
     "sellPrice": null,
+    "stockDate": "2022.01.03",
     "setName": null,
     "owner": null
   },
@@ -6152,8 +6272,9 @@
     "technique": "Lithography",
     "size": "50 X 36cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6164,8 +6285,9 @@
     "technique": "Lithography",
     "size": "51 X 36cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6176,8 +6298,9 @@
     "technique": "Lithography",
     "size": "49 X 36cm",
     "year": 1994,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2796000,
+    "sellPrice": 500000,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6188,8 +6311,9 @@
     "technique": "Lithography",
     "size": "54 X 48cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6200,8 +6324,9 @@
     "technique": "Lithography",
     "size": "48 X 36cm",
     "year": 1994,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2796000,
+    "sellPrice": 500000,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6212,8 +6337,9 @@
     "technique": "Lithography",
     "size": "45 X 36cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6224,8 +6350,9 @@
     "technique": "Lithography",
     "size": "49 X 36cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6236,8 +6363,9 @@
     "technique": "Lithography",
     "size": "51 X 36cm",
     "year": 1994,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2796000,
+    "sellPrice": 500000,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6248,8 +6376,9 @@
     "technique": "Lithography",
     "size": "49 X 36cm",
     "year": 1994,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2796000,
+    "sellPrice": 500000,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6260,8 +6389,9 @@
     "technique": "Lithography",
     "size": "64 X 48cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6272,8 +6402,9 @@
     "technique": "Lithography",
     "size": "50 X 36cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6284,8 +6415,9 @@
     "technique": "Lithography",
     "size": "64 X 48cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6296,8 +6428,9 @@
     "technique": "Lithography",
     "size": "49 X 36cm",
     "year": 1994,
-    "buyPrice": null,
+    "buyPrice": 2796000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6308,8 +6441,9 @@
     "technique": "Lithography",
     "size": "64 X 48cm",
     "year": 1994,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2796000,
+    "sellPrice": 600000,
+    "stockDate": "2024.07.10",
     "setName": "박고석 판화세트",
     "owner": null
   },
@@ -6320,8 +6454,8 @@
     "technique": "캔버스에 채색",
     "size": "25.8 X 17.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 256000,
+    "sellPrice": 600000,
     "setName": null,
     "owner": null
   },
@@ -6332,8 +6466,8 @@
     "technique": "한지죽, 채색",
     "size": "33.4 X 24.2cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 512000,
+    "sellPrice": 1200000,
     "setName": null,
     "owner": null
   },
@@ -6344,8 +6478,8 @@
     "technique": "한지죽, 채색",
     "size": "33.4 X 24.2cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 512000,
+    "sellPrice": 1200000,
     "setName": null,
     "owner": null
   },
@@ -6356,8 +6490,8 @@
     "technique": "한지죽, 채색",
     "size": "90.9 X 72.7cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3840000,
+    "sellPrice": 9000000,
     "setName": null,
     "owner": null
   },
@@ -6368,8 +6502,8 @@
     "technique": "판자, 채색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6380,8 +6514,8 @@
     "technique": "요철지, 채색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6392,8 +6526,8 @@
     "technique": "요철지, 채색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6404,8 +6538,8 @@
     "technique": "요철지, 채색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6416,8 +6550,8 @@
     "technique": "판자, 채색",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 768000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -6428,8 +6562,8 @@
     "technique": "한지죽, 채색",
     "size": "90.9 X 72.7cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 9000000,
     "setName": null,
     "owner": null
   },
@@ -6440,8 +6574,8 @@
     "technique": "요철지, 채색",
     "size": "72.7 X 60.6cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2560000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -6452,8 +6586,8 @@
     "technique": "한지죽, 채색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6464,10 +6598,10 @@
     "technique": "한지죽, 채색",
     "size": "33.4 X 24.2cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 512000,
+    "sellPrice": 1200000,
     "setName": null,
-    "owner": null
+    "owner": "최만식"
   },
   {
     "code": "YS201",
@@ -6476,10 +6610,10 @@
     "technique": "캔버스에 채색",
     "size": "33.4 X 24.2cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 51200,
+    "sellPrice": 1200000,
     "setName": null,
-    "owner": null
+    "owner": "박아영"
   },
   {
     "code": "YS200",
@@ -6488,8 +6622,8 @@
     "technique": "캔버스에 채색",
     "size": "25.8 X 17.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 256000,
+    "sellPrice": 600000,
     "setName": null,
     "owner": null
   },
@@ -6500,8 +6634,8 @@
     "technique": "캔버스에 채색",
     "size": "25.8 X 17.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 256000,
+    "sellPrice": 600000,
     "setName": null,
     "owner": null
   },
@@ -6512,8 +6646,8 @@
     "technique": "캔버스에 채색",
     "size": "25.8 X 17.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 256000,
+    "sellPrice": 600000,
     "setName": null,
     "owner": null
   },
@@ -6524,8 +6658,8 @@
     "technique": "캔버스에 채색",
     "size": "25.8 X 17.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 256000,
+    "sellPrice": 600000,
     "setName": null,
     "owner": null
   },
@@ -6536,8 +6670,8 @@
     "technique": "캔버스에 채색",
     "size": "25.8 X 17.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 256000,
+    "sellPrice": 600000,
     "setName": null,
     "owner": null
   },
@@ -6548,8 +6682,8 @@
     "technique": "한지죽, 채색",
     "size": "25.8 X 17.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 256000,
+    "sellPrice": 600000,
     "setName": null,
     "owner": null
   },
@@ -6560,8 +6694,8 @@
     "technique": "요철지, 채색",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 768000,
+    "sellPrice": 1800000,
     "setName": null,
     "owner": null
   },
@@ -6572,8 +6706,8 @@
     "technique": "요철지, 채색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6584,8 +6718,8 @@
     "technique": "한지죽, 혼합재료",
     "size": "162.2 X 130.3cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 10000000,
+    "sellPrice": 30000000,
     "setName": null,
     "owner": null
   },
@@ -6596,8 +6730,8 @@
     "technique": "한지죽, 혼합재료",
     "size": "120 X 95cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 18000000,
     "setName": null,
     "owner": null
   },
@@ -6608,8 +6742,8 @@
     "technique": "종이죽, 채색",
     "size": "130.3 X 97cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7680000,
+    "sellPrice": 18000000,
     "setName": null,
     "owner": null
   },
@@ -6620,8 +6754,8 @@
     "technique": "요철지, 채색",
     "size": "33.4 X 24.2cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 512000,
+    "sellPrice": 1200000,
     "setName": null,
     "owner": null
   },
@@ -6632,8 +6766,8 @@
     "technique": "한지죽, 채색",
     "size": "53 X 45.5cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1280000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -6644,8 +6778,8 @@
     "technique": "한지죽, 분색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6656,8 +6790,8 @@
     "technique": "한지죽, 분색",
     "size": "45 X 45cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1280000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -6668,8 +6802,8 @@
     "technique": "종이죽, 채색",
     "size": "72.7 X 60.6cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2560000,
+    "sellPrice": 6000000,
     "setName": null,
     "owner": null
   },
@@ -6680,8 +6814,8 @@
     "technique": "한지죽, 채색",
     "size": "130.3 X 97cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 18000000,
     "setName": null,
     "owner": null
   },
@@ -6692,8 +6826,8 @@
     "technique": "종이죽, 채색",
     "size": "100 X 80.3cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5120000,
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -6704,8 +6838,8 @@
     "technique": "한지죽, 채색",
     "size": "45.5 X 37.9cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1024000,
+    "sellPrice": 2400000,
     "setName": null,
     "owner": null
   },
@@ -6716,8 +6850,9 @@
     "technique": "종이에 사인펜",
     "size": "9 X 13.8cm",
     "year": 1983,
-    "buyPrice": null,
+    "buyPrice": 932000,
     "sellPrice": null,
+    "stockDate": "2023.11.22",
     "setName": null,
     "owner": null
   },
@@ -6728,8 +6863,8 @@
     "technique": "Acrylic on Canvas",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -6740,8 +6875,8 @@
     "technique": "Acrylic on Canvas",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -6752,8 +6887,9 @@
     "technique": "Lithography",
     "size": "35 X 30.7cm",
     "year": 2005,
-    "buyPrice": null,
+    "buyPrice": 163200,
     "sellPrice": null,
+    "stockDate": "2023.10.04",
     "setName": null,
     "owner": null
   },
@@ -6764,8 +6900,9 @@
     "technique": "종이에 과슈",
     "size": "40.5 X 31.5cm",
     "year": 1986,
-    "buyPrice": null,
+    "buyPrice": 466000,
     "sellPrice": null,
+    "stockDate": "2023.10.12",
     "setName": null,
     "owner": null
   },
@@ -6776,8 +6913,9 @@
     "technique": "종이에 채색",
     "size": "22.5 X 44.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 419300,
     "sellPrice": null,
+    "stockDate": "2023.10.30",
     "setName": null,
     "owner": null
   },
@@ -6788,8 +6926,8 @@
     "technique": "Oil on Canvas",
     "size": "54.5 X 19.5cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -6800,8 +6938,8 @@
     "technique": "Oil on Canvas",
     "size": "45.5 X 37.9cm",
     "year": 2002,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2800000,
+    "sellPrice": 5600000,
     "setName": null,
     "owner": null
   },
@@ -6812,8 +6950,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 14000000,
     "setName": null,
     "owner": null
   },
@@ -6860,8 +6998,9 @@
     "technique": "Ink on Paper",
     "size": "80.5 X 32cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 838600,
     "sellPrice": null,
+    "stockDate": "2022.02.14",
     "setName": null,
     "owner": null
   },
@@ -6872,8 +7011,9 @@
     "technique": "한지에 수묵",
     "size": "46 X 62.5cm",
     "year": 1990,
-    "buyPrice": null,
+    "buyPrice": 757250,
     "sellPrice": null,
+    "stockDate": "2024.12.18",
     "setName": null,
     "owner": null
   },
@@ -6884,8 +7024,9 @@
     "technique": "종이에 채색",
     "size": "42 X 33.3cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1000000,
     "sellPrice": null,
+    "stockDate": "2024.07.25",
     "setName": null,
     "owner": null
   },
@@ -6896,8 +7037,9 @@
     "technique": "종이에 수묵",
     "size": "43 X 59cm",
     "year": 1985,
-    "buyPrice": null,
+    "buyPrice": 815500,
     "sellPrice": null,
+    "stockDate": "2024.08.21",
     "setName": null,
     "owner": null
   },
@@ -6908,8 +7050,9 @@
     "technique": "Oil on Canvas",
     "size": "40.3 X 22cm",
     "year": 1983,
-    "buyPrice": null,
+    "buyPrice": 3495000,
     "sellPrice": null,
+    "stockDate": "2024.07.10",
     "setName": null,
     "owner": null
   },
@@ -6920,8 +7063,9 @@
     "technique": "Oil and Collage on Canvas",
     "size": "53 X 45.5cm",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7572500,
+    "sellPrice": 10000000,
+    "stockDate": "2024.08.26",
     "setName": null,
     "owner": null
   },
@@ -6932,8 +7076,8 @@
     "technique": "Acrylic on Canvas",
     "size": "72.7 X 60.6cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -6944,8 +7088,8 @@
     "technique": "Print",
     "size": "61 X 41cm",
     "year": 1956,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -6956,8 +7100,8 @@
     "technique": "Print",
     "size": "53 X 37cm",
     "year": 1957,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -6968,8 +7112,8 @@
     "technique": "Print",
     "size": "100 X 65cm",
     "year": 1959,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -6980,8 +7124,9 @@
     "technique": "Acrylic Color on Epoxy Resin, Wooden Frame",
     "size": "54 X 27 X 7cm",
     "year": 2020,
-    "buyPrice": null,
+    "buyPrice": 7000000,
     "sellPrice": null,
+    "stockDate": "2022.04.23",
     "setName": null,
     "owner": null
   },
@@ -6992,8 +7137,8 @@
     "technique": "Oil on Canvas",
     "size": "33.4 X 21.2cm",
     "year": 2013,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1600000,
     "setName": null,
     "owner": null
   },
@@ -7004,8 +7149,9 @@
     "technique": "Acrylic on Canvas",
     "size": "46.5 X 38.3cm",
     "year": 2006,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 24000000,
+    "sellPrice": 35000000,
+    "stockDate": "2021.07.05",
     "setName": null,
     "owner": null
   },
@@ -7016,8 +7162,9 @@
     "technique": "Acrylic on Canvas",
     "size": "46.5 X 38.3cm",
     "year": 2012,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 24000000,
+    "sellPrice": 35000000,
+    "stockDate": "2021.07.05",
     "setName": null,
     "owner": null
   },
@@ -7029,7 +7176,8 @@
     "size": "73.8 X 61.5cm",
     "year": 2011,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 30000000,
+    "stockDate": "2021.06.10",
     "setName": null,
     "owner": null
   },
@@ -7040,8 +7188,8 @@
     "technique": "Oil on Canvas",
     "size": "100 X 72.7cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -7052,8 +7200,9 @@
     "technique": "종이에 먹",
     "size": "131.4 X 33.4cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 283000,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -7064,8 +7213,9 @@
     "technique": "Oil and Acrylic on Hemp Cloth",
     "size": "40.9 X 53cm",
     "year": 2010,
-    "buyPrice": null,
+    "buyPrice": 3800000,
     "sellPrice": null,
+    "stockDate": "2021.05.26",
     "setName": null,
     "owner": null
   },
@@ -7076,8 +7226,9 @@
     "technique": "Offset Lithography",
     "size": "82.7 X 59.7cm",
     "year": 1992,
-    "buyPrice": null,
+    "buyPrice": 2200000,
     "sellPrice": null,
+    "stockDate": "2022.03.15",
     "setName": null,
     "owner": null
   },
@@ -7088,8 +7239,9 @@
     "technique": "Offset Lithography",
     "size": "28 X 42cm",
     "year": 2016,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1916800,
+    "sellPrice": 35000000,
+    "stockDate": "2021.09.20",
     "setName": null,
     "owner": null
   },
@@ -7100,8 +7252,9 @@
     "technique": "Lithography",
     "size": "42.7 X 28.5cm",
     "year": 2016,
-    "buyPrice": null,
+    "buyPrice": 1916800,
     "sellPrice": null,
+    "stockDate": "2021.08.11",
     "setName": null,
     "owner": null
   },
@@ -7112,8 +7265,8 @@
     "technique": "Acrylic on Canvas",
     "size": "162.2 X 130.3cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 30000000,
     "setName": null,
     "owner": null
   },
@@ -7124,8 +7277,8 @@
     "technique": "Acrylic on Canvas",
     "size": "120 X 60cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 6000000,
+    "sellPrice": 12000000,
     "setName": null,
     "owner": null
   },
@@ -7137,7 +7290,7 @@
     "size": "105 X 90cm",
     "year": 2022,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7148,8 +7301,8 @@
     "technique": "캔버스에 아크릴릭, 철에 옷칠",
     "size": "60 X 90 X 6cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 4000000,
     "setName": null,
     "owner": null
   },
@@ -7160,8 +7313,8 @@
     "technique": "철",
     "size": "30 X 30 X 4cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7172,8 +7325,8 @@
     "technique": "철",
     "size": "30 X 30 X 4cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7184,8 +7337,9 @@
     "technique": "종이에 채색",
     "size": "27 X 38cm",
     "year": 2003,
-    "buyPrice": null,
+    "buyPrice": 932000,
     "sellPrice": null,
+    "stockDate": "2025.01.23",
     "setName": null,
     "owner": null
   },
@@ -7197,7 +7351,8 @@
     "size": "25.8 X 17.9cm",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 6560600,
+    "stockDate": "2021.09.08",
     "setName": null,
     "owner": null
   },
@@ -7208,8 +7363,9 @@
     "technique": "rubbed copy",
     "size": "29 X 35cm/개당",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 718800,
     "sellPrice": null,
+    "stockDate": "2022.05.02",
     "setName": null,
     "owner": null
   },
@@ -7220,8 +7376,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2023,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7232,8 +7388,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2023,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7244,8 +7400,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2023,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7256,8 +7412,9 @@
     "technique": "Lithography",
     "size": "22.4 X 28.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 110000,
     "sellPrice": null,
+    "stockDate": "2023.11.15",
     "setName": null,
     "owner": null
   },
@@ -7268,8 +7425,9 @@
     "technique": "Lithography",
     "size": "26.7 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 699000,
     "sellPrice": null,
+    "stockDate": "2022.05.27",
     "setName": null,
     "owner": null
   },
@@ -7280,8 +7438,9 @@
     "technique": "Lithography",
     "size": "26.7 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 699000,
     "sellPrice": null,
+    "stockDate": "2022.05.27",
     "setName": null,
     "owner": null
   },
@@ -7292,8 +7451,8 @@
     "technique": "Oil on Canvas",
     "size": "40.9 X 31.8cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1650000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7304,8 +7463,9 @@
     "technique": "종이에 수묵",
     "size": "131 X 33cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 524250,
     "sellPrice": null,
+    "stockDate": "2023.04.19",
     "setName": null,
     "owner": null
   },
@@ -7316,8 +7476,9 @@
     "technique": "종이에 수묵담채",
     "size": "28.2 X 45.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 873750,
     "sellPrice": null,
+    "stockDate": "2022.04.13",
     "setName": null,
     "owner": null
   },
@@ -7328,8 +7489,8 @@
     "technique": "Poly Lactic Acid, Acrylic Paint",
     "size": "H34cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 750000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -7340,8 +7501,9 @@
     "technique": "종이 수묵담채",
     "size": "47 X 69.7cm",
     "year": 1987,
-    "buyPrice": null,
+    "buyPrice": 524250,
     "sellPrice": null,
+    "stockDate": "2023.04.19",
     "setName": null,
     "owner": null
   },
@@ -7352,8 +7514,9 @@
     "technique": "종이에 수묵담채",
     "size": "73.5 X 57cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 256300,
     "sellPrice": null,
+    "stockDate": "2023.03.16",
     "setName": null,
     "owner": null
   },
@@ -7364,8 +7527,9 @@
     "technique": "종이에 수묵담채",
     "size": "44 X 33.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 233000,
     "sellPrice": null,
+    "stockDate": "2023.03.16",
     "setName": null,
     "owner": null
   },
@@ -7376,8 +7540,8 @@
     "technique": "수제장지 위에 금박, 석채",
     "size": "29 X 29cm",
     "year": 1955,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 250000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7389,7 +7553,8 @@
     "size": "32.5 X 41.5cm",
     "year": 1985,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 300000,
+    "stockDate": "2024.08.21",
     "setName": null,
     "owner": null
   },
@@ -7401,7 +7566,7 @@
     "size": "73 X 49cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -7413,7 +7578,7 @@
     "size": "39 X 29cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 700000,
     "setName": null,
     "owner": null
   },
@@ -7424,10 +7589,10 @@
     "technique": "족자에 채색",
     "size": "28.5 X 28.5cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": "서수영 선물",
+    "sellPrice": 1000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS121",
@@ -7437,7 +7602,7 @@
     "size": "76 X 56cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -7449,7 +7614,7 @@
     "size": "73 X 49cm",
     "year": 2023,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -7461,7 +7626,7 @@
     "size": "35 X 45cm",
     "year": 2024,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7472,8 +7637,8 @@
     "technique": "족자에 채색",
     "size": "67 X 23cm",
     "year": 2018,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -7484,8 +7649,9 @@
     "technique": "Silkscreen",
     "size": "49.5 X 48.5cm",
     "year": 1974,
-    "buyPrice": null,
+    "buyPrice": 700000,
     "sellPrice": null,
+    "stockDate": "2024.08.21",
     "setName": null,
     "owner": null
   },
@@ -7496,8 +7662,9 @@
     "technique": "브론즈",
     "size": "16.5 X 15 X 59.3cm",
     "year": 1995,
-    "buyPrice": null,
+    "buyPrice": 200000,
     "sellPrice": null,
+    "stockDate": "2024.04.25",
     "setName": null,
     "owner": null
   },
@@ -7508,8 +7675,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 300000,
     "setName": null,
     "owner": null
   },
@@ -7520,10 +7687,10 @@
     "technique": "화선지에 수묵담채",
     "size": "130 X 70cm",
     "year": 2000,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS113",
@@ -7533,7 +7700,7 @@
     "size": "",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 700000,
     "setName": null,
     "owner": null
   },
@@ -7544,8 +7711,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 700000,
     "setName": null,
     "owner": null
   },
@@ -7556,8 +7723,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7568,10 +7735,10 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS109",
@@ -7580,8 +7747,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 45000000,
     "setName": null,
     "owner": null
   },
@@ -7592,8 +7759,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7604,10 +7771,10 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 20000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS106",
@@ -7616,10 +7783,10 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 20000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS105",
@@ -7628,8 +7795,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 633000,
+    "sellPrice": 1900000,
     "setName": null,
     "owner": null
   },
@@ -7640,8 +7807,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 45000000,
     "setName": null,
     "owner": null
   },
@@ -7652,8 +7819,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7664,8 +7831,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7676,8 +7843,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7688,8 +7855,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7700,8 +7867,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7712,8 +7879,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7724,8 +7891,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7736,8 +7903,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -7748,8 +7915,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -7760,8 +7927,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7772,8 +7939,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -7784,8 +7951,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -7796,10 +7963,10 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
-    "owner": null
+    "owner": "한중석"
   },
   {
     "code": "YS90",
@@ -7809,7 +7976,7 @@
     "size": "",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 70000000,
     "setName": null,
     "owner": null
   },
@@ -7820,8 +7987,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2000000,
+    "sellPrice": 5000000,
     "setName": null,
     "owner": null
   },
@@ -7832,8 +7999,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 8666000,
+    "sellPrice": 26000000,
     "setName": null,
     "owner": null
   },
@@ -7844,8 +8011,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 3166000,
+    "sellPrice": 9500000,
     "setName": null,
     "owner": null
   },
@@ -7856,8 +8023,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -7868,8 +8035,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7880,8 +8047,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7892,8 +8059,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7904,8 +8071,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7916,8 +8083,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7928,8 +8095,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7940,8 +8107,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -7952,8 +8119,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 7000000,
+    "sellPrice": 30000000,
     "setName": null,
     "owner": null
   },
@@ -7964,8 +8131,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 15000000,
     "setName": null,
     "owner": null
   },
@@ -7976,8 +8143,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -7988,8 +8155,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -8000,8 +8167,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -8012,8 +8179,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -8024,8 +8191,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -8036,8 +8203,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -8048,8 +8215,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -8060,8 +8227,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 316000,
+    "sellPrice": 950000,
     "setName": null,
     "owner": null
   },
@@ -8072,8 +8239,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -8084,8 +8251,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -8096,8 +8263,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 45000000,
     "setName": null,
     "owner": null
   },
@@ -8108,8 +8275,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -8121,7 +8288,7 @@
     "size": "",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -8132,8 +8299,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -8144,8 +8311,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 500000,
+    "sellPrice": 2000000,
     "setName": null,
     "owner": null
   },
@@ -8156,8 +8323,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 100000,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -8168,8 +8335,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 10000000,
     "setName": null,
     "owner": null
   },
@@ -8180,8 +8347,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 8000000,
+    "sellPrice": 30000000,
     "setName": null,
     "owner": null
   },
@@ -8192,10 +8359,10 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
-    "owner": null
+    "owner": "박정애"
   },
   {
     "code": "YS57",
@@ -8204,8 +8371,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -8216,8 +8383,8 @@
     "technique": "",
     "size": "",
     "year": null,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 300000,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -8228,8 +8395,8 @@
     "technique": "자개혼합기법",
     "size": "60 X 100cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 50000000,
+    "sellPrice": 70000000,
     "setName": null,
     "owner": null
   },
@@ -8240,8 +8407,8 @@
     "technique": "Oil on Canvas",
     "size": "27.3 X 34.8cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1000000,
+    "sellPrice": 1500000,
     "setName": null,
     "owner": null
   },
@@ -8252,8 +8419,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2450000,
+    "sellPrice": 3500000,
     "setName": null,
     "owner": null
   },
@@ -8264,8 +8431,8 @@
     "technique": "Oil on Canvas",
     "size": "53 X 45.5cm",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2450000,
+    "sellPrice": 3500000,
     "setName": null,
     "owner": null
   },
@@ -8276,8 +8443,9 @@
     "technique": "Ink and Light Color on Paper",
     "size": "38.5 X 25.5cm",
     "year": 1952,
-    "buyPrice": null,
+    "buyPrice": 1317800,
     "sellPrice": null,
+    "stockDate": "2022.10.03",
     "setName": null,
     "owner": null
   },
@@ -8288,8 +8456,9 @@
     "technique": "Lithography",
     "size": "63 X 85cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 640750,
     "sellPrice": null,
+    "stockDate": "2022.04.14",
     "setName": null,
     "owner": null
   },
@@ -8300,8 +8469,9 @@
     "technique": "Lithography",
     "size": "66.5 X 101cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 339600,
     "sellPrice": null,
+    "stockDate": "2022.02.16",
     "setName": null,
     "owner": null
   },
@@ -8312,8 +8482,9 @@
     "technique": "Lithography",
     "size": "66.5 X 101cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 339600,
     "sellPrice": null,
+    "stockDate": "2022.02.16",
     "setName": null,
     "owner": null
   },
@@ -8324,8 +8495,9 @@
     "technique": "Lithography",
     "size": "56 X 90cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 539100,
     "sellPrice": null,
+    "stockDate": "2021.10.18",
     "setName": null,
     "owner": null
   },
@@ -8336,8 +8508,9 @@
     "technique": "Ink on Paper",
     "size": "125.5 X 2.5cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1618300,
     "sellPrice": null,
+    "stockDate": "2022.02.21",
     "setName": null,
     "owner": null
   },
@@ -8360,7 +8533,7 @@
     "technique": "Oil on Canvas",
     "size": "22 X 15.5cm",
     "year": 2019,
-    "buyPrice": null,
+    "buyPrice": 300000,
     "sellPrice": null,
     "setName": null,
     "owner": null
@@ -8372,8 +8545,8 @@
     "technique": "Oil on Canvas",
     "size": "72.7 X 53cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 2500000,
+    "sellPrice": 3000000,
     "setName": null,
     "owner": null
   },
@@ -8384,8 +8557,9 @@
     "technique": "Lithography",
     "size": "29.8 X 40.8cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 169800,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -8396,8 +8570,9 @@
     "technique": "한지에 과슈",
     "size": "81 X 65cm",
     "year": 1983,
-    "buyPrice": null,
+    "buyPrice": 15500000,
     "sellPrice": null,
+    "stockDate": "2023.10.11",
     "setName": null,
     "owner": null
   },
@@ -8408,8 +8583,9 @@
     "technique": "Oil on Canvas",
     "size": "22.7 X 15.8cm",
     "year": 2011,
-    "buyPrice": null,
+    "buyPrice": 198000,
     "sellPrice": null,
+    "stockDate": "2024.01.18",
     "setName": null,
     "owner": null
   },
@@ -8420,8 +8596,8 @@
     "technique": "Oil on Canvas",
     "size": "40.9 X 31.8cm",
     "year": 2009,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 1800000,
+    "sellPrice": 3600000,
     "setName": null,
     "owner": null
   },
@@ -8444,8 +8620,9 @@
     "technique": "다색동판화",
     "size": "20.3 X 28.1cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 116500,
     "sellPrice": null,
+    "stockDate": "2023.03.16",
     "setName": null,
     "owner": null
   },
@@ -8468,8 +8645,8 @@
     "technique": "Stain, Styrofoam, Oil, Gemstone and Other Mixed on Canvas",
     "size": "52 X 50 X 5in",
     "year": 2017,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 45000000,
+    "sellPrice": 70000000,
     "setName": null,
     "owner": null
   },
@@ -8493,7 +8670,7 @@
     "size": "29.5 X 20.5cm",
     "year": 2020,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 1000000,
     "setName": null,
     "owner": null
   },
@@ -8504,8 +8681,9 @@
     "technique": "지클레이 프린트",
     "size": "27 X 22.2cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 407250,
     "sellPrice": null,
+    "stockDate": "2021.08.18",
     "setName": null,
     "owner": null
   },
@@ -8516,8 +8694,9 @@
     "technique": "Poster",
     "size": "29.8 X 21cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 54000,
     "sellPrice": null,
+    "stockDate": "2023.10.04",
     "setName": null,
     "owner": null
   },
@@ -8528,7 +8707,7 @@
     "technique": "",
     "size": "57.4 X 65.5cm",
     "year": 2021,
-    "buyPrice": null,
+    "buyPrice": 1300000,
     "sellPrice": null,
     "setName": null,
     "owner": null
@@ -8540,8 +8719,9 @@
     "technique": "Offset Print",
     "size": "65 X 65cm",
     "year": 2020,
-    "buyPrice": null,
+    "buyPrice": 1000000,
     "sellPrice": null,
+    "stockDate": "2022.02.10",
     "setName": null,
     "owner": null
   },
@@ -8552,8 +8732,9 @@
     "technique": "Offset Print",
     "size": "70 X 56cm",
     "year": 2020,
-    "buyPrice": null,
+    "buyPrice": 1000000,
     "sellPrice": null,
+    "stockDate": "2022.02.10",
     "setName": null,
     "owner": null
   },
@@ -8564,8 +8745,9 @@
     "technique": "Offset Print",
     "size": "65 X 65cm",
     "year": 2020,
-    "buyPrice": null,
+    "buyPrice": 1000000,
     "sellPrice": null,
+    "stockDate": "2022.02.10",
     "setName": null,
     "owner": null
   },
@@ -8576,8 +8758,9 @@
     "technique": "Offset Print",
     "size": "70 X 56cm",
     "year": 2020,
-    "buyPrice": null,
+    "buyPrice": 1000000,
     "sellPrice": null,
+    "stockDate": "2022.02.10",
     "setName": null,
     "owner": null
   },
@@ -8588,8 +8771,9 @@
     "technique": "Offset Print",
     "size": "70 X 56cm",
     "year": 2020,
-    "buyPrice": null,
+    "buyPrice": 1000000,
     "sellPrice": null,
+    "stockDate": "2022.02.10",
     "setName": null,
     "owner": null
   },
@@ -8600,8 +8784,9 @@
     "technique": "Lithography",
     "size": "49.6 X 60.6cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 1000000,
     "sellPrice": null,
+    "stockDate": "2022.03.15",
     "setName": null,
     "owner": null
   },
@@ -8636,7 +8821,7 @@
     "technique": "혼합재료",
     "size": "12.7 X 7.6 X 27.9cm",
     "year": 2016,
-    "buyPrice": null,
+    "buyPrice": 3020000,
     "sellPrice": null,
     "setName": null,
     "owner": null
@@ -8649,7 +8834,7 @@
     "size": "58.5 X 44.5cm",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -8661,7 +8846,7 @@
     "size": "58.5 X 44.5cm",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -8673,7 +8858,7 @@
     "size": "58.5 X 44.5cm",
     "year": null,
     "buyPrice": null,
-    "sellPrice": null,
+    "sellPrice": 500000,
     "setName": null,
     "owner": null
   },
@@ -8696,7 +8881,7 @@
     "technique": "Oil on Canvas",
     "size": "150 X 90cm",
     "year": 2019,
-    "buyPrice": null,
+    "buyPrice": 50000000,
     "sellPrice": null,
     "setName": null,
     "owner": null
@@ -8720,10 +8905,10 @@
     "technique": "Poreelain",
     "size": "26.7 X 26.7 X 12.7cm",
     "year": 2015,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 15000000,
+    "sellPrice": 18000000,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS13",
@@ -8732,8 +8917,9 @@
     "technique": "혼합재료 (폴리에스테르 마스트)",
     "size": "21 X 15cm",
     "year": 2020,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 55000,
+    "sellPrice": 70000,
+    "stockDate": "2024.04.25",
     "setName": null,
     "owner": null
   },
@@ -8744,10 +8930,11 @@
     "technique": "ScreenPrint",
     "size": "80.0 X 59.9cm",
     "year": null,
-    "buyPrice": null,
+    "buyPrice": 3510000,
     "sellPrice": null,
+    "stockDate": "2021.06.30",
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS11",
@@ -8756,8 +8943,9 @@
     "technique": "Turmeic, Watercolor, Ink and Gouache on Watercolor Paper",
     "size": "61 X 46cm",
     "year": 2021,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 4000000,
+    "sellPrice": 4000000,
+    "stockDate": "2021.09.18",
     "setName": null,
     "owner": null
   },
@@ -8768,10 +8956,10 @@
     "technique": "",
     "size": "",
     "year": 2018,
-    "buyPrice": null,
+    "buyPrice": 4500000,
     "sellPrice": null,
     "setName": null,
-    "owner": null
+    "owner": "영선갤러리"
   },
   {
     "code": "YS9",
@@ -8780,8 +8968,9 @@
     "technique": "Lithography",
     "size": "40 X 55cm",
     "year": 1971,
-    "buyPrice": null,
+    "buyPrice": 582500,
     "sellPrice": null,
+    "stockDate": "2025.01.22",
     "setName": null,
     "owner": null
   },
@@ -8792,8 +8981,9 @@
     "technique": "Lithography",
     "size": "42.5 X 32cm",
     "year": 1975,
-    "buyPrice": null,
+    "buyPrice": 582500,
     "sellPrice": null,
+    "stockDate": "2025.01.22",
     "setName": null,
     "owner": null
   },
@@ -8804,8 +8994,9 @@
     "technique": "Lithography",
     "size": "34 X 50cm",
     "year": 1973,
-    "buyPrice": null,
+    "buyPrice": 582250,
     "sellPrice": null,
+    "stockDate": "2024.12.18",
     "setName": null,
     "owner": null
   },
@@ -8816,8 +9007,9 @@
     "technique": "Acrylic, Oil on Marker on Paper",
     "size": "23 X 30cm",
     "year": 2019,
-    "buyPrice": null,
-    "sellPrice": null,
+    "buyPrice": 5000000,
+    "sellPrice": 7000000,
+    "stockDate": "2018.03.19",
     "setName": null,
     "owner": null
   },
@@ -8840,8 +9032,9 @@
     "technique": "Acrlic and Oil Stick on Canvas",
     "size": "61 X 50.5cm",
     "year": 2022,
-    "buyPrice": null,
+    "buyPrice": 4073200,
     "sellPrice": null,
+    "stockDate": "2023.03.20",
     "setName": null,
     "owner": null
   },
@@ -8852,8 +9045,9 @@
     "technique": "stone Lithgraph-3colours",
     "size": "60 X 81.5cm",
     "year": 1983,
-    "buyPrice": null,
+    "buyPrice": 699000,
     "sellPrice": null,
+    "stockDate": "2023.10.11",
     "setName": null,
     "owner": null
   },
@@ -8864,8 +9058,9 @@
     "technique": "stone lithograph-black and white",
     "size": "60.5 X 80.5cm",
     "year": 1984,
-    "buyPrice": null,
+    "buyPrice": 699000,
     "sellPrice": null,
+    "stockDate": "2023.08.24",
     "setName": null,
     "owner": null
   },
@@ -8876,8 +9071,9 @@
     "technique": "인그레이빙",
     "size": "65 X 93.3cm",
     "year": 1983,
-    "buyPrice": null,
+    "buyPrice": 582500,
     "sellPrice": null,
+    "stockDate": "2024.01.24",
     "setName": null,
     "owner": null
   }
