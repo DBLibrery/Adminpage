@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # ⭐️⭐️⭐️ 중요! 네 주력 브랜치 이름으로 변경 (main 또는 master) ⭐️⭐️⭐️
+      - main # ⭐️⭐️⭐️ 네 주력 브랜치 이름 확인 ⭐️⭐️⭐️
 
 jobs:
   build-and-deploy:
@@ -13,17 +13,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
+          # PAT를 사용하여 저장소 코드를 체크아웃합니다.
+          # 이는 github-actions[bot]의 권한 문제를 우회하기 위함입니다.
+          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           fetch-depth: 0 
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20 # ⭐️⭐️⭐️ 네 프로젝트에 사용되는 Node.js 버전에 맞춰서 변경 ⭐️⭐️⭐️
+          node-version: 20
 
       - name: Set up Git user
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "DBLibrery_Bot" # 사용자 계정 기반의 커밋이므로 좀 더 명확한 이름
+          git config user.email "DBLibrery_Bot@users.noreply.github.com"
 
       - name: Install dependencies
         run: npm install
@@ -31,5 +34,5 @@ jobs:
       - name: Build and Deploy to GitHub Pages
         run: |
           npm run build
-          # --repo 옵션을 사용하여 GITHUB_TOKEN을 URL에 직접 포함시켜 전달합니다.
-          npx gh-pages --dotfiles --no-history -d dist --repo "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          # --repo 옵션에 PAT를 포함시켜 직접 전달합니다.
+          npx gh-pages --dotfiles --no-history -d dist --repo "https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }}.git"
