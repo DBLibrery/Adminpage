@@ -1,5 +1,18 @@
 [
   {
+    "code": "YS741",
+    "title": "1",
+    "artist": "1",
+    "technique": "1",
+    "size": "1",
+    "year": 1,
+    "buyPrice": 1,
+    "sellPrice": 1,
+    "stockDate": "1",
+    "setName": null,
+    "owner": null
+  },
+  {
     "code": "YS740",
     "title": "Untitled",
     "artist": "Hendrick Lilanga",
