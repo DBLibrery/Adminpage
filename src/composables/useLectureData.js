@@ -53,7 +53,7 @@ export function useLectureData() {
   // 데이터 불러오기 로직
   onMounted(async () => {
     try {
-      const response = await fetch('/data/lectures.json'); // 특강 JSON 파일 경로
+      const response = await fetch('https://youngsungallery.com/data/lectures.json'); // 특강 JSON 파일 경로
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
