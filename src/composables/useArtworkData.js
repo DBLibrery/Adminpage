@@ -1,3 +1,6 @@
+/*
+src/composables/useArtworkData.js (또는 해당 파일)
+*/
 import { ref, onMounted, computed } from 'vue';
 
 export function useArtworkData() {
@@ -31,7 +34,10 @@ export function useArtworkData() {
 
   onMounted(async () => {
     try {
-      const response = await fetch('/data/artworks.json');
+      // ⭐️⭐️⭐️ 이 부분을 수정합니다: Adminpage 자체의 artworks-internal.json을 불러오도록 ⭐️⭐️⭐️
+      const response = await fetch(import.meta.env.BASE_URL + 'data/artworks-internal.json');
+      // 이전: const response = await fetch('/data/artworks.json');
+
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
