@@ -13,7 +13,6 @@ jobs:
       - name: Checkout code # 저장소 코드 가져오기
         uses: actions/checkout@v4
         with:
-          # gh-pages 액션이 이전 커밋 기록을 필요로 할 수 있으므로 fetch-depth를 0으로 설정합니다.
           fetch-depth: 0 
 
       - name: Set up Node.js # Node.js 환경 설정
@@ -30,10 +29,12 @@ jobs:
         run: npm install
 
       - name: Build and Deploy to GitHub Pages # 프로젝트 빌드 및 GitHub Pages 배포
-        # ⭐️⭐️⭐️ 이 부분을 수정해 줘! GH_TOKEN=을 앞에 붙여야 gh-pages가 토큰을 인식해. ⭐️⭐️⭐️
-        run: |
-          npm run build
-          GH_TOKEN=${{ secrets.GITHUB_TOKEN }} npx gh-pages --dotfiles --no-history -d dist
-        # 이전 버전에서 env: 섹션에 GH_TOKEN을 넣었다면 이제는 필요 없어 (삭제)
-        # env:
-        #   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 이 부분은 위 run: 명령어로 직접 전달하므로 삭제!
+        run: | # 여러 명령어를 실행할 때 사용
+          npm run build # Vue 프로젝트 빌드 (결과물은 dist 폴더에 생성)
+          # gh-pages 패키지를 사용하여 GitHub Pages에 배포
+          # --dotfiles: .nojekll 같은 숨김 파일도 포함
+          # --no-history: gh-pages 브랜치의 기록을 새로 시작하여 용량 관리 (선택 사항)
+          # -d dist: 배포할 빌드 폴더 지정
+          npx gh-pages --dotfiles --no-history -d dist
+        env: # ⭐️⭐️⭐️ 이 env: 섹션이 핵심입니다! ⭐️⭐️⭐️
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 이 토큰은 GitHub Actions에서 자동으로 생성됨
