@@ -21,24 +21,19 @@ jobs:
         with:
           node-version: 20 # ⭐️⭐️⭐️ 네 프로젝트에 사용되는 Node.js 버전에 맞춰서 변경 ⭐️⭐️⭐️
 
-      # ⭐️⭐️⭐️ 이 부분을 새로 추가해 주세요! ⭐️⭐️⭐️
-      - name: Set up Git user
+      - name: Set up Git user # Git 사용자 정보 설정
         run: |
-          git config user.name "github-actions[bot]" # GitHub Actions 공식 봇 이름 사용
-          git config user.email "github-actions[bot]@users.noreply.github.com" # GitHub Actions 공식 봇 이메일 사용
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Install dependencies # npm 의존성 패키지 설치
         run: npm install
 
       - name: Build and Deploy to GitHub Pages # 프로젝트 빌드 및 GitHub Pages 배포
-        run: | # 여러 명령어를 실행할 때 사용
-          npm run build # Vue 프로젝트 빌드 (결과물은 dist 폴더에 생성)
-          # gh-pages 패키지를 사용하여 GitHub Pages에 배포
-          # --dotfiles: .nojekyll 같은 숨김 파일도 포함
-          # --no-history: gh-pages 브랜치의 기록을 새로 시작하여 용량 관리 (선택 사항)
-          # -d dist: 배포할 빌드 폴더 지정
-          npx gh-pages --dotfiles --no-history -d dist
-        env:
-          # gh-pages가 GitHub API에 접근할 때 사용할 토큰 (자동 생성됨)
-          # GITHUB_TOKEN은 GitHub Actions에서 자동으로 제공되며, gh-pages가 인증에 사용
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # ⭐️⭐️⭐️ 이 부분을 수정해 줘! GH_TOKEN=을 앞에 붙여야 gh-pages가 토큰을 인식해. ⭐️⭐️⭐️
+        run: |
+          npm run build
+          GH_TOKEN=${{ secrets.GITHUB_TOKEN }} npx gh-pages --dotfiles --no-history -d dist
+        # 이전 버전에서 env: 섹션에 GH_TOKEN을 넣었다면 이제는 필요 없어 (삭제)
+        # env:
+        #   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 이 부분은 위 run: 명령어로 직접 전달하므로 삭제!
