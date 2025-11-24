@@ -29,12 +29,9 @@ jobs:
         run: npm install
 
       - name: Build and Deploy to GitHub Pages # 프로젝트 빌드 및 GitHub Pages 배포
-        run: | # 여러 명령어를 실행할 때 사용
-          npm run build # Vue 프로젝트 빌드 (결과물은 dist 폴더에 생성)
-          # gh-pages 패키지를 사용하여 GitHub Pages에 배포
-          # --dotfiles: .nojekll 같은 숨김 파일도 포함
-          # --no-history: gh-pages 브랜치의 기록을 새로 시작하여 용량 관리 (선택 사항)
-          # -d dist: 배포할 빌드 폴더 지정
-          npx gh-pages --dotfiles --no-history -d dist
-        env: # ⭐️⭐️⭐️ 이 env: 섹션이 핵심입니다! ⭐️⭐️⭐️
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 이 토큰은 GitHub Actions에서 자동으로 생성됨
+        run: | # ⭐️⭐️⭐️ 이 부분을 다시 수정해 줘! ⭐️⭐️⭐️
+          npm run build
+          # --repo 옵션을 사용하여 GITHUB_TOKEN을 URL에 직접 포함시켜 전달합니다.
+          # 이는 가장 확실하게 인증 정보를 gh-pages에 전달하는 방법 중 하나입니다.
+          npx gh-pages --dotfiles --no-history -d dist --repo "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+        # 이전 env: 섹션에 GH_TOKEN을 정의했다면 그 부분은 삭제!
