@@ -134,50 +134,56 @@ export function useArtworkData() {
   };
 
   // ✨ 내부용 JSON 다운로드 함수 (지정된 모든 필드 명시적으로 포함) ✨
-  const downloadInternalJson = () => {
-    const dataToDownload = artworks.value.map(item => {
-      const {
-        code,
-        title,
-        artist,
-        technique,
-        size,
-        year,
-        buyPrice,
-        sellPrice,
-        stockDate,
-        setName,
-        owner,
-      } = item;
+const downloadInternalJson = () => {
+  const dataToDownload = artworks.value.map(item => {
+    const {
+      code,
+      title,
+      artist,
+      technique,
+      size,
+      year,
+      buyPrice,
+      sellPrice,
+      stockDate,
+      setName,
+      owner,
+    } = item;
 
-      return {
-        code,
-        title,
-        artist,
-        technique,
-        size,
-        year: year ? Number(year) : null, 
-        buyPrice: item.buyPrice, // ✨ parseFlexiblePrice를 거치지 않고 item.buyPrice 원본값 그대로 사용 ✨
-        sellPrice: sellPrice ? Number(sellPrice) : null,
-        stockDate,
-        setName: setName || null,
-        owner: owner || null,
-      };
-    });
+    return {
+      code,
+      title,
+      artist,
+      technique,
+      size,
+      year: year ? Number(year) : null, 
+      buyPrice: item.buyPrice,
+      sellPrice: sellPrice ? Number(sellPrice) : null,
+      stockDate,
+      setName: setName || null,
+      owner: owner || null,
+    };
+  });
 
-    const jsonString = JSON.stringify(dataToDownload, null, 2);
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
+  const jsonString = JSON.stringify(dataToDownload, null, 2);
+  const blob = new Blob([jsonString], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
 
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'artworks_internal.json'; 
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-    alert('수정된 내부용 작품 목록 JSON 파일이 다운로드됩니다!');
-  };
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'artworks_internal.json'; 
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  alert('수정된 내부용 작품 목록 JSON 파일이 다운로드됩니다! 이어서 GitHub 업로드 페이지가 열립니다.');
+
+  // ⭐️⭐️⭐️ 추가할 코드: GitHub 업로드 페이지 열기 ⭐️⭐️⭐️
+  // DBLibrery/Adminpage 저장소의 main 브랜치 public/data 폴더에 파일을 업로드하는 페이지를 엽니다.
+  // 이 URL은 정민이의 실제 GitHub 저장소 URL에 맞춰야 합니다.
+  const githubUploadUrl = 'https://github.com/DBLibrery/Adminpage/upload/main/public/data';
+  window.open(githubUploadUrl, '_blank'); // 새 탭으로 열기
+};
 
   // ✨ 외부용 JSON 다운로드 함수 (buyPrice, sellPrice, stockDate, imageUrl 제외하고 지정된 필드만 포함) ✨
   const downloadExternalJson = () => {
