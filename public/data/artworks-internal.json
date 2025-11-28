@@ -5289,7 +5289,8 @@
     "year": 2018,
     "buyPrice": 600000,
     "sellPrice": 1000000,
-    "setName": "2019.01.30",
+    "stockDate": "2019.01.30",
+    "setName": null,
     "owner": null
   },
   {
