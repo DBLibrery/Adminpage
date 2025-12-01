@@ -6,11 +6,9 @@ export function useExhibitionData() {
   const loading = ref(true);
   const error = ref(null);
 
-  // ⭐️⭐️⭐️ 여기! 두 변수를 const로 정의했습니다. ⭐️⭐️⭐️
-  // JSON 파일에 저장될 때 사용될 이미지 기본 경로 (GitHub blob 링크)
-  const IMG_EXHIBITION_JSON_BASE_URL = 'https://github.com/youngsungallery/IMG_DB/blob/main/youngsungallery/exh/';
-  // 실제 웹사이트에서 이미지를 표시할 때 사용될 경로 (GitHub raw.githubusercontent 링크)
-  const IMG_EXHIBITION_DISPLAY_BASE_URL = 'https://raw.githubusercontent.com/youngsungallery/IMG_DB/main/youngsungallery/exh/';
+  // ⭐️⭐️⭐️ 이미지 기본 경로 변수들은 이제 삭제합니다.
+  // JSON 파일에 이미지의 전체 경로가 직접 저장되어 있다고 가정합니다. ⭐️⭐️⭐️
+
 
   // 파일 다운로드 헬퍼 함수
   const downloadFile = (data, filename, type) => {
@@ -49,9 +47,7 @@ export function useExhibitionData() {
         ...item,
         isEditing: false,
         editedData: { ...item },
-        // JSON에 저장된 전체 이미지 URL에서 파일명만 추출하여 임시 필드에 저장
-        // (UI에서 파일명만 입력/표시하기 위함)
-        _tempImageFilename: item.image ? item.image.split('/').pop() : '' 
+        // ⭐️⭐️⭐️ _tempImageFilename 임시 필드는 더 이상 필요 없습니다. ⭐️⭐️⭐️
       }));
     } catch (e) {
       error.value = e;
@@ -63,18 +59,13 @@ export function useExhibitionData() {
 
   // 새 전시 추가 함수
   const addExhibition = (newExhibitionData) => {
-    // 입력된 파일명에 JSON 저장용 기본 경로를 붙여 전체 이미지 URL로 만듭니다.
-    const processedImage = newExhibitionData._tempImageFilename ? IMG_EXHIBITION_JSON_BASE_URL + newExhibitionData._tempImageFilename : '';
-
+    // ⭐️⭐️⭐️ 이미지 경로를 별도로 가공하지 않고 그대로 사용합니다. ⭐️⭐️⭐️
+    // newExhibitionData.image에 이미 전체 경로가 들어있다고 가정
     const newExhibition = {
       ...newExhibitionData,
       id: Date.now(), // 고유 ID 부여
-      image: processedImage, // 전체 경로로 저장
       isEditing: false,
-      editedData: {
-        ...newExhibitionData,
-        image: processedImage // editedData에도 전체 경로로 저장
-      }
+      editedData: { ...newExhibitionData }
     };
     exhibitions.value.unshift(newExhibition);
     alert('새 전시 정보가 추가되었습니다!');
@@ -83,20 +74,13 @@ export function useExhibitionData() {
   // 전시 수정 모드 진입 함수
   const startEditingExhibition = (exhibition) => {
     exhibition.editedData = { ...exhibition };
-    // 편집 모드 진입 시, JSON 저장 URL에서 파일명만 추출하여 editedData.image에 할당
-    exhibition.editedData.image = exhibition.image ? exhibition.image.split('/').pop() : '';
     exhibition.isEditing = true;
   };
 
   // 수정된 전시 정보 저장 함수
   const saveEditedExhibition = (exhibition) => {
-    // editedData에 있는 파일명에 JSON 저장용 기본 경로를 붙여 전체 이미지 URL로 만듭니다.
-    const processedImage = exhibition.editedData.image ? IMG_EXHIBITION_JSON_BASE_URL + exhibition.editedData.image : '';
-    
-    // 원본 exhibition 객체에 업데이트 (editedData와 _tempImageFilename 임시 필드는 제외)
-    const { editedData, _tempImageFilename, ...rest } = exhibition; 
-    Object.assign(exhibition, rest, { image: processedImage }); // image 필드는 변환된 값으로 업데이트
-
+    // ⭐️⭐️⭐️ 이미지 경로를 별도로 가공하지 않고 editedData.image를 그대로 사용합니다. ⭐️⭐️⭐️
+    Object.assign(exhibition, exhibition.editedData); // editedData 내용으로 원본 전시 객체 업데이트
     exhibition.isEditing = false;
     alert('전시 정보가 저장되었습니다!');
   };
@@ -124,6 +108,6 @@ export function useExhibitionData() {
     cancelEditingExhibition,
     deleteExhibition,
     downloadExhibitionsJson,
-    IMG_EXHIBITION_DISPLAY_BASE_URL // ⭐️⭐️⭐️ return 문에서 노출! ⭐️⭐️⭐️
+    // ⭐️⭐️⭐️ IMG_EXHIBITION_DISPLAY_BASE_URL은 더 이상 필요 없으므로 반환하지 않습니다. ⭐️⭐️⭐️
   };
 }
