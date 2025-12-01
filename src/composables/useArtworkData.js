@@ -1,6 +1,4 @@
-/*
-src/composables/useArtworkData.js (또는 해당 파일)
-*/
+// src/composables/useArtworkData.js
 import { ref, onMounted, computed } from 'vue';
 
 export function useArtworkData() {
@@ -11,35 +9,62 @@ export function useArtworkData() {
   const IMG_BASE_URL = 'https://github.com/youngsungallery/IMG_DB/blob/main/youngsungallery/art/';
   const IMG_DISPLAY_BASE_URL = 'https://raw.githubusercontent.com/youngsungallery/IMG_DB/main/youngsungallery/art/';
 
-  // ✨ Helper 함수: 유연한 가격 파싱 (숫자 또는 문자열) ✨
   const parseFlexiblePrice = (value) => {
     if (value === null || value === undefined || value === '') {
       return null;
     }
-    // 값이 string 타입인 경우, 숫자로만 구성되어 있는지 확인
     if (typeof value === 'string') {
-      // 숫자 형태의 문자열인지 정규식으로 검사
       if (/^\d+(\.\d+)?$/.test(value.trim())) { 
           return Number(value);
       }
-      return value; // 숫자 형태가 아니면 문자열 그대로 반환
+      return value;
     }
-    // 이미 숫자 타입이면 숫자 그대로 반환
     if (typeof value === 'number') {
         return value;
     }
-    return value; // 그 외의 경우 (예: boolean, object)는 그냥 원본 값 반환
+    return value;
+  };
+
+  // 파일 다운로드 헬퍼 함수
+  const downloadFile = (data, filename, type) => {
+    const blob = new Blob([data], { type: type });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  // ⭐️⭐️ downloadJson 단일 함수로 변경: buyPrice, sellPrice, owner 제거 후 artworks.json 다운로드 ⭐️⭐️
+  const downloadJson = () => {
+    // 1. 현재 artworks.value 데이터에서 비공개 필드(buyPrice, sellPrice, owner) 제거
+    const publicArtworks = artworks.value.map(item => {
+      // isEditing, editedData, originalDataCopy 같은 UI/로직용 임시 필드도 제외
+      const { buyPrice, sellPrice, owner, isEditing, editedData, originalDataCopy, ...publicData } = item;
+      return publicData; // 공개용 데이터만 남김
+    });
+
+    // 2. 필터링된 공개용 데이터를 JSON 문자열로 변환 (들여쓰기 2칸으로 보기 좋게)
+    const jsonString = JSON.stringify(publicArtworks, null, 2);
+
+    // 3. 'artworks.json' 이라는 이름으로 다운로드
+    downloadFile(jsonString, 'artworks.json', 'application/json');
+    alert('\'artworks.json\' 파일이 성공적으로 다운로드되었습니다! 이 파일을 GitHub에 업로드해 주세요.');
+
+    // ⭐️⭐️ GitHub 업로드 페이지 열기 (youngsungallery/website 저장소의 public/data 폴더로 연결) ⭐️⭐️
+    const githubUploadUrl = 'https://github.com/youngsungallery/website/upload/main/public/data';
+    window.open(githubUploadUrl, '_blank'); // 새 탭으로 열기
   };
 
 
   onMounted(async () => {
     try {
-      // ⭐️⭐️⭐️ 이 부분을 수정합니다: Adminpage 자체의 artworks-internal.json을 불러오도록 ⭐️⭐️⭐️
-      const response = await fetch(import.meta.env.BASE_URL + 'data/artworks-internal.json');
-      // 이전: const response = await fetch('/data/artworks.json');
-
+      const response = await fetch(import.meta.env.BASE_URL + 'data/artworks.json'); 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error(`작품 정보를 불러오는데 실패했습니다: ${response.status}`);
       }
       let data = await response.json();
 
@@ -51,19 +76,19 @@ export function useArtworkData() {
       artworks.value = data.map(item => ({
         ...item,
         year: item.year ? Number(item.year) : null,
-        buyPrice: parseFlexiblePrice(item.buyPrice), // ✨ 유연한 파싱 적용 ✨
+        buyPrice: parseFlexiblePrice(item.buyPrice),
         sellPrice: item.sellPrice ? Number(item.sellPrice) : null,
         isEditing: false, 
         editedData: { 
           ...item,
           year: item.year ? Number(item.year) : null,
-          buyPrice: parseFlexiblePrice(item.buyPrice), // ✨ 유연한 파싱 적용 ✨
+          buyPrice: parseFlexiblePrice(item.buyPrice),
           sellPrice: item.sellPrice ? Number(item.sellPrice) : null,
         },
         originalDataCopy: { 
           ...item,
           year: item.year ? Number(item.year) : null,
-          buyPrice: parseFlexiblePrice(item.buyPrice), // ✨ 유연한 파싱 적용 ✨
+          buyPrice: parseFlexiblePrice(item.buyPrice),
           sellPrice: item.sellPrice ? Number(item.sellPrice) : null,
         }
       }));
@@ -75,12 +100,13 @@ export function useArtworkData() {
     }
   });
 
+
   const nextArtworkCode = computed(() => {
     const currentMaxNum = artworks.value.reduce((max, item) => {
       const match = String(item.code).match(/^YS(\d+)$/);
       return match ? Math.max(max, parseInt(match[1])) : max;
     }, 0);
-    return `YS${currentMaxNum + 1}`;
+    return `YS${(currentMaxNum + 1).toString().padStart(3, '0')}`;
   });
 
   const addArtwork = (newArtData) => {
@@ -110,10 +136,12 @@ export function useArtworkData() {
 
   const saveEditedArtwork = (artwork) => {
     artwork.editedData.year = artwork.editedData.year ? Number(artwork.editedData.year) : null;
-    artwork.editedData.buyPrice = parseFlexiblePrice(artwork.editedData.buyPrice); // ✨ 유연한 파싱 적용 ✨
+    artwork.editedData.buyPrice = parseFlexiblePrice(artwork.editedData.buyPrice);
     artwork.editedData.sellPrice = artwork.editedData.sellPrice ? Number(artwork.editedData.sellPrice) : null;
 
-    Object.assign(artwork, artwork.editedData);
+    const { isEditing, originalDataCopy, ...actualEditedData } = artwork.editedData;
+    Object.assign(artwork, actualEditedData);
+
     artwork.isEditing = false;
     alert(`'${artwork.title}' 작품 정보가 프론트엔드에 저장되었습니다!`);
     console.log('작품 저장됨 (프론트엔드):', artwork);
@@ -121,7 +149,7 @@ export function useArtworkData() {
   };
 
   const cancelEditingArtwork = (artwork) => {
-    artwork.editedData = { ...artwork.originalDataCopy };
+    Object.assign(artwork, artwork.originalDataCopy);
     artwork.isEditing = false;
     console.log('편집 취소됨:', artwork);
   };
@@ -131,96 +159,6 @@ export function useArtworkData() {
       artworks.value = artworks.value.filter(item => item.code !== artwork.code);
       alert(`'${artwork.title}' 작품을 삭제합니다! (프론트엔드에서만 반영)`);
     }
-  };
-
-  // ✨ 내부용 JSON 다운로드 함수 (지정된 모든 필드 명시적으로 포함) ✨
-const downloadInternalJson = () => {
-  const dataToDownload = artworks.value.map(item => {
-    const {
-      code,
-      title,
-      artist,
-      technique,
-      size,
-      year,
-      buyPrice,
-      sellPrice,
-      stockDate,
-      setName,
-      owner,
-    } = item;
-
-    return {
-      code,
-      title,
-      artist,
-      technique,
-      size,
-      year: year ? Number(year) : null, 
-      buyPrice: item.buyPrice,
-      sellPrice: sellPrice ? Number(sellPrice) : null,
-      stockDate,
-      setName: setName || null,
-      owner: owner || null,
-    };
-  });
-
-  const jsonString = JSON.stringify(dataToDownload, null, 2);
-  const blob = new Blob([jsonString], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'artworks-internal.json'; 
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-  alert('수정된 내부용 작품 목록 JSON 파일이 다운로드됩니다! 이어서 GitHub 업로드 페이지가 열립니다.');
-
-  // ⭐️⭐️⭐️ 추가할 코드: GitHub 업로드 페이지 열기 ⭐️⭐️⭐️
-  // DBLibrery/Adminpage 저장소의 main 브랜치 public/data 폴더에 파일을 업로드하는 페이지를 엽니다.
-  // 이 URL은 정민이의 실제 GitHub 저장소 URL에 맞춰야 합니다.
-  const githubUploadUrl = 'https://github.com/DBLibrery/Adminpage/upload/main/public/data';
-  window.open(githubUploadUrl, '_blank'); // 새 탭으로 열기
-};
-
-  // ✨ 외부용 JSON 다운로드 함수 (buyPrice, sellPrice, stockDate, imageUrl 제외하고 지정된 필드만 포함) ✨
-  const downloadExternalJson = () => {
-    const dataToDownload = artworks.value.map(item => {
-      const { 
-        code, 
-        title, 
-        artist, 
-        technique, 
-        size, 
-        year, 
-        setName,
-      } = item; 
-
-      return {
-        code,
-        title,
-        artist,
-        technique,
-        size,
-        year: year ? Number(year) : null,
-        setName: setName || null,
-      };
-    });
-
-    const jsonString = JSON.stringify(dataToDownload, null, 2);
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'artworks_external.json'; 
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-    alert('외부용 작품 목록 JSON 파일이 다운로드됩니다!');
   };
 
   return {
@@ -235,7 +173,6 @@ const downloadInternalJson = () => {
     saveEditedArtwork,
     cancelEditingArtwork,
     deleteArtwork,
-    downloadInternalJson,
-    downloadExternalJson
+    downloadJson // 단일 다운로드 함수만 반환
   };
 }
