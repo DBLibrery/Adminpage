@@ -11,11 +11,8 @@
           <th>기법</th>
           <th>규격</th>
           <th>연도</th>
-          <th>구입가</th>
-          <th>판매가</th>
           <th>입고일</th>
           <th>세트명</th>
-          <th>소장자</th>
           <th>관리</th>
         </tr>
       </thead>
@@ -53,16 +50,6 @@
               <span v-if="!artwork.isEditing">{{ artwork.year }}</span>
               <input v-else v-model="artwork.editedData.year" type="number" class="edit-input" />
             </td>
-            <!-- ✨ 구입가 표시 부분 수정 (PC 버전) ✨ -->
-            <td>
-              <span v-if="!artwork.isEditing">{{ formatNumber(artwork.buyPrice) }}</span>
-              <input v-else v-model="artwork.editedData.buyPrice" type="text" class="edit-input" />
-            </td>
-            <!-- ✨ 판매가 표시 부분 수정 (PC 버전) ✨ -->
-            <td>
-              <span v-if="!artwork.isEditing">{{ formatNumber(artwork.sellPrice) }}</span>
-              <input v-else v-model.number="artwork.editedData.sellPrice" type="number" class="edit-input" />
-            </td>
             <td>
               <span v-if="!artwork.isEditing">{{ artwork.stockDate }}</span>
               <input v-else v-model="artwork.editedData.stockDate" type="text" class="edit-input" />
@@ -70,11 +57,6 @@
             <td>
               <span v-if="!artwork.isEditing">{{ artwork.setName }}</span>
               <input v-else v-model="artwork.editedData.setName" type="text" class="edit-input" />
-            </td>
-            <td>
-              <span v-if="!artwork.isEditing" :class="{ 'text-placeholder': !artwork.owner || artwork.owner.trim() === '' }">
-              {{ (artwork.owner && artwork.owner.trim() !== '') ? artwork.owner : '영선갤러리' }} </span>
-              <input v-else v-model="artwork.editedData.owner" type="text" class="edit-input" placeholder="영선갤러리" />
             </td>
             <td class="actions-col">
               <template v-if="!artwork.isEditing">
