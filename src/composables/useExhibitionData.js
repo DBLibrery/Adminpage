@@ -1,88 +1,42 @@
-// src/composables/useExhibitionData.js
+// src/composables/useExhibitionData.js (전체 코드)
 import { ref, onMounted } from 'vue';
 
-const EXHIBITION_IMAGE_BASE_URL = 'https://raw.githubusercontent.com/youngsungallery/IMG_DB/main/youngsungallery/exh/';
-
 export function useExhibitionData() {
-  const exhibitions = ref([]); 
-  const loading = ref(true);    
-  const error = ref(null);      
+  const exhibitions = ref([]);
+  const loading = ref(true);
+  const error = ref(null);
 
-  const extractFilenameWithoutExtension = (url) => {
-    if (!url) return '';
-    let cleanUrl = url.split('?')[0];
-
-    if (cleanUrl.includes('raw.githubusercontent.com')) {
-      const parts = cleanUrl.split('/');
-      let filenameWithExtension = parts[parts.length - 1];
-      if (filenameWithExtension.endsWith('.png')) {
-        return filenameWithExtension.slice(0, -4);
-      }
-      return filenameWithExtension;
-    }
-
-    if (cleanUrl.includes('/blob/')) {
-      const blobPath = cleanUrl.split('/blob/')[1];
-      const parts = blobPath.split('/');
-      let filenameWithExtension = parts[parts.length - 1];
-      if (filenameWithExtension.endsWith('.png')) {
-        return filenameWithExtension.slice(0, -4);
-      }
-      return filenameWithExtension;
-    }
-    
-    if (cleanUrl.endsWith('.png')) {
-      return cleanUrl.slice(0, -4);
-    }
-    return cleanUrl; 
+  const downloadFile = (data, filename, type) => {
+    const blob = new Blob([data], { type: type });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
-  const generateFullImageUrl = (imageFilename) => {
-    if (!imageFilename) return '';
-    // 파일명에 '.png'가 이미 포함되어 있으면 중복으로 붙이지 않도록 확인
-    if (imageFilename.endsWith('.png')) {
-        return `${EXHIBITION_IMAGE_BASE_URL}${imageFilename}`;
-    }
-    return `${EXHIBITION_IMAGE_BASE_URL}${imageFilename}.png`;
-  };
+  const downloadExhibitionsJson = () => {
+    const jsonString = JSON.stringify(exhibitions.value, null, 2);
+    downloadFile(jsonString, 'exhibitions.json', 'application/json');
+    alert('\'exhibitions.json\' 파일이 성공적으로 다운로드되었습니다! 이 파일을 youngsungallery/website 저장소의 public/data 폴더에 업로드해 주세요.');
 
+    // GitHub 업로드 페이지 열기 (youngsungallery/website 저장소의 public/data 폴더로 연결)
+    const githubUploadUrl = 'https://github.com/youngsungallery/website/upload/main/public/data'; 
+    window.open(githubUploadUrl, '_blank');
+  };
 
   onMounted(async () => {
     try {
-      const response = await fetch('https://youngsungallery.com/data/exhibitions.json');
+      // ⭐️⭐️⭐️ 여기를 수정합니다! 관리사이트 내부 경로에서 불러오도록 변경 ⭐️⭐️⭐️
+      const response = await fetch(import.meta.env.BASE_URL + 'data/exhibitions.json'); 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error(`전시 정보를 불러오는데 실패했습니다: ${response.status}`);
       }
       const data = await response.json();
-      
-      exhibitions.value = data.map(item => {
-        let resolvedImageFilename = '';
-        if (item.imageFile) {
-          resolvedImageFilename = item.imageFile;
-        } else if (item.image) {
-          resolvedImageFilename = extractFilenameWithoutExtension(item.image);
-        } else {
-          resolvedImageFilename = '';
-        }
-
-        const fullImageUrl = generateFullImageUrl(resolvedImageFilename); // 이미지 필드까지 생성
-        return {
-          ...item,
-          imageFile: resolvedImageFilename, 
-          image: fullImageUrl, // ✨ item.image 필드에 완성된 URL 채우기 ✨
-          isEditing: false, 
-          editedData: { 
-            ...item, 
-            imageFile: resolvedImageFilename, 
-            image: fullImageUrl
-          }, 
-          originalDataCopy: { 
-            ...item, 
-            imageFile: resolvedImageFilename, 
-            image: fullImageUrl
-          }
-        };
-      });
+      exhibitions.value = data.map(item => ({ ...item, isEditing: false, editedData: { ...item } }));
     } catch (e) {
       error.value = e;
       console.error("전시 정보를 불러오는데 실패했습니다:", e);
@@ -91,92 +45,32 @@ export function useExhibitionData() {
     }
   });
 
-  const addExhibition = (newExhData) => {
-    const newImageFile = newExhData.imageFile || '';
-    const newImageUrl = generateFullImageUrl(newImageFile); // 새 전시의 image URL 생성
-
-    const newExh = {
-      ...newExhData,
-      imageFile: newImageFile, // ✨ imageFile 사용 ✨
-      image: newImageUrl,     // ✨ image 필드에 완성된 URL 채우기 ✨
-      isEditing: false,
-      // ✨ editedData와 originalDataCopy도 imageFile과 image로 초기화 ✨
-      editedData: { 
-        ...newExhData, 
-        imageFile: newImageFile, 
-        image: newImageUrl 
-      },
-      originalDataCopy: { 
-        ...newExhData, 
-        imageFile: newImageFile, 
-        image: newImageUrl 
-      }
-    };
-
-    exhibitions.value.unshift(newExh); 
-    alert(`'${newExh.title}' 전시가 목록에 추가되었습니다!`);
-    console.log('새 전시 추가됨:', newExh);
-
-    // ✨ 콘솔에 추가된 전시의 이미지 URL을 출력해서 확인! ✨
-    console.log('새 전시 이미지 URL 확인:', newExh.image); 
-
-    return true;
+  const addExhibition = (newExhibitionData) => {
+    const newExhibition = { ...newExhibitionData, id: Date.now(), isEditing: false, editedData: { ...newExhibitionData } };
+    exhibitions.value.unshift(newExhibition);
+    alert('새 전시 정보가 추가되었습니다!');
   };
 
-  const startEditingExhibition = (exh) => {
-    exh.originalDataCopy = { ...exh };
-    exh.editedData = { ...exh, imageFile: exh.imageFile, image: exh.image }; 
-    exh.isEditing = true;
+  const startEditingExhibition = (exhibition) => {
+    exhibition.editedData = { ...exhibition };
+    exhibition.isEditing = true;
   };
 
-  const saveEditedExhibition = (exh) => {
-    const updatedImageFile = exh.editedData.imageFile || ''; 
-    const updatedImageUrl = generateFullImageUrl(updatedImageFile); // 수정된 이미지 URL 생성
-    
-    exh.title = exh.editedData.title;
-    exh.date = exh.editedData.date;
-    exh.desc = exh.editedData.desc;
-    exh.imageFile = updatedImageFile; // imageFile (파일명) 업데이트
-    exh.image = updatedImageUrl;     // ✨ image (완성된 URL) 업데이트 ✨
+  const saveEditedExhibition = (exhibition) => {
+    Object.assign(exhibition, exhibition.editedData);
+    exhibition.isEditing = false;
+    alert('전시 정보가 저장되었습니다!');
+  };
 
-    if (Object.prototype.hasOwnProperty.call(exh, 'image')) {
-      delete exh.image; // 기존 image 필드는 imageFile로 통일되면서 이 로직은 불필요할 수 있지만, 만일을 위해.
+  const cancelEditingExhibition = (exhibition) => {
+    exhibition.isEditing = false;
+  };
+
+  const deleteExhibition = (id) => {
+    if (confirm('정말로 이 전시 정보를 삭제하시겠습니까?')) {
+      exhibitions.value = exhibitions.value.filter(ex => ex.id !== id);
+      alert('전시 정보가 삭제되었습니다!');
     }
-    
-    exh.isEditing = false;
-    alert(`'${exh.title}' 전시 정보가 프론트엔드에 저장되었습니다!`);
-    console.log('전시 저장됨 (프론트엔드):', exh);
-    console.log('수정된 전시 이미지 URL 확인:', exh.image); // ✨ 콘솔에 이미지 URL 출력해서 확인! ✨
-    exh.originalDataCopy = { ...exh }; 
-  };
-
-  const cancelEditingExhibition = (exh) => {
-    exh.editedData = { ...exh.originalDataCopy };
-    exh.isEditing = false;
-    console.log('편집 취소됨:', exh);
-  };
-
-  const downloadJson = () => {
-    const dataToDownload = exhibitions.value.map(item => {
-      const { isEditing, editedData, originalDataCopy, image, ...rest } = item; 
-      return {
-        ...rest,
-        imageFile: item.imageFile || '' 
-      };
-    });
-
-    const jsonString = JSON.stringify(dataToDownload, null, 2);
-    const blob = new Blob([jsonString], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'exhibitions_updated.json';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-    alert('수정된 전시 목록 JSON 파일이 다운로드됩니다!');
   };
 
   return {
@@ -187,6 +81,7 @@ export function useExhibitionData() {
     startEditingExhibition,
     saveEditedExhibition,
     cancelEditingExhibition,
-    downloadJson
+    deleteExhibition,
+    downloadExhibitionsJson,
   };
 }
