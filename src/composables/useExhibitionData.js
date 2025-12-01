@@ -6,6 +6,13 @@ export function useExhibitionData() {
   const loading = ref(true);
   const error = ref(null);
 
+  // ⭐️⭐️⭐️ 정확한 전시 포스터 이미지 기본 경로 정의 (JSON 저장용) ⭐️⭐️⭐️
+  const IMG_EXHIBITION_JSON_BASE_URL = 'https://github.com/youngsungallery/IMG_DB/blob/main/youngsungallery/exh/';
+  // ⭐️⭐️⭐️ 실제 이미지 표시/로딩용 (raw content URL) ⭐️⭐️⭐️
+  const IMG_EXHIBITION_DISPLAY_BASE_URL = 'https://raw.githubusercontent.com/youngsungallery/IMG_DB/main/youngsungallery/exh/';
+
+
+  // 파일 다운로드 헬퍼 함수
   const downloadFile = (data, filename, type) => {
     const blob = new Blob([data], { type: type });
     const url = URL.createObjectURL(blob);
@@ -19,24 +26,28 @@ export function useExhibitionData() {
   };
 
   const downloadExhibitionsJson = () => {
-    const jsonString = JSON.stringify(exhibitions.value, null, 2);
+    const jsonString = JSON.stringify(exhibitions.value, null, 2); 
     downloadFile(jsonString, 'exhibitions.json', 'application/json');
     alert('\'exhibitions.json\' 파일이 성공적으로 다운로드되었습니다! 이 파일을 youngsungallery/website 저장소의 public/data 폴더에 업로드해 주세요.');
 
-    // GitHub 업로드 페이지 열기 (youngsungallery/website 저장소의 public/data 폴더로 연결)
     const githubUploadUrl = 'https://github.com/youngsungallery/website/upload/main/public/data'; 
     window.open(githubUploadUrl, '_blank');
   };
 
   onMounted(async () => {
     try {
-      // ⭐️⭐️⭐️ 여기를 수정합니다! 관리사이트 내부 경로에서 불러오도록 변경 ⭐️⭐️⭐️
       const response = await fetch(import.meta.env.BASE_URL + 'data/exhibitions.json'); 
       if (!response.ok) {
         throw new Error(`전시 정보를 불러오는데 실패했습니다: ${response.status}`);
       }
       const data = await response.json();
-      exhibitions.value = data.map(item => ({ ...item, isEditing: false, editedData: { ...item } }));
+      exhibitions.value = data.map(item => ({
+        ...item,
+        isEditing: false,
+        editedData: { ...item },
+        // ⭐️⭐️⭐️ 편집 모드에서 파일명만 보여주기 위한 임시 필드 (원본 image는 전체 JSON 저장 URL) ⭐️⭐️⭐️
+        _tempImageFilename: item.image ? item.image.split('/').pop() : '' 
+      }));
     } catch (e) {
       error.value = e;
       console.error("전시 정보를 불러오는데 실패했습니다:", e);
@@ -46,24 +57,45 @@ export function useExhibitionData() {
   });
 
   const addExhibition = (newExhibitionData) => {
-    const newExhibition = { ...newExhibitionData, id: Date.now(), isEditing: false, editedData: { ...newExhibitionData } };
+    // ⭐️⭐️⭐️ 입력된 파일명에 JSON 저장용 기본 경로를 붙여 전체 URL로 만듭니다 ⭐️⭐️⭐️
+    const processedImage = newExhibitionData._tempImageFilename ? IMG_EXHIBITION_JSON_BASE_URL + newExhibitionData._tempImageFilename : '';
+
+    const newExhibition = {
+      ...newExhibitionData,
+      id: Date.now(),
+      image: processedImage, // JSON에 저장될 URL (blob 형태)
+      isEditing: false,
+      editedData: {
+        ...newExhibitionData,
+        image: processedImage // editedData에도 전체 경로로 저장
+      }
+    };
     exhibitions.value.unshift(newExhibition);
     alert('새 전시 정보가 추가되었습니다!');
   };
 
   const startEditingExhibition = (exhibition) => {
     exhibition.editedData = { ...exhibition };
+    // ⭐️⭐️⭐️ 편집 모드 진입 시, JSON 저장 URL에서 파일명만 추출하여 editedData에 할당 ⭐️⭐️⭐️
+    exhibition.editedData.image = exhibition.image ? exhibition.image.split('/').pop() : '';
     exhibition.isEditing = true;
   };
 
   const saveEditedExhibition = (exhibition) => {
-    Object.assign(exhibition, exhibition.editedData);
+    // ⭐️⭐️⭐️ editedData의 파일명에 JSON 저장용 기본 경로를 붙여 전체 URL로 만듭니다 ⭐️⭐️⭐️
+    const processedImage = exhibition.editedData.image ? IMG_EXHIBITION_JSON_BASE_URL + exhibition.editedData.image : '';
+    
+    // 원본 exhibition 객체에 업데이트
+    const { editedData, _tempImageFilename, ...rest } = exhibition; // editedData와 _tempImageFilename 분리
+    Object.assign(exhibition, rest, { image: processedImage }); // 이미지 필드를 변환된 값으로 업데이트
+
     exhibition.isEditing = false;
     alert('전시 정보가 저장되었습니다!');
   };
 
   const cancelEditingExhibition = (exhibition) => {
     exhibition.isEditing = false;
+    // (여기서는 특별한 롤백 로직 없이 isEditing만 false로)
   };
 
   const deleteExhibition = (id) => {
@@ -83,5 +115,6 @@ export function useExhibitionData() {
     cancelEditingExhibition,
     deleteExhibition,
     downloadExhibitionsJson,
+    IMG_EXHIBITION_DISPLAY_BASE_URL // ⭐️⭐️⭐️ 실제 이미지 표시용 URL 노출 ⭐️⭐️⭐️
   };
 }
