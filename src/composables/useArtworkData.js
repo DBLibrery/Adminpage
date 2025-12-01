@@ -38,13 +38,13 @@ export function useArtworkData() {
     URL.revokeObjectURL(url);
   };
 
-  // ⭐️⭐️ downloadJson 단일 함수로 변경: buyPrice, sellPrice, owner 제거 후 artworks.json 다운로드 ⭐️⭐️
+  // downloadJson 단일 함수
   const downloadJson = () => {
     // 1. 현재 artworks.value 데이터에서 비공개 필드(buyPrice, sellPrice, owner) 제거
     const publicArtworks = artworks.value.map(item => {
       // isEditing, editedData, originalDataCopy 같은 UI/로직용 임시 필드도 제외
       const { buyPrice, sellPrice, owner, isEditing, editedData, originalDataCopy, ...publicData } = item;
-      return publicData; // 공개용 데이터만 남김
+      return publicData;
     });
 
     // 2. 필터링된 공개용 데이터를 JSON 문자열로 변환 (들여쓰기 2칸으로 보기 좋게)
@@ -54,8 +54,10 @@ export function useArtworkData() {
     downloadFile(jsonString, 'artworks.json', 'application/json');
     alert('\'artworks.json\' 파일이 성공적으로 다운로드되었습니다! 이 파일을 GitHub에 업로드해 주세요.');
 
-    // ⭐️⭐️ GitHub 업로드 페이지 열기 (youngsungallery/website 저장소의 public/data 폴더로 연결) ⭐️⭐️
-    const githubUploadUrl = 'https://github.com/youngsungallery/website/upload/main/public/data';
+    // ⭐️⭐️⭐️ 여기입니다! GitHub 업로드 페이지 열기 ⭐️⭐️⭐️
+    // youngsungallery/website 저장소의 public/data 폴더로 파일을 업로드하는 페이지를 엽니다.
+    // 이 URL은 youngsungallery.com 웹사이트 저장소의 업로드 페이지여야 합니다.
+    const githubUploadUrl = 'https://github.com/youngsungallery/website/upload/main/public/data'; 
     window.open(githubUploadUrl, '_blank'); // 새 탭으로 열기
   };
 
