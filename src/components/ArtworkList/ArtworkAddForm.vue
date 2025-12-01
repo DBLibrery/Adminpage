@@ -29,14 +29,6 @@
       <input type="number" v-model="newArtwork.year" placeholder="예: 2022" />
     </div>
     <div class="form-row">
-      <label>구입가</label>
-      <input type="number" v-model="newArtwork.buyPrice" placeholder="구입 가격 (숫자)" />
-    </div>
-    <div class="form-row">
-      <label>판매가</label>
-      <input type="number" v-model="newArtwork.sellPrice" placeholder="판매 가격 (숫자)" />
-    </div>
-    <div class="form-row">
       <label>입고일</label>
       <input type="text" v-model="newArtwork.stockDate" placeholder="예: 2024-01-15" />
     </div>
@@ -56,7 +48,6 @@
 <script setup>
 import { ref, watch } from 'vue';
 
-// 부모 컴포넌트로부터 초기 코드 (예: YS123)를 받습니다.
 const props = defineProps({
   initialCode: {
     type: String,
@@ -64,9 +55,6 @@ const props = defineProps({
   }
 });
 
-// 부모 컴포넌트로 이벤트를 보냅니다.
-// 'add-artwork': 새 작품 데이터와 함께 전송
-// 'cancel': 폼 취소 시 전송
 const emits = defineEmits(['add-artwork', 'cancel']);
 
 // 새 작품 데이터를 위한 반응형 객체
@@ -77,10 +65,12 @@ const newArtwork = ref({
   technique: '',
   size: '',
   year: null,
-  buyPrice: null,
-  sellPrice: null,
   stockDate: '',
   setName: '',
+  // ⭐️⭐️ 비공개 필드들도 초기화해줍니다 (UI에는 없지만 데이터 모델에는 존재) ⭐️⭐️
+  buyPrice: null, 
+  sellPrice: null,
+  owner: null,
 });
 
 // initialCode props가 변경될 때마다 newArtwork.code를 업데이트
@@ -97,12 +87,15 @@ const addArtwork = () => {
     return;
   }
   
-  // 숫자 필드는 확실하게 Number 타입으로 변환
+  // 숫자 필드는 확실하게 Number 타입으로 변환 (UI에는 없지만, 혹시 모를 내부 데이터 흐름을 위해)
   const artworkToAdd = {
     ...newArtwork.value,
     year: newArtwork.value.year ? Number(newArtwork.value.year) : null,
-    buyPrice: newArtwork.value.buyPrice ? Number(newArtwork.value.buyPrice) : null,
-    sellPrice: newArtwork.value.sellPrice ? Number(newArtwork.value.sellPrice) : null,
+    // ✨ buyPrice, sellPrice는 UI에 없지만, 데이터 모델에서는 Number로 변환 시도 ✨
+    // 하지만 UI에서 입력하지 않으면 null이므로 Number(null)은 0이 될 수 있어 주의
+    // useArtworkData.js의 parseFlexiblePrice와 같은 유연한 파싱 로직을 여기서도 적용하는 것이 좋음
+    buyPrice: newArtwork.value.buyPrice === null || newArtwork.value.buyPrice === '' ? null : Number(newArtwork.value.buyPrice),
+    sellPrice: newArtwork.value.sellPrice === null || newArtwork.value.sellPrice === '' ? null : Number(newArtwork.value.sellPrice),
   };
   
   emits('add-artwork', artworkToAdd); // 부모 컴포넌트에 새 작품 데이터 전송
@@ -120,17 +113,15 @@ const resetForm = () => {
   newArtwork.value = { 
     code: props.initialCode, // initialCode로 다시 코드 필드를 설정하여 다음 추가에 대비
     title: '', artist: '', technique: '', size: '', year: null, 
-    buyPrice: null, sellPrice: null, stockDate: '', setName: '' 
+    stockDate: '', setName: '',
+    // ⭐️⭐️ 리셋 시에도 비공개 필드 초기화 ⭐️⭐️
+    buyPrice: null,
+    sellPrice: null,
+    owner: null,
   };
 };
 </script>
 
 <style lang="scss" scoped>
-// 이 컴포넌트만의 스타일, 또는 _style.scss에 정의된 공용 스타일을 사용합니다.
-// 'var' 네임스페이스를 사용합니다.
-// ArtworkListPanel.vue, ExhibitionListPanel.vue, LectureListPanel.vue 등 Panel 파일들은
-// @use '@/assets/styles/_style.scss' as var; 이 라인만 있으면 됩니다.
-// SidebarMenu.vue, ManagedHomepages.vue 도 이 라인만 있으면 됩니다.
-// (여기까지는 스타일을 직접 이 파일에 넣는 것이 아니라, _style.scss에서 가져오는 것임)
 @use '@/assets/styles/_style.scss' as var;
 </style>
