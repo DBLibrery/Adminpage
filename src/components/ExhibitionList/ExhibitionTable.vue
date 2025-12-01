@@ -1,123 +1,144 @@
+<!-- src/components/ExhibitionList/ExhibitionTable.vue -->
 <template>
   <div class="exhibition-table-container">
     <table>
       <thead>
         <tr>
-          <th>ID</th>
-          <th>이름</th>
+          <th>포스터</th>
+          <th>제목</th>
           <th>기간</th>
-          <th>장소</th>
           <th>설명</th>
-          <th>포스터 이미지 URL</th>
-          <th>포스터 이미지 미리보기</th>
-          <th>관리</th>
+          <th v-if="!isMobile">관리</th> <!-- PC 버전에서만 보이는 관리 헤더 -->
         </tr>
       </thead>
       <tbody>
-        <tr v-for="exhibition in exhibitions" :key="exhibition.id">
-          <td>{{ exhibition.id }}</td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.name }}</span>
-            <input v-else v-model="exhibition.editedData.name" type="text" />
-          </td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.period }}</span>
-            <input v-else v-model="exhibition.editedData.period" type="text" />
-          </td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.place }}</span>
-            <input v-else v-model="exhibition.editedData.place" type="text" />
-          </td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.description }}</span>
-            <input v-else v-model="exhibition.editedData.description" type="text" />
-          </td>
-          <td>
-            <!-- ⭐️⭐️⭐️ JSON에 저장된 이미지의 전체 URL (exhibition.image)을 그대로 표시/편집합니다. ⭐️⭐️⭐️ -->
-            <span v-if="!exhibition.isEditing">{{ exhibition.image || '없음' }}</span>
-            <input v-else v-model="exhibition.editedData.image" type="text" placeholder="이미지 전체 URL (예: https://.../image.png)" />
-          </td>
-          <td>
-            <!-- ⭐️⭐️⭐️ exhibition.image 필드를 사용하여 미리보기를 표시합니다. ⭐️⭐️⭐️ -->
-            <div v-if="exhibition.image">
-              <a :href="exhibition.image" target="_blank" rel="noopener noreferrer">
-                <img :src="exhibition.image" alt="전시 포스터" class="exhibition-poster-thumbnail" />
-              </a>
-            </div>
-            <span v-else>이미지 없음</span>
-          </td>
-          <td class="action-buttons">
-            <button v-if="!exhibition.isEditing" @click="emit('start-edit', exhibition)">수정</button>
-            <button v-else @click="emit('save-exhibition', exhibition)">저장</button>
-            <button v-if="exhibition.isEditing" @click="emit('cancel-edit', exhibition)">취소</button>
-            <button @click="emit('delete-exhibition', exhibition)">삭제</button>
-          </td>
-        </tr>
+        <!-- PC 버전 레이아웃 -->
+        <template v-if="!isMobile">
+          <tr v-for="exh in exhibitions" :key="exh.id"> <!-- key를 id로 변경 (ExhibitionTable과 일관성) -->
+            <td class="poster-col">
+              <img v-if="exh.image" :src="exh.image" :alt="exh.name" class="exhibition-poster-thumb" /> <!-- name으로 변경 -->
+              <span v-else class="no-image-text">이미지 없음</span>
+            </td>
+            <td>
+              <span v-if="!exh.isEditing">{{ exh.name }}</span> <!-- name으로 변경 -->
+              <input v-else v-model="exh.editedData.name" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!exh.isEditing">{{ exh.period }}</span> <!-- period로 변경 -->
+              <input v-else v-model="exh.editedData.period" type="text" class="edit-input" />
+            </td>
+            <td class="desc-col">
+              <span v-if="!exh.isEditing">{{ exh.description }}</span> <!-- description으로 변경 -->
+              <textarea v-else v-model="exh.editedData.description" class="edit-textarea"></textarea>
+            </td>
+            <td class="actions-col">
+              <template v-if="!exh.isEditing">
+                <button class="edit-button" @click="emitStartEditing(exh)">수정</button>
+              </template>
+              <template v-else>
+                <button class="save-button" @click="emitSaveExhibition(exh)">저장</button>
+                <button class="cancel-button" @click="emitCancelEditing(exh)">취소</button>
+              </template>
+            </td>
+          </tr>
+        </template>
+
+        <!-- 모바일 버전 레이아웃 (카드형 + 이미지 왼쪽/내용 오른쪽) -->
+        <template v-else>
+          <tr v-for="exh in exhibitions" :key="exh.id"> <!-- key를 id로 변경 -->
+            <td class="mobile-card-row">
+              <div v-if="exh.image" class="poster-col">
+                <img :src="exh.image" :alt="exh.name" class="exhibition-poster-thumb" /> <!-- name으로 변경 -->
+              </div>
+              <div v-else class="poster-col">
+                <span class="no-image-text">이미지 없음</span>
+              </div>
+              
+              <div class="card-content-wrapper">
+                <div class="card-item card-item--title">
+                    <span>{{ exh.name }}</span> <!-- name으로 변경 -->
+                </div>
+                <div class="card-item card-item--date">
+                    <span>{{ exh.period }}</span> <!-- period로 변경 -->
+                </div>
+                <div class="card-item card-item--desc" v-if="exh.description">
+                    <span>{{ exh.description }}</span> <!-- description으로 변경 -->
+                </div>
+              </div>
+            </td>
+          </tr>
+        </template>
       </tbody>
     </table>
   </div>
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue';
-// ⭐️⭐️⭐️ 이전 답변에서 삭제했었던 useExhibitionData 임포트와 관련 로직이 다시 들어갔다면 삭제해 주세요. ⭐️⭐️⭐️
-// import { useExhibitionData } from '@/composables/useExhibitionData'; // <-- 이 줄은 없어야 합니다.
+import { ref, onMounted, onUnmounted } from 'vue'; 
 
 const props = defineProps({
-  exhibitions: Array,
+  exhibitions: {
+    type: Array,
+    required: true
+  }
 });
 
-const emit = defineEmits(['start-edit', 'save-exhibition', 'cancel-edit', 'delete-exhibition']);
+const emits = defineEmits(['start-edit', 'save-exhibition', 'cancel-edit']);
 
-// ⭐️⭐️⭐️ getDisplayImageUrl 함수도 이제 필요 없습니다. ⭐️⭐️⭐️
-// const { IMG_EXHIBITION_DISPLAY_BASE_URL } = useExhibitionData(); // <-- 이 줄도 없어야 합니다.
-// const getDisplayImageUrl = (jsonImageUrl) => { /* ... */ };      // <-- 이 함수도 없어야 합니다.
+const emitStartEditing = (exh) => { emits('start-edit', exh); };
+const emitSaveExhibition = (exhibitions) => { emits('save-exhibition', exhibitions); }; // 'exh'를 'exhibitions'로 변경
+const emitCancelEditing = (exh) => { emits('cancel-edit', exh); };
+
+const isMobile = ref(false);
+
+const checkMobile = () => {
+  isMobile.value = window.innerWidth <= 768; // 768px을 기준으로 모바일 판단
+};
+
+onMounted(() => {
+  checkMobile();
+  window.addEventListener('resize', checkMobile);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile);
+});
 </script>
 
 <style lang="scss" scoped>
 @use '@/assets/styles/_style.scss' as var;
 
-.exhibition-table-container {
-  table {
-    width: 100%;
-    border-collapse: collapse;
-
-    th, td {
-      border: 1px solid var.$table-border-color;
-      padding: 8px;
-      text-align: left;
-      vertical-align: middle;
-      max-width: 200px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-    
-    td:nth-child(6), td:nth-child(7) { 
-      white-space: normal;
-    }
-    td:nth-child(7) { 
-      width: 100px; 
-    }
-
-    th {
-      background-color: var.$table-header-bg;
-      color: var.$table-header-color;
-    }
-
-    .action-buttons button {
-      margin-right: 5px;
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-
-    .exhibition-poster-thumbnail {
-      max-width: 80px;
-      max-height: 80px;
-      display: block;
-      margin: 0 auto;
-      object-fit: contain;
-    }
-  }
+// ExhibitionTable.vue 고유의 스타일만 여기에 유지
+.exhibition-poster-thumb {
+    max-width: 80px; /* PC 테이블에서의 특정 포스터 너비 */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
 }
+.no-image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #888;
+  font-size: 0.8em;
+  height: 80px; /* 썸네일과 동일 높이 */
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+}
+
+.desc-col {
+    max-width: 250px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+// 모바일 카드 내부의 고유한 텍스트 스타일
+.card-item--title { font-weight: bold; color: #333; }
+.card-item--date { color: #555; }
+.card-item--desc { color: #666; font-size: 0.85em; }
+
+// 이 외의 모든 공용/반복 스타일은 _style.scss에서 관리됩니다.
 </style>
