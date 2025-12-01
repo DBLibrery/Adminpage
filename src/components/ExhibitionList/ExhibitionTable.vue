@@ -1,4 +1,3 @@
-<!-- src/components/ExhibitionList/ExhibitionTable.vue -->
 <template>
   <div class="exhibition-table-container">
     <table>
@@ -14,22 +13,22 @@
       <tbody>
         <!-- PC 버전 레이아웃 -->
         <template v-if="!isMobile">
-          <tr v-for="exh in exhibitions" :key="exh.id"> <!-- key를 id로 변경 (ExhibitionTable과 일관성) -->
+          <tr v-for="exh in exhibitions" :key="exh.id">
             <td class="poster-col">
-              <img v-if="exh.image" :src="exh.image" :alt="exh.name" class="exhibition-poster-thumb" /> <!-- name으로 변경 -->
+              <img v-if="exh.image" :src="exh.image" :alt="exh.title" class="exhibition-poster-thumb" />
               <span v-else class="no-image-text">이미지 없음</span>
             </td>
             <td>
-              <span v-if="!exh.isEditing">{{ exh.name }}</span> <!-- name으로 변경 -->
-              <input v-else v-model="exh.editedData.name" type="text" class="edit-input" />
+              <span v-if="!exh.isEditing">{{ exh.title }}</span> 
+              <input v-else v-model="exh.editedData.title" type="text" class="edit-input" />
             </td>
             <td>
-              <span v-if="!exh.isEditing">{{ exh.period }}</span> <!-- period로 변경 -->
-              <input v-else v-model="exh.editedData.period" type="text" class="edit-input" />
+              <span v-if="!exh.isEditing">{{ exh.date }}</span> 
+              <input v-else v-model="exh.editedData.date" type="text" class="edit-input" />
             </td>
             <td class="desc-col">
-              <span v-if="!exh.isEditing">{{ exh.description }}</span> <!-- description으로 변경 -->
-              <textarea v-else v-model="exh.editedData.description" class="edit-textarea"></textarea>
+              <span v-if="!exh.isEditing">{{ exh.desc }}</span> 
+              <textarea v-else v-model="exh.editedData.desc" class="edit-textarea"></textarea>
             </td>
             <td class="actions-col">
               <template v-if="!exh.isEditing">
@@ -45,10 +44,10 @@
 
         <!-- 모바일 버전 레이아웃 (카드형 + 이미지 왼쪽/내용 오른쪽) -->
         <template v-else>
-          <tr v-for="exh in exhibitions" :key="exh.id"> <!-- key를 id로 변경 -->
+          <tr v-for="exh in exhibitions" :key="exh.id">
             <td class="mobile-card-row">
               <div v-if="exh.image" class="poster-col">
-                <img :src="exh.image" :alt="exh.name" class="exhibition-poster-thumb" /> <!-- name으로 변경 -->
+                <img :src="exh.image" :alt="exh.title" class="exhibition-poster-thumb" />
               </div>
               <div v-else class="poster-col">
                 <span class="no-image-text">이미지 없음</span>
@@ -56,13 +55,13 @@
               
               <div class="card-content-wrapper">
                 <div class="card-item card-item--title">
-                    <span>{{ exh.name }}</span> <!-- name으로 변경 -->
+                    <span>{{ exh.title }}</span> 
                 </div>
                 <div class="card-item card-item--date">
-                    <span>{{ exh.period }}</span> <!-- period로 변경 -->
+                    <span>{{ exh.date }}</span> 
                 </div>
-                <div class="card-item card-item--desc" v-if="exh.description">
-                    <span>{{ exh.description }}</span> <!-- description으로 변경 -->
+                <div class="card-item card-item--desc" v-if="exh.desc">
+                    <span>{{ exh.desc }}</span> 
                 </div>
               </div>
             </td>
@@ -86,7 +85,7 @@ const props = defineProps({
 const emits = defineEmits(['start-edit', 'save-exhibition', 'cancel-edit']);
 
 const emitStartEditing = (exh) => { emits('start-edit', exh); };
-const emitSaveExhibition = (exhibitions) => { emits('save-exhibition', exhibitions); }; // 'exh'를 'exhibitions'로 변경
+const emitSaveExhibition = (exh) => { emits('save-exhibition', exh); }; // 'exhibitions'가 아닌 'exh'로 변경 (단일 항목이므로)
 const emitCancelEditing = (exh) => { emits('cancel-edit', exh); };
 
 const isMobile = ref(false);
@@ -108,10 +107,10 @@ onUnmounted(() => {
 <style lang="scss" scoped>
 @use '@/assets/styles/_style.scss' as var;
 
-// ExhibitionTable.vue 고유의 스타일만 여기에 유지
+// ExhibitionTable.vue 컴포넌트 내에서만 사용되는 고유 스타일
 .exhibition-poster-thumb {
     max-width: 80px; /* PC 테이블에서의 특정 포스터 너비 */
-    height: auto;
+    height: auto; 
     display: block;
     margin: 0 auto;
     border-radius: 4px;
@@ -126,13 +125,6 @@ onUnmounted(() => {
   height: 80px; /* 썸네일과 동일 높이 */
   border: 1px dashed #ccc;
   border-radius: 4px;
-}
-
-.desc-col {
-    max-width: 250px;
-    white-space: normal;
-    overflow: visible;
-    text-overflow: clip;
 }
 
 // 모바일 카드 내부의 고유한 텍스트 스타일
