@@ -6,12 +6,6 @@ export function useExhibitionData() {
   const loading = ref(true);
   const error = ref(null);
 
-  // ⭐️⭐️⭐️ 정확한 전시 포스터 이미지 기본 경로 정의 (JSON 저장용) ⭐️⭐️⭐️
-  const IMG_EXHIBITION_JSON_BASE_URL = 'https://github.com/youngsungallery/IMG_DB/blob/main/youngsungallery/exh/';
-  // ⭐️⭐️⭐️ 실제 이미지 표시/로딩용 (raw content URL) ⭐️⭐️⭐️
-  const IMG_EXHIBITION_DISPLAY_BASE_URL = 'https://raw.githubusercontent.com/youngsungallery/IMG_DB/main/youngsungallery/exh/';
-
-
   // 파일 다운로드 헬퍼 함수
   const downloadFile = (data, filename, type) => {
     const blob = new Blob([data], { type: type });
