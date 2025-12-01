@@ -1,3 +1,6 @@
+vue
+
+
 <!-- src/components/ExhibitionList/ExhibitionTable.vue -->
 <template>
   <div class="exhibition-table-container">
@@ -16,6 +19,7 @@
         <template v-if="!isMobile">
           <tr v-for="exh in exhibitions" :key="exh.title + exh.date + exh.desc">
             <td class="poster-col">
+              <!-- exh.image는 JSON에서 전체 URL을 포함한 형태라고 가정 -->
               <img v-if="exh.image" :src="exh.image" :alt="exh.title" class="exhibition-poster-thumb" />
               <span v-else class="no-image-text">이미지 없음</span>
             </td>
@@ -66,10 +70,6 @@
                 <div class="card-item card-item--desc" v-if="exh.desc">
                     <span>{{ exh.desc }}</span> <!-- 모바일에서는 수정 불가하므로 textarea 제거 -->
                 </div>
-                <!-- ✨ 모바일에서는 관리 버튼 자체를 완전히 제거했습니다 ✨ -->
-                <!-- <div class="card-actions">
-                  ... 버튼들 ...
-                </div> -->
               </div>
             </td>
           </tr>
