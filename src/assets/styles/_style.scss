@@ -1,7 +1,7 @@
 // src/assets/styles/_style.scss
 
 @use 'sass:color'; // color 함수 사용을 위해 임포트
-@use 'variables'; // 새로 만든 _variables.scss 파일 불러오기
+@forward 'variables'; // 새로 만든 _variables.scss 파일 불러오기
 
 // 모든 패널 컨테이너의 기본 스타일 
 @use 'components/panel-base';
