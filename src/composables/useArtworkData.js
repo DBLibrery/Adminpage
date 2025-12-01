@@ -57,7 +57,7 @@ export function useArtworkData() {
     // ⭐️⭐️⭐️ 여기입니다! GitHub 업로드 페이지 열기 ⭐️⭐️⭐️
     // youngsungallery/website 저장소의 public/data 폴더로 파일을 업로드하는 페이지를 엽니다.
     // 이 URL은 youngsungallery.com 웹사이트 저장소의 업로드 페이지여야 합니다.
-    const githubUploadUrl = 'https://github.com/youngsungallery/website/upload/main/public/data'; 
+    const githubUploadUrl = 'https://github.com/DBLibrery/Adminpage/upload/main/public/data'; 
     window.open(githubUploadUrl, '_blank'); // 새 탭으로 열기
   };
 
