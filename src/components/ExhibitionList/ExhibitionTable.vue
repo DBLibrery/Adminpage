@@ -82,46 +82,37 @@ const getDisplayImageUrl = (jsonImageUrl) => {
 <style lang="scss" scoped>
 @use '@/assets/styles/_style.scss' as var;
 
-.exhibition-table-container {
-  table {
-    width: 100%;
-    border-collapse: collapse;
-
-    th, td {
-      border: 1px solid var.$table-border-color;
-      padding: 8px;
-      text-align: left;
-      vertical-align: middle;
-      max-width: 200px; // 내용이 너무 길어지는 것을 방지
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap; // 줄바꿈 방지
-    }
-    
-    // ⭐️⭐️⭐️ 포스터 이미지 컬럼에만 nowrap 해제 및 이미지 크기 조절을 위해 ⭐️⭐️⭐️
-    td:nth-child(7) { // 7번째 컬럼 (포스터 이미지)
-      white-space: normal; // 줄바꿈 허용
-      width: 100px; // 고정 너비 (필요시 조절)
-    }
-
-    th {
-      background-color: var.$table-header-bg;
-      color: var.$table-header-color;
-    }
-
-    .action-buttons button {
-      margin-right: 5px;
-      padding: 5px 10px;
-      cursor: pointer;
-    }
-
-    .exhibition-poster-thumbnail {
-      max-width: 80px;  // 썸네일 최대 너비
-      max-height: 80px; // 썸네일 최대 높이
-      display: block;
-      margin: 0 auto;
-      object-fit: contain;
-    }
-  }
+// ExhibitionTable.vue 고유의 스타일만 여기에 유지
+.exhibition-poster-thumb {
+    max-width: 80px; /* PC 테이블에서의 특정 포스터 너비 */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
 }
+.no-image-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #888;
+  font-size: 0.8em;
+  height: 80px; /* 썸네일과 동일 높이 */
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+}
+
+.desc-col {
+    max-width: 250px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+// 모바일 카드 내부의 고유한 텍스트 스타일
+.card-item--title { font-weight: bold; color: #333; }
+.card-item--date { color: #555; }
+.card-item--desc { color: #666; font-size: 0.85em; }
+
+// 이 외의 모든 공용/반복 스타일은 _style.scss에서 관리됩니다.
 </style>
