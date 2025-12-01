@@ -1,82 +1,114 @@
+<!-- src/components/ExhibitionList/ExhibitionTable.vue -->
 <template>
   <div class="exhibition-table-container">
     <table>
       <thead>
         <tr>
-          <th>ID</th>
-          <th>이름</th>
+          <th>포스터</th>
+          <th>제목</th>
           <th>기간</th>
-          <th>장소</th>
           <th>설명</th>
-          <th>포스터 파일명</th> <!-- 컬럼명 변경 -->
-          <th>포스터 이미지</th>
-          <th>관리</th>
+          <th v-if="!isMobile">관리</th> <!-- PC 버전에서만 보이는 관리 헤더 -->
         </tr>
       </thead>
       <tbody>
-        <tr v-for="exhibition in exhibitions" :key="exhibition.id">
-          <td>{{ exhibition.id }}</td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.name }}</span>
-            <input v-else v-model="exhibition.editedData.name" type="text" />
-          </td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.period }}</span>
-            <input v-else v-model="exhibition.editedData.period" type="text" />
-          </td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.place }}</span>
-            <input v-else v-model="exhibition.editedData.place" type="text" />
-          </td>
-          <td>
-            <span v-if="!exhibition.isEditing">{{ exhibition.description }}</span>
-            <input v-else v-model="exhibition.editedData.description" type="text" />
-          </td>
-          <td>
-            <!-- ⭐️⭐️⭐️ 파일명만 표시하거나 편집하는 인풋 ⭐️⭐️⭐️ -->
-            <span v-if="!exhibition.isEditing">{{ exhibition.image ? exhibition.image.split('/').pop() : '없음' }}</span>
-            <input v-else v-model="exhibition.editedData.image" type="text" placeholder="파일명 (예: poster.jpg)" />
-          </td>
-          <td>
-            <!-- ⭐️⭐️⭐️ 실제 이미지 표시용 URL과 링크 사용 ⭐️⭐️⭐️ -->
-            <div v-if="exhibition.image">
-              <a :href="exhibition.image" target="_blank" rel="noopener noreferrer">
-                <!-- ⭐️⭐️⭐️ 실제 이미지 로드 시에는 DISPLAY_BASE_URL + 파일명 ⭐️⭐️⭐️ -->
-                <img :src="getDisplayImageUrl(exhibition.image)" alt="전시 포스터" class="exhibition-poster-thumbnail" />
-              </a>
-            </div>
-            <span v-else>이미지 없음</span>
-          </td>
-          <td class="action-buttons">
-            <button v-if="!exhibition.isEditing" @click="emit('start-edit', exhibition)">수정</button>
-            <button v-else @click="emit('save-exhibition', exhibition)">저장</button>
-            <button v-if="exhibition.isEditing" @click="emit('cancel-edit', exhibition)">취소</button>
-            <button @click="emit('delete-exhibition', exhibition)">삭제</button>
-          </td>
-        </tr>
+        <!-- PC 버전 레이아웃 -->
+        <template v-if="!isMobile">
+          <tr v-for="exh in exhibitions" :key="exh.title + exh.date + exh.desc">
+            <td class="poster-col">
+              <img v-if="exh.image" :src="exh.image" :alt="exh.title" class="exhibition-poster-thumb" />
+              <span v-else class="no-image-text">이미지 없음</span>
+            </td>
+            <td>
+              <span v-if="!exh.isEditing">{{ exh.title }}</span>
+              <input v-else v-model="exh.editedData.title" type="text" class="edit-input" />
+            </td>
+            <td>
+              <span v-if="!exh.isEditing">{{ exh.date }}</span>
+              <input v-else v-model="exh.editedData.date" type="text" class="edit-input" />
+            </td>
+            <td class="desc-col">
+              <span v-if="!exh.isEditing">{{ exh.desc }}</span>
+              <textarea v-else v-model="exh.editedData.desc" class="edit-textarea"></textarea>
+            </td>
+            <td class="actions-col">
+              <template v-if="!exh.isEditing">
+                <button class="edit-button" @click="emitStartEditing(exh)">수정</button>
+              </template>
+              <template v-else>
+                <button class="save-button" @click="emitSaveExhibition(exh)">저장</button>
+                <button class="cancel-button" @click="emitCancelEditing(exh)">취소</button>
+              </template>
+            </td>
+          </tr>
+        </template>
+
+        <!-- 모바일 버전 레이아웃 (카드형 + 이미지 왼쪽/내용 오른쪽) -->
+        <template v-else>
+          <tr v-for="exh in exhibitions" :key="exh.title + exh.date + exh.desc">
+            <td class="mobile-card-row">
+              <!-- 이미지 컬럼 (좌측) - 이미지가 없으면 전체 숨기고 문구 표시 -->
+              <div v-if="exh.image" class="poster-col">
+                <img :src="exh.image" :alt="exh.title" class="exhibition-poster-thumb" />
+              </div>
+              <div v-else class="poster-col">
+                <span class="no-image-text">이미지 없음</span>
+              </div>
+              
+              <!-- 내용 컬럼 (우측) -->
+              <div class="card-content-wrapper">
+                <div class="card-item card-item--title">
+                    <span>{{ exh.title }}</span> <!-- 모바일에서는 수정 불가하므로 input 제거 -->
+                </div>
+                <div class="card-item card-item--date">
+                    <span>{{ exh.date }}</span> <!-- 모바일에서는 수정 불가하므로 input 제거 -->
+                </div>
+                <div class="card-item card-item--desc" v-if="exh.desc">
+                    <span>{{ exh.desc }}</span> <!-- 모바일에서는 수정 불가하므로 textarea 제거 -->
+                </div>
+                <!-- ✨ 모바일에서는 관리 버튼 자체를 완전히 제거했습니다 ✨ -->
+                <!-- <div class="card-actions">
+                  ... 버튼들 ...
+                </div> -->
+              </div>
+            </td>
+          </tr>
+        </template>
       </tbody>
     </table>
   </div>
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue';
-import { useExhibitionData } from '@/composables/useExhibitionData'; // ⭐️⭐️⭐️ useExhibitionData 임포트 ⭐️⭐️⭐️
+import { ref, onMounted, onUnmounted } from 'vue'; 
 
 const props = defineProps({
-  exhibitions: Array,
+  exhibitions: {
+    type: Array,
+    required: true
+  }
 });
 
-const emit = defineEmits(['start-edit', 'save-exhibition', 'cancel-edit', 'delete-exhibition']);
+const emits = defineEmits(['start-edit', 'save-exhibition', 'cancel-edit']);
 
-// ⭐️⭐️⭐️ 이미지 표시 URL을 생성하는 함수 추가 ⭐️⭐️⭐️
-const { IMG_EXHIBITION_DISPLAY_BASE_URL } = useExhibitionData(); // 컴포저블에서 DISPLAY URL 가져오기
+const emitStartEditing = (exh) => { emits('start-edit', exh); };
+const emitSaveExhibition = (exh) => { emits('save-exhibition', exh); };
+const emitCancelEditing = (exh) => { emits('cancel-edit', exh); };
 
-const getDisplayImageUrl = (jsonImageUrl) => {
-  if (!jsonImageUrl) return '';
-  const filename = jsonImageUrl.split('/').pop(); // JSON 저장 URL에서 파일명만 추출
-  return IMG_EXHIBITION_DISPLAY_BASE_URL + filename; // DISPLAY URL에 파일명 붙여 반환
+const isMobile = ref(false);
+
+const checkMobile = () => {
+  isMobile.value = window.innerWidth <= 768; // 768px을 기준으로 모바일 판단
 };
+
+onMounted(() => {
+  checkMobile();
+  window.addEventListener('resize', checkMobile);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkMobile);
+});
 </script>
 
 <style lang="scss" scoped>
