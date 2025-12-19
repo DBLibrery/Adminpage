@@ -1,5 +1,35 @@
 [
   {
+    "code": "YS742",
+    "title": "Untitled",
+    "artist": "김환기",
+    "technique": "Lithography",
+    "size": "43 X 61cm",
+    "year": null,
+    "stockDate": "2025.12.19",
+    "setName": ""
+  },
+  {
+    "code": "YS741",
+    "title": "다정",
+    "artist": "박인숙",
+    "technique": "Oil on Canvas",
+    "size": "18 X 29cm",
+    "year": 2019,
+    "stockDate": "2025.12.19",
+    "setName": ""
+  },
+  {
+    "code": "YS740",
+    "title": "고향",
+    "artist": "박인숙",
+    "technique": "Oil on Canvas",
+    "size": "18 X 26cm",
+    "year": 2019,
+    "stockDate": "2025.12.19",
+    "setName": ""
+  },
+  {
     "code": "YS739",
     "title": "Untitled",
     "artist": "Hendrick Lilanga",
